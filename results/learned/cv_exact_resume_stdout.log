@@ -1,0 +1,12 @@
+-- resumed: folds [0, 1, 2, 3] kept from the log
+exact_woeltche_terms fold 0: held-out CF 0.98921 (1 s) [kept]
+exact_woeltche_terms fold 1: held-out CF 0.99453 (1 s) [kept]
+exact_woeltche_terms fold 2: held-out CF 0.99631 (1 s) [kept]
+exact_woeltche_terms fold 3: held-out CF 0.95306 (2 s) [kept]
+start: error 0.013634 on 253 lattices
+sweep 0: error 0.011019, w [0.6881, 1.7623, 1.0516, 0.5467, 0.7862, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 1260.9722, 1.3793, 0.08]
+sweep 1: error 0.010407, w [0.2367, 5.7855, 1.094, 1.1042, 0.7862, 0.5411, 0.0, 0.0, 0.0, 0.0, 0.0, 1260.9722, 2.5924, 0.08]
+sweep 2: error 0.010359, w [0.2367, 7.8091, 1.0845, 1.0995, 0.7862, 0.5411, 0.0, 0.0, 0.0, 0.0, 0.0, 1260.9722, 2.5924, 0.08]
+sweep 3: error 0.010359, w [0.2367, 7.8091, 1.0845, 1.0995, 0.7862, 0.5411, 0.0, 0.0, 0.0, 0.0, 0.0, 1260.9722, 2.5924, 0.08]
+exact_woeltche_terms fold 4: held-out CF 0.98402 (825 s)
+== exact_woeltche_terms: pooled held-out CF 0.98688

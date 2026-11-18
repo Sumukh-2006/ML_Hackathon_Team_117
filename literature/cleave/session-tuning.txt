@@ -1,0 +1,2112 @@
+[INFO ] Cleave is starting                                                                < 18/11/2026 21:01:10 >
+[INFO ] opening the databases in db                                                       < 18/11/2026 21:01:10 >
+[INFO ] hashing 175 files in data                                                         < 18/11/2026 21:01:10 >
+[INFO ] the data has not changed                                                          < 18/11/2026 21:01:10 >
+[WARN ] http://127.0.0.1:8095: io: Connection refused (os error 111)                      < 18/11/2026 21:01:10 >
+[INFO ] connected to Qwen3-Embedding-8B-Q8_0 at http://127.0.0.1:8096                     < 18/11/2026 21:01:10 >
+[INFO ] using NVIDIA GeForce RTX 5050 Laptop GPU                                          < 18/11/2026 21:01:10 >
+[INFO ] loading paper vectors                                                             < 18/11/2026 21:01:10 >
+[INFO ] loaded 1473820 paper vectors                                                      < 18/11/2026 21:01:33 >
+[INFO ] loading title candidates                                                          < 18/11/2026 21:01:33 >
+[INFO ] loaded 125540 title candidates                                                    < 18/11/2026 21:01:34 >
+[INFO ] Cleave is ready                                                                   < 18/11/2026 21:01:34 >
+goal: <text>       start a project: build a tree for a goal
+projects           every project so far
+open <number>      go back to a project, where you left it
+remove project <n> delete a project and everything typed in it
+blobs              the options on this screen
+dive <number>      go into an option
+back               go back up
+tree               everything below here
+ls                 the papers here, best fits first
+must <text>        keep papers about this, from here down
+must not <text>    drop papers about this, from here down
+prefer <text>      show papers about this first, from here down
+avoid <text>       show papers about this last, from here down
+                   add ? ! or !! for strength: must? must! must!! must not!
+                   a rule overrides the rules above it, unless bracketed:
+                   [must not!] <text> only adds on top of them
+filters            the rules in force here, this node's numbered
+remove filter <n>  remove one of this node's rules
+set papers <n>     cover size for the next goal
+quit               leave
+[INFO ] building a tree for: learning the weights of a linear scoring function for an     < 18/11/2026 21:01:56 >
+        exact dynamic-programming structured predictor (Viterbi, shortest path) so that
+        its decoded output minimises a task loss, with guarantees and fast training
+[INFO ] 8000 papers, effective dimension 86.0                                             < 18/11/2026 21:02:03 >
+[INFO ] 160 final blobs                                                                   < 18/11/2026 21:02:07 >
+[INFO ] 10 options on top, 26 screens, message length -870824.6                           < 18/11/2026 21:02:52 >
+[INFO ] 18 screens without ladders                                                        < 18/11/2026 21:02:59 >
+learning the weights of a linear scoring function for an exact dynamic-programming structured predictor (Viterbi, shortest path) so that its decoded output minimises a task loss, with guarantees and fast training [] {8000 papers} focus 0.01
+1. Provably Optimal Learning Schemes [learning, models, optimization] {1801 papers} focus 0.21
+2. Extensions of sentence-alignment models [parsing, neural, translation] {1108 papers} focus 0.45
+3. Margin Based Loss Functions [learning, loss, bounds] {1049 papers} focus 0.27
+4. Convolutional Models With Graphical Models [segmentation, structured, prediction] {694 papers} focus 0.36
+5. Linear Approximation of ReLU Networks [networks, neural, deep] {668 papers} focus 0.46
+6. Applications of optimization over trained networks [networks, neural, training] {640 papers} focus 0.33
+7. Linear Convergence and Nonsmooth Objectives [stochastic, optimization, gradient] {611 papers} focus 0.44
+8. Online Convex Programming [online, regression, submodular] {525 papers} focus 0.36
+9. Alternative sampling method: probability flow ODE [variational, inference, models] {506 papers} focus 0.29
+10. Motivation for optimizing transformer models [transformers, language, in-context] {398 papers} focus 0.42
+Margin Based Loss Functions [learning, loss, bounds] {1049 papers} focus 0.27
+1. Impossibility to Always Outperform a Supervised Learner [loss, boosting, prediction] {471 papers} focus 0.15
+2. Learning bounds based on algorithmic robustness [bounds, learning, risk] {345 papers} focus 0.24
+3. Item Ranking: Pairwise Learning and Listwise Learning [ranking, rank, pairwise] {60 papers} focus 0.51
+4. Curriculum Learning and Latent Models [curriculum, machine, teaching] {41 papers} focus 0.55
+5. Single-task versus multi-task learning [multi-task, multitask, learning] {36 papers} focus 0.51
+6. Benchmark data sets for Short Answer Grading [scoring, automated, essay] {25 papers} focus 0.54
+7. Sampled Softmax Loss [softmax, sparse, log-linear] {24 papers} focus 0.53
+8. Learning Theorem Proving [theorem, proving, formal] {21 papers} focus 0.61
+9. Factorization Machines [machines, factorization, linear] {14 papers} focus 0.53
+10. Sinkhorn Sorting [sorting, differentiable, ordering] {12 papers} focus 0.59
+learning the weights of a linear scoring function for an exact dynamic-programming structured predictor (Viterbi, shortest path) so that its decoded output minimises a task loss, with guarantees and fast training [] {8000 papers} focus 0.01
+1. Provably Optimal Learning Schemes [learning, models, optimization] {1801 papers} focus 0.21
+2. Extensions of sentence-alignment models [parsing, neural, translation] {1108 papers} focus 0.45
+3. Margin Based Loss Functions [learning, loss, bounds] {1049 papers} focus 0.27
+4. Convolutional Models With Graphical Models [segmentation, structured, prediction] {694 papers} focus 0.36
+5. Linear Approximation of ReLU Networks [networks, neural, deep] {668 papers} focus 0.46
+6. Applications of optimization over trained networks [networks, neural, training] {640 papers} focus 0.33
+7. Linear Convergence and Nonsmooth Objectives [stochastic, optimization, gradient] {611 papers} focus 0.44
+8. Online Convex Programming [online, regression, submodular] {525 papers} focus 0.36
+9. Alternative sampling method: probability flow ODE [variational, inference, models] {506 papers} focus 0.29
+10. Motivation for optimizing transformer models [transformers, language, in-context] {398 papers} focus 0.42
+Provably Optimal Learning Schemes [learning, models, optimization] {1801 papers} focus 0.21
+1. Graphs as Joint Distribution Factorizations [learning, models, graphical] {465 papers} focus 0.34
+2. Online Optimization-based Algorithms [programming, dynamic, linear] {436 papers} focus 0.26
+3. Learning to Predict-Once (L2P-O) Solvers [optimization, combinatorial, learning] {421 papers} focus 0.34
+4. Training dynamics-based statistical guarantees [learning, systems, dynamical] {306 papers} focus 0.28
+5. Hidden Markov Models (HMMs) [hidden, markov, viterbi] {64 papers} focus 0.58
+6. Probabilistic Grammars [transducers, finite, finite-state] {46 papers} focus 0.59
+7. Determinizing Word Automata [automata, weighted, finite] {46 papers} focus 0.57
+8. Generative and Discriminative Learning [spectral, discriminative, classifiers] {17 papers} focus 0.55
+must!!: 808 dropped, 993 left here
+Provably Optimal Learning Schemes [learning, models, optimization] {993 papers} focus 0.21
+1. Graphs as Joint Distribution Factorizations [learning, models, graphical] {332 papers} focus 0.34
+2. Online Optimization-based Algorithms [programming, dynamic, linear] {129 papers} focus 0.26
+3. Learning to Predict-Once (L2P-O) Solvers [optimization, combinatorial, learning] {263 papers} focus 0.34
+4. Training dynamics-based statistical guarantees [learning, systems, dynamical] {144 papers} focus 0.28
+5. Hidden Markov Models (HMMs) [hidden, markov, viterbi] {44 papers} focus 0.58
+6. Probabilistic Grammars [transducers, finite, finite-state] {42 papers} focus 0.59
+7. Determinizing Word Automata [automata, weighted, finite] {29 papers} focus 0.57
+8. Generative and Discriminative Learning [spectral, discriminative, classifiers] {10 papers} focus 0.55
+Minimum Error Rate Training and the Convex Hull Semiring
+Differentiable Combinatorial Losses through Generalized Gradients of Linear Prog
+Gradient Computation In Linear-Chain Conditional Random Fields Using The Entropy
+Inference algorithms for pattern-based CRFs on sequence data
+Hinge-Loss Markov Random Fields and Probabilistic Soft Logic
+Scaling Structured Inference with Randomization
+A Solver-Free Training Method for Predict-then-Optimize
+Statistical Machine Translation by Generalized Parsing
+Smart "Predict, then Optimize"
+Estimating Maximally Probable Constrained Relations by Mathematical Programming
+The Sum-Product Theorem: A Foundation for Learning Tractable Models
+Decoding with Finite-State Transducers on GPUs
+A fast numerical method for max-convolution and the application to efficient max
+Learning Graphical Model Parameters with Approximate Marginal Inference
+Learning Graphical Models Using Multiplicative Weights
+Structure Learning for Relational Logistic Regression: An Ensemble Approach
+Speech Recognition by Composition of Weighted Finite Automata
+Sum-Product Networks for Sequence Labeling
+Exact Decoding on Latent Variable Conditional Models is NP-Hard
+Learning Fast-Mixing Models for Structured Prediction
+Discrete-Convex-Analysis-Based Framework for Warm-Starting Algorithms with Predi
+Risk Bounds and Calibration for a Smart Predict-then-Optimize Method
+Faster Matchings via Learned Duals
+Predictive Flows for Faster Ford-Fulkerson
+Scalable Decision-Focused Learning through Cost-Sensitive Regression
+Differentiable TAN Structure Learning for Bayesian Network Classifiers
+Melding the Data-Decisions Pipeline: Decision-Focused Learning for Combinatorial
+A Dual Perspective on Decision-Focused Learning: Scalable Training via Dual-Guid
+Gradient boosting for convex cone predict and optimize problems
+Learning Constrained Optimization with Deep Augmented Lagrangian Methods
+The fundamental nature of the log loss function
+Rethinking Warm-Starts with Predictions: Learning Predictions Close to Sets of O
+Generalization Bounds for Weighted Automata
+Neural Conditional Gradients
+Decision-Focused Learning: Through the Lens of Learning to Rank
+Scalable Structure Learning for Probabilistic Soft Logic
+Contrastive Losses and Solution Caching for Predict-and-Optimize
+Efficient and Reliable Probabilistic Interactive Learning with Structured Output
+Look-Back and Look-Ahead in the Conversion of Hidden Markov Models into Finite S
+An Approximate, Efficient Solver for LP Rounding
+Robust Losses for Decision-Focused Learning
+Learning Chordal Markov Networks by Constraint Satisfaction
+Finite State Transducers Approximating Hidden Markov Models
+A generalized risk approach to path inference based on hidden Markov models
+Towards Low-Complexity Linear-Programming Decoding
+Generalization Bounds in the Predict-then-Optimize Framework
+Structure Learning of Contextual Markov Networks using Marginal Pseudo-likelihoo
+Random Spanning Trees and the Prediction of Weighted Graphs
+Parsimonious Learning-Augmented Approximations for Dense Instances of $\mathcal{
+Viterbi Algorithm Generalized for n-Tape Best-Path Search
+Differentiable Dynamic Programming for Structured Prediction and Attention
+Structured Learning Modulo Theories
+Density Ratio Hidden Markov Models
+The Maximum Entropy Relaxation Path
+A Universal Probability Assignment for Prediction of Individual Sequences
+DOGE-Train: Discrete Optimization on GPU with End-to-end Training
+Structured Optimal Transport
+Linear and Parallel Learning of Markov Random Fields
+Outperformance Inverse Optimization: Learning Objective Functions that Outperfor
+Universal Supervised Learning for Individual Data
+On a Convex Logic Fragment for Learning and Reasoning
+Learning from networked examples in a k-partite graph
+Active Learning amidst Logical Knowledge
+Learning from networked examples
+OpenGM: A C++ Library for Discrete Graphical Models
+Reliable and Efficient Inference of Bayesian Networks from Sparse Data by Statis
+Link Prediction: A Graphical Model Approach
+Learning to Search Better Than Your Teacher
+Large-Margin Determinantal Point Processes
+Structure Learning in Bayesian Networks of Moderate Size by Efficient Sampling
+Maximum Optimality Margin: A Unified Approach for Contextual Linear Programming 
+3-Way Composition of Weighted Finite-State Transducers
+Equiprobable mappings in weighted constraint grammars
+Score-oriented loss (SOL) functions
+Stochastic Discriminative EM
+The Logistic Network Lasso
+Solver-Free Decision-Focused Learning for Linear Optimization Problems
+Optimal choice: new machine learning problem and its solution
+Structure-Aware Path Inference for Neural Finite State Transducers
+On equivalence between linear-chain conditional random fields and hidden Markov 
+Learning Scripts as Hidden Markov Models
+Flows in Almost Linear Time via Adaptive Preconditioning
+Faster Discrete Convex Function Minimization with Predictions: The M-Convex Case
+Minimizing Surrogate Losses for Decision-Focused Learning using Differentiable O
+Structure Learning of Markov Random Fields through Grow-Shrink Maximum Pseudolik
+The Generalized A* Architecture
+Fitting Jump Models
+Implicit MLE: Backpropagating Through Discrete Exponential Family Distributions
+Learning-Augmented Maximum Flow
+Approximating solution structure of the Weighted Sentence Alignment problem
+Risk Guarantees for End-to-End Prediction and Optimization Processes
+Higher-order Derivatives of Weighted Finite-state Machines
+Smart Surrogate Losses for Contextual Stochastic Linear Optimization with Robust
+Ensemble Learning with Statistical and Structural Models
+A Surrogate Objective Framework for Prediction+Optimization with Soft Constraint
+Score Function Gradient Estimation to Widen the Applicability of Decision-Focuse
+The AdaBoost Flow
+Finding Probably Approximate Optimal Solutions by Training to Estimate the Optim
+A fast algorithm to minimize prediction loss of the optimal solution in inverse 
+Bounded Coordinate-Descent for Biological Sequence Classification in High Dimens
+Non-negative Weighted DAG Structure Learning
+Integrated Learning and Robust Optimization
+Efficient non-greedy optimization of decision trees
+Geometric Losses for Distributional Learning
+Identifiability and estimation of recursive max-linear models
+Minimum-Cost Network Flow with Dual Predictions
+Mathematical Programming in Machine Learning and Artificial Intelligence: A Unif
+Best-Choice Edge Grafting for Efficient Structure Learning of Markov Random Fiel
+Decoding Hidden Markov Models Faster Than Viterbi Via Online Matrix-Vector (max,
+Learning Optimized Risk Scores
+Probabilistic Label Relation Graphs with Ising Models
+Enforcing and Discovering Structure in Machine Learning
+Learning structured approximations of operations research problems
+A Bregman Method for Structure Learning on Sparse Directed Acyclic Graphs
+Competing with Markov prediction strategies
+Smart Predict-and-Optimize for Hard Combinatorial Optimization Problems
+Relational Marginal Problems: Theory and Estimation
+Relational Linear Programs
+Scaling Inference for Markov Logic with a Task-Decomposition Approach
+Pre-Training Estimators for Structural Models: Application to Consumer Search
+Learning-Augmented Scalable Linear Assignment Problem Optimization via Neural Du
+Maximum Likelihood Learning With Arbitrary Treewidth via Fast-Mixing Parameter S
+Structural Information Learning Machinery: Learning from Observing, Associating,
+OptNet: Differentiable Optimization as a Layer in Neural Networks
+Sparse Logistic Regression Learns All Discrete Pairwise Graphical Models
+Viterbi training in PRISM
+Divide and Learn: A Divide and Conquer Approach for Predict+Optimize
+Learning to Solve Network Flow Problems via Neural Decoding
+Comparative Analysis of Viterbi Training and Maximum Likelihood Estimation for H
+The Integer Linear Programming Inference Cookbook
+Efficient Independence-Based MAP Approach for Robust Markov Networks Structure D
+A Canonical Semi-Deterministic Transducer
+Algorithms for Acyclic Weighted Finite-State Automata with Failure Arcs
+Probabilistic Graphical Models: A Concise Tutorial
+Markov Property in Generative Classifiers
+Easy and Hard Constraint Ranking in OT: Algorithms and Complexity
+Tutorial: $φ$-Transductions in OpenFst via the Gallic Semiring
+On the String Kernel Pre-Image Problem with Applications in Drug Discovery
+Decision-Aware Predictions for Right-Hand Side Parameters in Linear Programs
+Maximum Likelihood Estimation of Latent Variable Structural Equation Models: A N
+Solving Empirical Risk Minimization in the Current Matrix Multiplication Time
+MIPaaL: Mixed Integer Program as a Layer
+CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constr
+Approximate Inference in Structured Instances with Noisy Categorical Observation
+A Traveling Salesman Learns Bayesian Networks
+Fast Rates for Nonstationary Weighted Risk Minimization
+Scalable Decision Focused Learning via Online Trainable Surrogates
+Locally Convex Global Loss Network for Decision-Focused Learning
+Learning-augmented smooth integer programs with PAC-learnable oracles
+Learning Optimal Augmented Bayes Networks
+A Logic-based Approach to Generatively Defined Discriminative Modeling
+Maximum A Posteriori Inference in Sum-Product Networks
+Learning Linear Programs from Optimal Decisions
+Dynamic Sum Product Networks for Tractable Inference on Sequence Data (Extended 
+Lifted Weight Learning of Markov Logic Networks Revisited
+MAP- and MLE-Based Teaching
+Factorization, Inference and Parameter Learning in Discrete AMP Chain Graphs
+Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers
+Learning-Augmented Algorithms: Guarantees, Construction Mechanisms, and System-L
+Learning Warm Starts for the Simplex Method from Measured Solver Cost
+Optimal Weighting of Training Data in Adaptive Coding
+Learning to Condition: A Neural Heuristic for Scalable MPE Inference
+Active Learning in the Predict-then-Optimize Framework: A Margin-Based Approach
+Learning Juntas under Markov Random Fields
+Maximum a Posteriori Inference for Factor Graphs via Benders' Decomposition
+Learning Closed Signal Flow Graphs
+Bayesian Structure Scores for Probabilistic Circuits
+Bayesian Properties of Normalized Maximum Likelihood and its Fast Computation
+Two-Stage Predict+Optimize for Mixed Integer Linear Programs with Unknown Parame
+Query Training: Learning a Worse Model to Infer Better Marginals in Undirected G
+Weighted Score-Oriented Losses for Temporally Localized Event Prediction
+Adjusted Viterbi training for hidden Markov models
+Learning with Differentiable Perturbed Optimizers
+A Logical Approach to Efficient Max-SAT solving
+SimPO: Simultaneous Prediction and Optimization
+Decision-Focused Learning: When and Why Traditional Prediction Models Fail
+Non-approximate Inference for Collective Graphical Models on Path Graphs via Dis
+Multitape automata and finite state transducers with lexicographic weights
+Probabilistic Constraint Logic Programming. Formal Foundations of Quantitative a
+Weighted sampling, Maximum Likelihood and minimum divergence estimators
+Inverse Optimization Latent Variable Models for Learning Costs Applied to Route 
+Collaborative Training in Sensor Networks: A graphical model approach
+Scalable Probabilistic Routes
+Finding Structure and Causality in Linear Programs
+Optimal Decision Diagrams for Classification
+Convolutional Matching Pursuit and Dictionary Training
+Block Belief Propagation for Parameter Learning in Markov Random Fields
+Learning Predictions for Algorithms with Predictions
+Scaling Up Bayesian DAG Sampling
+Learning Augmented Exact Exponential Algorithms
+Semiring Programming: A Declarative Framework for Generalized Sum Product Proble
+Minimax deviation strategies for machine learning and recognition with short lea
+Composing Finite State Transducers on GPUs
+See the Tree Through the Lines: The Shazoo Algorithm -- Full Version --
+Proper local scoring rules on discrete sample spaces
+Structure Learning Using Forced Pruning
+MACRO: A Meta-Algorithm for Conditional Risk Minimization
+Adversarially-learned Inference via an Ensemble of Discrete Undirected Graphical
+From Sampling to Optimization on Discrete Domains with Applications to Determina
+CASP: Learning-Augmented Offline Approximation with Verifiable Certificates and 
+Maximum Flow and Minimum-Cost Flow in Almost-Linear Time
+Graph-based Composite Local Bregman Divergences on Discrete Sample Spaces
+Faster Fundamental Graph Algorithms via Learned Predictions
+Parallel Composition of Weighted Finite-State Transducers
+Causal Label Recovery in Payment Networks
+Learning Weighted Finite Automata over the Max-Plus Semiring and its Termination
+A new structure exploiting derivation of recursive direct weight optimization
+Regularization for Multiple Kernel Learning via Sum-Product Networks
+A Tutorial on Learning With Bayesian Networks
+The Dynamics of AdaBoost Weights Tells You What's Hard to Classify
+Nearly Optimal Bayesian Inference for Structural Missingness
+Learning Large DAGs by Combining Continuous Optimization and Feedback Arc Set He
+On the Convergence of Continuous Constrained Optimization for Structure Learning
+Estimation of Graphical Models through Structured Norm Minimization
+A Class of Linear Programs Solvable by Coordinate-Wise Minimization
+Convex Relaxations for Learning Bounded Treewidth Decomposable Graphs
+On the trade-off between complexity and correlation decay in structural learning
+How Proper Scoring Rules Shape LLM Forecasting
+Inverse Optimization Without Inverse Optimization: Direct Solution Prediction wi
+CaVE: A Cone-Aligned Approach for Fast Predict-then-optimize with Binary Linear 
+The OS* Algorithm: a Joint Approach to Exact Optimization and Sampling
+Learning Optimal Classification Trees: Strong Max-Flow Formulations
+A* shortest string decoding for non-idempotent semirings
+Polyhedral aspects of score equivalence in Bayesian network structure learning
+How to Formulate and Solve Statistical Recognition and Learning Problems
+Labeled Directed Acyclic Graphs: a generalization of context-specific independen
+Neural Induction of Finite-State Transducers
+Optimal link prediction with matrix logistic regression
+When is Network Lasso Accurate: The Vector Case
+Self-Supervised Primal-Dual Learning for Constrained Optimization
+Tropical Geometry of Statistical Models
+Approximation Complexity of Maximum A Posteriori Inference in Sum-Product Networ
+Learning Graph Weighted Models on Pictures
+A Probabilistic Semi-Supervised Approach with Triplet Markov Chains
+Faster Global Minimum Cut with Predictions
+Optimal convex $M$-estimation via score matching
+An Algebraic Formalization of Forward and Forward-backward Algorithms
+Statistical and Computational Tradeoffs in Stochastic Composite Likelihood
+Learning from Rational Behavior: Predicting Solutions to Unknown Linear Programs
+Approximate Inference via Weighted Rademacher Complexity
+Sum-product networks: A survey
+Feasibility-Aware Decision-Focused Learning for Predicting Parameters in the Con
+Distribution Learning Meets Graph Structure Sampling
+Predictions as statements and decisions
+DAGs with NO TEARS: Continuous Optimization for Structure Learning
+Approximations to the MMI criterion and their effect on lattice-based MMI
+On Pruning for Score-Based Bayesian Network Structure Learning
+Rejoinder: Latent variable graphical model selection via convex optimization
+Incorporating Type II Error Probabilities from Independence Tests into Score-Bas
+Lifted Convex Quadratic Programming
+DAGs with No Curl: An Efficient DAG Structure Learning Approach
+AL-CoLe: Augmented Lagrangian for Constrained Learning
+Optimisation of Overparametrized Sum-Product Networks
+Clustering by transitive propagation
+Learning to Guide Local Search for MPE Inference in Probabilistic Graphical Mode
+Neural Certificate Pricing for Combinatorial Optimization Problems
+High-Dimensional Graphical Model Selection Using $\ell_1$-Regularized Logistic R
+Selection Criterion for Log-Linear Models Using Statistical Learning Theory
+Weighted automata are compact and actively learnable
+Composition and Weight Pushing of Monotonic Subsequential Failure Transducers Re
+Computationally Efficient Wasserstein Loss for Structured Labels
+A linear memory algorithm for Baum-Welch training
+LINC: Decoupling Local Consequence Scoring from Hidden Matching in Constructive 
+Weight Learning in a Probabilistic Extension of Answer Set Programs
+The Libra Toolkit for Probabilistic Models
+Learning by stochastic serializations
+Conditional Probability Tree Estimation Analysis and Algorithms
+The problem with probabilistic DAG automata for semantic graphs
+A simple randomized algorithm for sequential prediction of ergodic time series
+PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belie
+NLF: A Resistor-Network Framework and Linear-Time Solver for Convex Network-Flow
+Interior-Point Algorithms for Linear-Programming Decoding
+Inference and learning in probabilistic logic programs using weighted Boolean fo
+Efficient Training of Multi-task Combinarotial Neural Solver with Multi-armed Ba
+Scaling Decision-Focused Learning to Large Problems with Lagrangian Decompositio
+Self-Supervised Combinatorial Optimization with Constraints via Frank-Wolfe
+Constraint-free Graphical Model with Fast Learning Algorithm
+Decision-Focused Learning without Differentiable Optimization: Learning Locally 
+Quotient Normalized Maximum Likelihood Criterion for Learning Bayesian Network S
+Probabilistic DAG Search
+On Probability Distributions for Trees: Representations, Inference and Learning
+Learning high-dimensional graphical models with regularized quadratic scoring
+A Unified Approach for Learning the Parameters of Sum-Product Networks
+Inside-Outside Estimation Meets Dynamic EM
+A Compositional Approach to Network Algorithms
+Seer: Maximum Likelihood Regression for Learning-Speed Curves
+On the Latent Variable Interpretation in Sum-Product Networks
+Max-linear models on directed acyclic graphs
+The Symbolic Interior Point Method
+Parsimonious Inference
+Polynomial-time algorithms for Multimarginal Optimal Transport problems with str
+Augment with Care: Contrastive Learning for Combinatorial Problems
+Integer Programming for Learning Directed Acyclic Graphs from Continuous Data
+Structure learning in polynomial time: Greedy algorithms, Bregman information, a
+On Learning Discrete Graphical Models Using Greedy Methods
+Sum-Product Graphical Models
+The Proper Treatment of Optimality in Computational Phonology
+Solution of the optimal assignment problem by diagonal scaling algorithms
+Statistical Learning from Biased Training Samples
+Computing a partition function of a generalized pattern-based energy over a semi
+Tropical Modeling of Weighted Transducer Algorithms on Graphs
+Advances in Bayesian Network Learning using Integer Programming
+Learning undirected models via query training
+Inference, Learning, and Population Size: Projectivity for SRL Models
+Learning Mixed Graphical Models
+dOPT: Differentiating Conic Optimization via Geometric Reduction
+Online Learning with Continuous Ranked Probability Score
+A Loss-Function for Causal Machine-Learning
+Branch-and-bound method for calculating Viterbi path in triplet Markov models
+Parametric Inference for Biological Sequence Analysis
+Probably Approximately Correct Maximum A Posteriori Inference
+Head Automata and Bilingual Tiling: Translation with Minimal Representations
+Lifted Tree-Reweighted Variational Inference
+Learning in Inverse Optimization: Incenter Cost, Augmented Suboptimality Loss, a
+Markov Equivalence and Consistency in Differentiable Structure Learning
+Throwing Vines at the Wall: Structure Learning via Random Search
+On the Role of Sparsity and DAG Constraints for Learning Linear DAGs
+Learning DAGs without imposing acyclicity
+Concave Flow on Small Depth Directed Networks
+Stability and Complexity of Minimising Probabilistic Automata
+Accelerating Exact and Approximate Inference for (Distributed) Discrete Optimiza
+The Power of Linear Programming for Valued CSPs
+Approximating probabilistic models as weighted finite automata
+The Primal-Dual method for Learning Augmented Algorithms
+Teaching Networks to Solve Optimization Problems
+Delta-AI: Local objectives for amortized inference in sparse graphical models
+Complex Markov Logic Networks: Expressivity and Liftability
+Constraint Optimization over Semirings
+Algorithms for Weighted Pushdown Automata
+Deep Inverse Optimization
+Convex and linear models of NP-problems
+Prediction Loss Guided Decision-Focused Learning
+Sum-Product-Set Networks: Deep Tractable Models for Tree-Structured Graphs
+How to show a probabilistic model is better
+Chow-Liu++: Optimal Prediction-Centric Learning of Tree Ising Models
+Learning loopy graphical models with latent variables: Efficient methods and gua
+ExDAG: Exact learning of DAGs
+Leaving the Nest: Going Beyond Local Loss Functions for Predict-Then-Optimize
+Neural Tractability via Structure: Learning-Augmented Algorithms for Graph Combi
+Empirical Risk Minimization for Time Series: Nonparametric Performance Bounds fo
+Generalization Bounds of Surrogate Policies for Combinatorial Optimization Probl
+Deep Declarative Networks: A New Hope
+Dynamic programming by polymorphic semiring algebraic shortcut fusion
+A Bayesian Approach for Online Classifier Ensemble
+Learning Planar Ising Models
+Structural Risk Minimization for Learning Nonlinear Dynamics
+A Latent-Variable Lattice Model
+Dynamical Systems On Weighted Lattices: General Theory
+Causal Unit Selection using Tractable Arithmetic Circuits
+Discussion: Latent variable graphical model selection via convex optimization
+Discussion: Latent variable graphical model selection via convex optimization
+Discussion: Latent variable graphical model selection via convex optimization
+Discussion: Latent variable graphical model selection via convex optimization
+Discussion: Latent variable graphical model selection via convex optimization
+Discussion: Latent variable graphical model selection via convex optimization
+Decision-Theoretic Approaches for Improved Learning-Augmented Algorithms
+Query-decision Regression between Shortest Path and Minimum Steiner Tree
+Data-driven nonsmooth optimization
+Automatic Debiased Machine Learning for Smooth Functionals of Nonparametric M-Es
+Learning Deterministic Surrogates for Robust Convex QCQPs
+Super-Reparametrizations of Weighted CSPs: Properties and Optimization Perspecti
+Efficient Semiring-Weighted Earley Parsing
+Polynomial Time Learning-Augmented Algorithms for NP-hard Permutation Problems
+Tensors over Semirings for Latent-Variable Weighted Logic Programs
+Learning with a Drifting Target Concept
+Predict-Then-Optimize by Proxy: Learning Joint Models of Prediction and Optimiza
+Jacobian Rank Collapse in Decision-Focused Learning
+Weighted Rules under the Stable Model Semantics
+Learning Is a Kan Extension
+Decision-Focused Learning via Tangent-Space Projection of Prediction Error
+Learning Dynamic Bayesian Networks from Data: Foundations, First Principles and 
+Exploiting Non-Negativity in DAG Structure Learning
+Inverse optimization problems with multiple weight functions
+A Large-Deviation Analysis of the Maximum-Likelihood Learning of Markov Tree Str
+Stochastic Learning for Sparse Discrete Markov Random Fields with Controlled Gra
+An Exact Junction-Tree Extended Formulation for Optimal Classification Trees
+Differentiable RNA Secondary Structure Extraction for Deep Learning
+AHEAD: Adaptive Neural Acceleration for Large-Scale Linear Programming
+Exploiting Problem Structure in Deep Declarative Networks: Two Case Studies
+SSPO: Structure-Aware Similarity-Weighted Preference Optimization for Neural Com
+Exact Learning Augmented Naive Bayes Classifier
+How to learn a graph from smooth signals
+A tractable class of binary VCSPs via M-convex intersection
+A Note on Task-Aware Loss via Reweighing Prediction Loss by Decision-Regret
+Conditional Risk Minimization for Stochastic Processes
+Convex Network Flows
+Bayesian Learning of Sum-Product Networks
+Sobolev Training of End-to-End Optimization Proxies
+Trail-Weighted Influence Scores for Approximate Outcome Prediction in Bayesian N
+Calibeating Prediction-Powered Inference
+Dynamic Programming in Rank Space: Scaling Structured Inference with Low-Rank HM
+Online Structure Learning for Sum-Product Networks with Gaussian Leaves
+Probabilistic Duality for Parallel Gibbs Sampling without Graph Coloring
+Learning to Solve Weighted Maximum Satisfiability with a Co-Training Architectur
+Learning-Augmented Online Minimization with Dual Predictions
+Positive factor networks: A graphical framework for modeling non-negative sequen
+DuaLip-GPU Technical Report
+A Reduction of Imitation Learning and Structured Prediction to No-Regret Online 
+Selective Inference and Learning Mixed Graphical Models
+Learning Joint Models of Prediction and Optimization
+CG4AI: A Column Generation Framework for Training AI Models Under Constraints
+Solving Linear Programs with Sqrt(rank) Linear System Solves
+The IBMAP approach for Markov networks structure learning
+Searching for More Efficient Dynamic Programs
+A Spectral Algorithm for Learning Hidden Markov Models
+Accelerated Forward-Backward Optimization using Deep Learning
+A Courcelle-Type Metatheorem for Rank-Bounded Unconstrained Binary Optimization
+Dual Filter: A Transformer-like Inference Architecture for Hidden Markov Models
+Tree-Preconditioned Differentiable Optimization and Axioms as Layers
+Soft Dynamic Time Warping for Multi-Pitch Estimation and Beyond
+Deep Probabilistic Logic: A Unifying Framework for Indirect Supervision
+Learning Concave Conditional Likelihood Models for Improved Analysis of Tandem M
+SHSP: Structure-Aware Hierarchical Solution Prediction for Mixed-Integer Linear 
+PolyStepOR: Learning to Decide Without Optimal Decisions
+The Viterbi process, decay-convexity and parallelized maximum a-posteriori estim
+Conditional Sum-Product Networks: Imposing Structure on Deep Probabilistic Archi
+Optimization Problems with Diseconomies of Scale via Decoupling
+Fast and Simple Densest Subgraph with Predictions
+Expectation-maximization for logistic regression
+Learning Networked Exponential Families with Network Lasso
+On Finding Optimal Polytrees
+Learning a Tree-Structured Ising Model in Order to Make Predictions
+A new method for parameter estimation in probabilistic models: Minimum probabili
+Approximation and Exactness in Finite State Optimality Theory
+Ising Models with Latent Conditional Gaussian Variables
+Better Algorithms for Constructing Minimum Cost Markov Chains and AIFV Codes
+The complexity of finite-valued CSPs
+On polyhedral approximations of polytopes for learning Bayes nets
+Asymptotic risks of Viterbi segmentation
+Low-Rank Approximation of Weighted Tree Automata
+Probabilistic Modeling Using Tree Linear Cascades
+Incremental Strongly Connected Components with Predictions
+Learning Directed Acyclic Graphs with Penalized Neighbourhood Regression
+Learning a Machine for the Decision in a Partially Observable Markov Universe
+Learning-Augmented Algorithms for Online Vertex Cover
+Machine Learning for Combinatorial Optimisation of Partially-Specified Problems:
+Efficient and Scalable Structure Learning for Bayesian Networks: Algorithms and 
+Safe Semi-Supervised Learning of Sum-Product Networks
+Differentiation of Blackbox Combinatorial Solvers
+Optimal Linear Discriminators For The Discrete Choice Model In Growing Dimension
+Learning SMaLL Predictors
+On Learning Paradigms for the Travelling Salesman Problem
+Exact Dynamics and Finite-Sample Trajectory Recovery of Linear Recursive Feature
+Smoothing Structured Decomposable Circuits
+You Shall Pass: Dealing with the Zero-Gradient Problem in Predict and Optimize f
+Nonlinear Optimization over a Weighted Independence System
+RockIt: Exploiting Parallelism and Symmetry for MAP Inference in Statistical Rel
+Learning General Latent-Variable Graphical Models with Predictive Belief Propaga
+Practical Bayesian Optimization of Machine Learning Algorithms
+On the Disambiguation of Weighted Automata
+Structural Learning of Probabilistic Sentential Decision Diagrams under Partial 
+Variational Inference for Logical Inference
+Connected by Construction: Learning Tractable Near-Tour Marginals for Traveling 
+Learning Concepts Described by Weight Aggregation Logic
+A Faster Cutting Plane Method and its Implications for Combinatorial and Convex 
+Low Rank Forecasting
+Decision-Weighted Flow Matching for Contextual Stochastic Optimization
+DPMS: An ADD-Based Symbolic Approach for Generalized MaxSAT Solving
+Learning Deterministic Weighted Automata with Queries and Counterexamples
+Learning Bayesian and Markov Networks with an Unreliable Oracle
+On the Representational Geometry of Dynamic Programs
+Erdos Goes Neural: an Unsupervised Learning Framework for Combinatorial Optimiza
+Practical Large-Scale Linear Programming using Primal-Dual Hybrid Gradient
+Automating the Analysis and Improvement of Dynamic Programming Algorithms with A
+Directional Evidence Guided Search-Space Reduction for Exact DAG Learning
+From Inverse Optimization to Feasibility to ERM
+Lazy and Fast Greedy MAP Inference for Determinantal Point Process
+High Dimensional Inference with Random Maximum A-Posteriori Perturbations
+Efficient implementation of linear programming decoding
+The power of linear programming for general-valued CSPs
+On efficiency gains via augmenting a tiny sample with a massive auxiliary sample
+Fixed-point algorithms for learning determinantal point processes
+Stabilized Best-of-$K$ Training for Neural Combinatorial Optimization
+A Regression Approach to Learning-Augmented Online Algorithms
+A multi-scale loss formulation for learning a probabilistic model with proper sc
+Structure Learning of Probabilistic Logic Programs by Searching the Clause Space
+Efficient algorithms for training the parameters of hidden Markov models using s
+Learning Mixtures of Linear Classifiers
+Self-Supervised Penalty-Based Learning for Robust Constrained Optimization
+SMT-based Weighted Model Integration with Structure Awareness
+Incremental Construction of Minimal Acyclic Sequential Transducers from Unsorted
+Solving Hypergraph Laplacian Systems in Almost-Linear Time
+Learning Data Dependency with Communication Cost
+Convergence and Loss Bounds for Bayesian Sequence Prediction
+Maximum Entropy Distributions: Bit Complexity and Stability
+Piecewise Linear Valued CSPs Solvable by Linear Programming Relaxation
+Solving Max-Cut to Global Optimality via Feasibility-Preserving Graph Neural Net
+Path Finding II : An \~O(m sqrt(n)) Algorithm for the Minimum Cost Flow Problem
+MPE inference using an Incremental Build-Infer-Approximate Paradigm
+Adjusted Viterbi training
+Fast and General Automatic Differentiation for Finite-State Methods
+Augmented balancing weights as linear regression
+Restructuring Tractable Probabilistic Circuits
+A Canonical Form for Weighted Automata and Applications to Approximate Minimizat
+Inverse Optimization via Learning Feasible Regions
+Graphical Models for Discrete and Continuous Data
+Question Answering via Integer Programming over Semi-Structured Knowledge
+Learning with Local Search MCMC Layers
+Dynamic Programming Optimization over Random Data: the Scaling Exponent for Near
+Learning Proximal Operators to Discover Multiple Optima
+Strongly polynomial efficient approximation scheme for segmentation
+Inverse Reinforcement Learning with Unknown Reward Model based on Structural Ris
+Taking Primitive Optimality Theory Beyond the Finite State
+Orthogonal Statistical Learning with Self-Concordant Loss
+Online Stochastic Packing Applied to Display Ad Allocation
+Maximum a Posteriori Estimation by Search in Probabilistic Programs
+Unsupervised Training for Neural TSP Solver
+Managing sparsity, time, and quality of inference in topic models
+SMT-Based Active Learning of Weighted Automata
+Learning Unstable Dynamical Systems with Time-Weighted Logarithmic Loss
+Regenerativity of Viterbi process for pairwise Markov models
+Decision-focused predictions via pessimistic bilevel optimization: a computation
+Parametrized Stochastic Grammars for RNA Secondary Structure Prediction
+Submodular Framework for Structured-Sparse Optimal Transport
+A Simple Boosting Framework for Transshipment
+Tree Learning: Optimal Algorithms and Sample Complexity
+Grammatical Inference as a Satisfiability Modulo Theories Problem
+Turbocharging Treewidth-Bounded Bayesian Network Structure Learning
+Conformal Prediction for Early Stopping in Mixed Integer Optimization
+Taming the Curse of Dimensionality: Discrete Integration by Hashing and Optimiza
+Boosting Method in Approximately Solving Linear Programming with Fast Online Alg
+VLM Fine-Tuning for End-to-End Combinatorial Optimization
+GridOT -- a discrete optimal transport solver on grids
+Probable convexity and its application to Correlated Topic Models
+Learning optimization models in the presence of unknown relations
+Algorithms and Training for Weighted Multiset Automata and Regular Expressions
+Interpolation Learning With Minimum Description Length
+Diversified Hidden Markov Models for Sequential Labeling
+Spectral Learning for Supervised Topic Models
+Global Optimality in Bivariate Gradient-based DAG Learning
+Coordinate Methods for Accelerating $\ell_\infty$ Regression and Faster Approxim
+Exact and approximate inference in graphical models: variable elimination and be
+Efficient Search-Based Weighted Model Integration
+Compact Representations by Finite-State Transducers
+Credal Learning Theory
+Multi-marginal optimal transport and probabilistic graphical models
+An explicit analysis of the entropic penalty in linear programming
+Efficient Learning of Survival Analysis Models Under Outcome-Dependent Truncatio
+Neural Learning of One-of-Many Solutions for Combinatorial Problems in Structure
+Variational Pseudolikelihood for Regularized Ising Inference
+Bayesian Network Structure Learning with Integer Programming: Polytopes, Facets,
+Residual-Controlled Douglas--Rachford Splitting for Differentiable Solver Layers
+Pareto-Optimal Learning-Augmented Algorithms for Online Conversion Problems
+Bounds on the number of inference functions of a graphical model
+A Hough Transform Approach to Solving Linear Min-Max Problems
+Asymptotics of Discrete MDL for Online Prediction
+Sequence Annotation with HMMs: New Problems and Their Complexity
+A Simple and General Debiased Machine Learning Theorem with Finite Sample Guaran
+Learning to Branch
+Inference for Probabilistic Dependency Graphs
+Solving Mixed Integer Programs Using Neural Networks
+Scaling up Hybrid Probabilistic Inference with Logical and Arithmetic Constraint
+$\ell_0$-penalized maximum likelihood for sparse directed acyclic graphs
+Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcas
+Learning Nonlinear Dynamic Models
+Online Decision-Focused Learning
+Faithful Inversion of Generative Models for Effective Amortized Inference
+Bayesian Structure Learning for Markov Random Fields with a Spike and Slab Prior
+Herded Gibbs Sampling
+Latent variable graphical model selection via convex optimization
+On Training Survival Models with Scoring Rules
+High-dimensional learning of linear causal networks via inverse covariance estim
+PyEPO: A PyTorch-based End-to-End Predict-then-Optimize Library for Linear and I
+Automatic doubly robust inference for linear functionals via calibrated debiased
+Probabilistic Deep Learning using Random Sum-Product Networks
+Recursive max-linear models with propagating noise
+A Bounded $p$-norm Approximation of Max-Convolution for Sub-Quadratic Bayesian I
+Prefix Parsing is Just Parsing
+Learning restricted Bayesian network structures
+MathOptAI.jl: Embed trained machine learning predictors into JuMP models
+Prediction Under Imperfect Compression: A Theory of Approximate MDL
+Efficient Decoder Scaling Strategy for Neural Routing Solvers
+Newton Losses: Using Curvature Information for Learning with Differentiable Algo
+Temporal-Difference Networks
+Compute Time Scaling with Recursive Models for Combinatorial Optimization
+On learning parametric-output HMMs
+DAG DECORation: Continuous Optimization for Structure Learning under Hidden Conf
+Scalable Learning and MAP Inference for Nonsymmetric Determinantal Point Process
+Learning Early-to-Final Solution Consistency for MILP Acceleration
+Learning Ising Models with Independent Failures
+Scaling Optimal Classification Trees via Adaptive Feature and Sample Reduction
+Existence of infinite Viterbi path for pairwise Markov models
+Viterbi Sequences and Polytopes
+Incremental Monoidal Grammars
+Scaling up Probabilistic Inference in Linear and Non-Linear Hybrid Domains by Le
+Consistent Second-Order Conic Integer Programming for Learning Bayesian Networks
+A Parallel Min-Cut Algorithm using Iteratively Reweighted Least Squares
+Proper Scoring Rules and Domination
+Efficient Learning of Bounded-Treewidth Bayesian Networks from Complete and Inco
+Scaling Optimization Over Uncertainty via Compilation
+Low congestion online routing and an improved mistake bound for online predictio
+Future-as-Label: Scalable Supervision from Real-World Outcomes
+Cross-Entropic Learning of a Machine for the Decision in a Partially Observable 
+Neural Fixed-Point Acceleration for Convex Optimization
+Support Selection Beyond Smooth DAG Exactness: Completion Geometry,Score Margins
+PACE: A Parallelizable Computation Encoder for Directed Acyclic Graphs
+Learning High-Dimensional Markov Forest Distributions: Analysis of Error Rates
+Differentiating Through Integer Linear Programs with Quadratic Regularization an
+AMP Chain Graphs: Minimal Separators and Structure Learning Algorithms
+Imperfect Is Perfect: Learned Column Prefilling for Branch-Price-and-Cut
+Decision-Oriented Learning with Differentiable Submodular Maximization for Vehic
+A Maximum Matching Algorithm for Basis Selection in Spectral Learning
+Highly Efficient Structural Learning of Sparse Staged Trees
+Ecole: A Library for Learning Inside MILP Solvers
+Learning pairwise Markov network structures using correlation neighborhoods
+Efficient Active Search for Combinatorial Optimization Problems
+An Improved Deterministic Rescaling for Linear Programming Algorithms
+Learning to Sample from Censored Markov Random Fields
+WeCon: An Efficient Weight-Conditioned Neural Solver for Multi-Objective Combina
+On Learning Continuous Pairwise Markov Random Fields
+Faster Greedy MAP Inference for Determinantal Point Processes
+Bayesian Predictive Synthesis for Dynamic Networks: Forecasting and Identifying 
+Learning Internal Representations (COLT 1995)
+PSD Representations for Effective Probability Models
+Better Approximate Inference for Partial Likelihood Models with a Latent Structu
+Learning string edit distance
+Structure Learning and Parameter Estimation for Graphical Models via Penalized M
+Stabilizing Training with Soft Dynamic Time Warping: A Case Study for Pitch Clas
+Limit Cycles of AdaBoost
+Determinization of Min-Plus Weighted Automata is Decidable
+Hypertree Decompositions Revisited for PGMs
+Flows, Scaling, and Entropy Revisited: a Unified Perspective via Optimizing Join
+Graph Minors Meet Machine Learning: the Power of Obstructions
+Consistency-Robustness Tradeoffs for Online Bipartite Allocation with Multiple S
+MAP segmentation in Bayesian hidden Markov models: a case study
+Sharp Structure-Agnostic Lower Bounds for General Linear Functional Estimation
+Efficient differentiable quadratic programming layers: an ADMM approach
+Proper Scoring Rules, Gradients, Divergences, and Entropies for Paths and Time S
+Two Algorithms for Finding $k$ Shortest Paths of a Weighted Pushdown Automaton
+Embedding Foundation Model Predictions in Discrete-Choice Models with Structural
+Learnable and Instance-Robust Predictions for Online Matching, Flows and Load Ba
+Linear Models of Computation and Program Learning
+Linear Additive Markov Processes
+Decision-Focused Learning to Predict Action Costs for Planning
+Difference of Convex Functions Programming Applied to Control with Expert Data
+Scaling Hidden Markov Language Models
+SurCo: Learning Linear Surrogates For Combinatorial Nonlinear Optimization Probl
+Fitting and Learning Basis-Restricted Propositional Formulas
+Unsupervised Diffusion Solver for Combinatorial Optimization via Combinatorial A
+Differentiable Convex Optimization Layers
+Recurrent Sum-Product-Max Networks for Decision Making in Perfectly-Observed Env
+A Novel Training Algorithm for HMMs with Partial and Noisy Access to the States
+A Boosting Approach to Reinforcement Learning
+Quick Adaptive Ternary Segmentation: An Efficient Decoding Procedure For Hidden 
+Enhancing Local Search for MaxSAT with Deep Differentiation Clause Weighting
+Optimization with Trained Machine Learning Models Embedded
+Learning in a Compiler for MINSAT Algorithms
+Learning Bayesian Networks with Incomplete Data by Augmentation
+Inferring large graphs using l1-penalized likelihood
+The Complexity of Bayesian Network Learning: Revisiting the Superstructure
+Exact Learning of RNA Energy Parameters From Structure
+Scalable Approximate Algorithms for Optimal Transport Linear Models
+Avoiding Premature Collapse: Adaptive Annealing for Entropy-Regularized Structur
+Structure learning of antiferromagnetic Ising models
+Fast rates in learning with dependent observations
+Only Project Once: Projection-Adaptive Loss for Exact Constraint Satisfaction
+Ecole: A Gym-like Library for Machine Learning in Combinatorial Optimization Sol
+Acceleration Techniques for Learning Optimal Classification Trees with Integer P
+Learning Gaussian Tree Models: Analysis of Error Exponents and Extremal Structur
+The Minimax Learning Rates of Normal and Ising Undirected Graphical Models
+Solving Marginal MAP Exactly by Probabilistic Circuit Transformations
+Weighted Empirical Risk Minimization for Machine Learning under Long-Range Depen
+Gradient-Based Neural DAG Learning
+Hardness of parameter estimation in graphical models
+Outcome Assumptions and Duality Theory for Balancing Weights
+A Simple Explanation of A Spectral Algorithm for Learning Hidden Markov Models
+Fast-PGM: Fast Probabilistic Graphical Model Learning and Inference
+Learning-Based Hierarchical Approach for Fast Mixed-Integer Optimization
+Learning noisy-OR Bayesian Networks with Max-Product Belief Propagation
+The Perils of Learning Before Optimizing
+Implicit Maximum Likelihood Estimation
+Efficient Learning of Optimal Markov Network Topology with k-Tree Modeling
+Learning Graph-Structured Sum-Product Networks for Probabilistic Semantic Maps
+End-to-End Constrained Optimization Learning: A Survey
+Scalable Deep Unfolding of Conic Optimizers
+Inverse Mixed-Integer Programming: Learning Constraints then Objective Functions
+Decision-Focused Learning: Foundations, State of the Art, Benchmark and Future O
+Learning performance in inverse Ising problems with sparse teacher couplings
+Learning Gaussian Graphical Models with Observed or Latent FVSs
+Differentiable and Transportable Structure Learning
+Non-Euclidean dual gradient ascent for entropically regularized linear and semid
+A General Weighting Theory for Ensemble Learning: Beyond Variance Reduction via 
+Deep Declarative Dynamic Time Warping for End-to-End Learning of Alignment Paths
+Virtual Arc Consistency for Linear Constraints in Cost Function Networks
+Sorting Can Exponentially Speed Up Pure Dynamic Programming
+End-to-End Learning for Stochastic Optimization: A Bayesian Perspective
+Factoring nonnegative matrices with linear programs
+Learning Logistic Circuits
+Learning AMP Chain Graphs under Faithfulness
+Learning-Augmented Streaming Algorithms for Approximating MAX-CUT
+Practical Learning of Predictive State Representations
+MAP Inference for Probabilistic Logic Programming
+Learning Determinantal Point Processes in Sublinear Time
+Optimal Training of Fair Predictive Models
+Finite-sample performance of the maximum likelihood estimator in logistic regres
+Comment on: Decomposition of structural learning about directed acyclic graphs [
+DPP-PMRF: Rethinking Optimization for a Probabilistic Graphical Model Using Data
+Learning to Match via Inverse Optimal Transport
+Learning-Augmented Algorithms for Online Linear and Semidefinite Programming
+Robust Learning of Fixed-Structure Bayesian Networks
+Quadratic Direct Forecast for Training Multi-Step Time-Series Forecast Models
+From Theory to Throughput: CUDA-Optimized APML for Large-Batch 3D Learning
+Statistical Estimation from Dependent Data
+Stability Improvements for Fast Matrix Multiplication
+Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Sea
+Bayesian Optimization of Combinatorial Structures
+Amortized Inference for Causal Structure Learning
+Axiomatic Learning and Probabilistic Structures with first applications to varia
+Labeled Optimal Partitioning
+Pretrained Cost Model for Distributed Constraint Optimization Problems
+On Combining Machine Learning with Decision Making
+Learning to Solve Inverse Problems for Perceptual Sound Matching
+Gumbel-softmax Optimization: A Simple General Framework for Combinatorial Optimi
+Efficient Inference and Learning in a Large Knowledge Base: Reasoning with Extra
+Physarum Powered Differentiable Linear Programming Layers and Applications
+Sharp Structure-Agnostic Minimax Risk for Partial Linear Models
+NLP Solutions as Asymptotic Values of ODE Trajectories
+Learning Sparse Nonparametric DAGs
+A Fast Algorithm for Computing Prefix Probabilities
+Learning to Prune: Speeding up Repeated Computations
+Structure Learning for Directed Trees
+Online Minimum Spanning Trees with Weight Predictions
+StackSeq2Seq: Dual Encoder Seq2Seq Recurrent Networks
+Predict+Optimize for Packing and Covering LPs with Unknown Parameters in Constra
+PAC Learnability for Reliable Communication over Discrete Memoryless Channels
+Monte Carlo Algorithms for Optimal Stopping and Statistical Learning
+Full-Span Log-Linear Model and Fast Learning Algorithm
+Decision-Focused Forecasting: Decision Losses for Multistage Optimisation
+Learning with Combinatorial Optimization Layers: a Probabilistic Approach
+Learning of Structurally Unambiguous Probabilistic Grammars
+Inexact Column Generation for Bayesian Network Structure Learning via Difference
+Online Estimation of SAT Solving Runtime
+A Concise Function Representation for Faster Exact MPE and Constrained Optimisat
+Learning the intensity of time events with change-points
+An Experimental Comparison of Hybrid Algorithms for Bayesian Network Structure L
+Explicit Iteration Complexity of Exact Data-Driven Inverse Optimization for Inte
+Fibonacci-Driven Recursive Ensembles: Algorithms, Convergence, and Learning Dyna
+Differentiating the Value Function by using Convex Duality
+Parsimonious Learning-Augmented Online Metric Matching
+Branch & Learn with Post-hoc Correction for Predict+Optimize with Unknown Parame
+Learning to Reason: Leveraging Neural Networks for Approximate DNF Counting
+Hypertree Decompositions Revisited for PGMs
+Matrix-Free Least Squares Solvers: Values, Gradients, and What to Do With Them
+Learning-Augmented Algorithms for Boolean Satisfiability
+Algorithm Runtime Prediction: Methods & Evaluation
+Algorithms with Prediction Portfolios
+Divide and Conquer Networks
+Beyond Discretization: Learning the Optimal Solution Path
+Natural gradient via optimal transport
+Pitch Smoothing Using Relative Interval Networks
+Optimal Stopping with a Predicted Prior
+Weighted Maximum Entropy Inverse Reinforcement Learning
+Using Optimization to Solve Positive LPs Faster in Parallel
+Asynchronous Algorithms for Solving Linear Programs
+Efficient Localized Inference for Large Graphical Models
+End-to-end Conditional Robust Optimization
+Least Action Principles and Well-Posed Learning Problems
+Learning to Solve Combinatorial Optimization Problems on Real-World Graphs in Li
+Linear-Space Computation of the Edit-Distance between a String and a Finite Auto
+A Differentiable Approach to Combinatorial Optimization using Dataless Neural Ne
+Regularized Large Neighborhood Search
+Learning-Augmented Algorithms for Online Steiner Tree
+Dynamic inference in probabilistic graphical models
+Setting Parameters by Example
+Minimum bounding polytropes for estimation of max-linear Bayesian networks
+Proof of Correctness and Time Complexity Analysis of a Maximum Distance Transfor
+Improved linear programming methods for checking avoiding sure loss
+Exact Structure Learning of Bayesian Networks by Optimal Path Extension
+On Constraint Definability in Tractable Probabilistic Models
+Learned Pairwise Deep Dual-Optimal Inequalities for Stabilizing Column Generatio
+Reversible Markov chain estimation using convex-concave programming
+Top-Down Bayesian Posterior Sampling for Sum-Product Networks
+Sequential Local Learning for Latent Graphical Models
+Structured Differentiable Optimization for Efficient Decision-focused Learning i
+Multi-Task Predict-then-Optimize
+Self-Supervised Learning of Iterative Solvers for Constrained Optimization
+Learning to Deliver: a Foundation Model for the Montreal Capacitated Vehicle Rou
+Learning MAX-SAT from Contextual Examples for Combinatorial Optimisation
+Convergence Rates of Active Learning for Maximum Likelihood Estimation
+Learning Arbitrary Sum-Product Network Leaves with Expectation-Maximization
+Half-quadratic transportation problems
+Hardness of Learning Regular Languages in the Next Symbol Prediction Setting
+Sparse Probabilistic Circuits via Pruning and Growing
+Learning Binary Decision Trees by Argmin Differentiation
+Synchronous Context-Free Grammars and Optimal Linear Parsing Strategies
+Structure As Search: Unsupervised Permutation Learning for Combinatorial Optimiz
+Constraint Learning by Optimizing over Trained Neural Networks: A Pragmatic Tuto
+A Minimalistic Approach to Sum-Product Network Learning for Real Applications
+Learning to Solve Vehicle Routing Problems with Time Windows through Joint Atten
+Optimizing Spectral Learning for Parsing
+Efficient parallel implementation of the multiplicative weight update method for
+Optimization Learning
+Toric invariant theory for maximum likelihood estimation in log-linear models
+Speeding Up Mixed-Integer Programming Solvers with Sparse Learning for Branching
+Tractable Uncertainty for Structure Learning
+Scalable computation of dynamic flow problems via multi-marginal graph-structure
+Optimizing Discrete Spaces via Expensive Evaluations: A Learning to Search Frame
+Size Generalization for Diffusion Routing Solvers
+Prediction-Specific Design of Learning-Augmented Algorithms
+Greedy structure learning from data that contain systematic missing values
+Robust Learning of Fixed-Structure Bayesian Networks in Nearly-Linear Time
+Tailoring Strictly Proper Scoring Rules for Downstream Tasks: An Application to 
+Convergence Acceleration of Markov Chain Monte Carlo-based Gradient Descent by D
+Sufficient Decision Proxies for Decision-Focused Learning
+Automatic Music Accompanist
+Optimizing Differentiable Relaxations of Coreference Evaluation Metrics
+Reciprocal Learning
+Optimal structure learning and conditional independence testing
+TACTiS-2: Better, Faster, Simpler Attentional Copulas for Multivariate Time Seri
+Approximate Profile Maximum Likelihood
+Rapidly Mixing Gibbs Sampling for a Class of Factor Graphs Using Hierarchy Width
+Measuring Learned Monotone Temporal Aggregation at Matched Admissibility
+Cold-Start Reinforcement Learning with Softmax Policy Gradient
+High-Performance Tensor Formulation of the Viterbi Algorithm for Hidden Semi-Mar
+Markov risk mappings and risk-sensitive optimal prediction
+A Limitation of V-Matrix based Methods
+Reconsidering Dependency Networks from an Information Geometry Perspective
+Graph-based algorithms for the efficient solution of a class of optimization pro
+Extension of Path Probability Method to Approximate Inference over Time
+FAQ: Questions Asked Frequently
+Adaptive Sequential Machine Learning
+Reconsidering Dependency Networks from an Information Geometry Perspective
+Towards An Exact Combinatorial Algorithm for LP Decoding of Turbo Codes
+Minimax Estimation of Conditional Moment Models
+Non-negative DAG Learning from Time-Series Data
+End-to-end Learning of Convolutional Neural Net and Dynamic Programming for Left
+Learning from Survey Propagation: a Neural Network for MAX-E-$3$-SAT
+Proactive Message Passing on Memory Factor Networks
+Dynamic Prediction Length for Time Series with Sequence to Sequence Networks
+Branch & Learn for Recursively and Iteratively Solvable Problems in Predict+Opti
+Pareto-Optimality, Smoothness, and Stochasticity in Learning-Augmented One-Max-S
+Efficient Learning of Sparse Invariant Representations
+dynPARTIX - A Dynamic Programming Reasoner for Abstract Argumentation
+Dynamic Partition Models
+A Simple Learning-Augmented Algorithm for Online Packing with Concave Objectives
+FLASH Viterbi: Fast and Adaptive Viterbi Decoding for Modern Data Systems
+Pen and Paper Exercises in Machine Learning
+Functional Graphical Models: Structure Enables Offline Data-Driven Optimization
+TaskMet: Task-Driven Metric Learning for Model Learning
+Fast T2T: Optimization Consistency Speeds Up Diffusion-Based Training-to-Testing
+Backpropagation through Combinatorial Algorithms: Identity with Projection Works
+Exact marginal inference in Latent Dirichlet Allocation
+Provably Data-driven Lagrangian Relaxation for Mixed Integer Linear Programming
+Learning the Sherrington-Kirkpatrick Model Even at Low Temperature
+Learning Combinations of Sigmoids Through Gradient Estimation
+Differentiable DAG Sampling
+A Framework for Directed Acyclic Hypergraph Learning
+Learning from Satisfying Assignments Using Risk Minimization
+A Time and Space Efficient Junction Tree Architecture
+An efficient algorithm for estimating state sequences in imprecise hidden Markov
+BandMaxSAT: A Local Search MaxSAT Solver with Multi-armed Bandit
+On the Relationship Between Probabilistic Circuits and Determinantal Point Proce
+Learning Weighted Automata over Principal Ideal Domains
+Enforcing tail calibration when training probabilistic forecast models
+Negative Learning Rates and P-Learning
+Some Inapproximability Results of MAP Inference and Exponentiated Determinantal 
+Efficient PAC Reinforcement Learning in Regular Decision Processes
+Contextual Directed Acyclic Graphs
+Outer-Product Hidden Markov Model and Polyphonic MIDI Score Following
+Data-Driven Mirror Descent with Input-Convex Neural Networks
+Path Finding under Uncertainty through Probabilistic Inference
+Exact Combinatorial Optimization with Graph Convolutional Neural Networks
+Computationally and Statistically Efficient Truncated Regression
+Prequential MDL for Causal Structure Learning with Neural Networks
+Feasability of Learning Weighted Automata on a Semiring
+Minibatch Gibbs Sampling on Large Graphical Models
+Herding as a Learning System with Edge-of-Chaos Dynamics
+Max-affine estimators for convex stochastic programming
+Faster Parametric Shortest Path and Minimum Balance Algorithms
+Learning definable hypotheses on trees
+Approximate Homomorphisms and Convergent Representations in Transducers
+Solving Linear Programs in the Current Matrix Multiplication Time
+SPFlow: An Easy and Extensible Library for Deep Probabilistic Learning using Sum
+The Parameterized Complexity of Learning Monadic Second-Order Logic
+End-to-end Learning of Deterministic Decision Trees
+Efficient First-Order Methods for Linear Programming and Semidefinite Programmin
+A Generalization of the Chow-Liu Algorithm and its Application to Statistical Le
+Network Learning with Directional Sign Patterns
+NGO-GM: Natural Gradient Optimization for Graphical Models
+Dual Interior-Point Optimization Learning
+Just Weather Scoring: Efficient End-to-end Nowcasting with Distributional Diffus
+Computational Separations between Sampling and Optimization
+An Efficient Unsupervised Framework for Convex Quadratic Programs via Deep Unrol
+Efficient Computation of Expectations under Spanning Tree Distributions
+Optimal Approximate Minimization of One-Letter Weighted Finite Automata
+Stochastic Context-Free Grammars, Regular Languages, and Newton's Method
+A Universal Error Measure for Input Predictions Applied to Online Graph Problems
+Predictor-corrector algorithms for stochastic optimization under gradual distrib
+Scalable Structure Learning of Continuous-Time Bayesian Networks from Incomplete
+Recurrent State Encoders for Efficient Neural Combinatorial Optimization
+Optimal transport based theory for latent structured models
+Provably Efficient Neural Estimation of Structural Equation Model: An Adversaria
+An Almost-Linear-Time Algorithm for Approximate Max Flow in Undirected Graphs, a
+Using Machine Learning Predictions to Speed-up Dijkstra's Shortest Path Algorith
+A Score-and-Search Approach to Learning Bayesian Networks with Noisy-OR Relation
+Conserving Fuel in Statistical Language Learning: Predicting Data Requirements
+Solving Recurrent MIPs with Semi-supervised Graph Neural Networks
+A fast approach to optimal transport: The back-and-forth method
+Maximum Probability Theorem: A Framework for Probabilistic Learning
+Interaction Screening: Efficient and Sample-Optimal Learning of Ising Models
+The on-line shortest path problem under partial monitoring
+Learning Markov networks with context-specific independences
+Achievability results for statistical learning under communication constraints
+On Maximum a Posteriori Estimation of Hidden Markov Processes
+Probabilistic Line Searches for Stochastic Optimization
+Probabilistic Line Searches for Stochastic Optimization
+LaT: LLM-as-Trainer for Multi-Task Vehicle Routing Solvers
+Prediction with eventual almost sure guarantees
+Einsum Networks: Fast and Scalable Learning of Tractable Probabilistic Circuits
+Piecewise Linear Valued Constraint Satisfaction Problems with Fixed Number of Va
+DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characteriz
+Computational Complexity of Normalizing Constants for the Product of Determinant
+Reified Context Models
+How much data is sufficient to learn high-performing algorithms? Generalization 
+Exact Regular-Constrained Variable-Order Markov Generation via Sparse Context-St
+Semiparametric Efficiency Theory as Differential Calculus on a Space of Probabil
+Tight Efficiency Guarantees for Strategyproof Linear Regression
+A Predictive View on Streaming Hidden Markov Models
+Extracting Weighted Automata for Approximate Minimization in Language Modelling
+Fast Computation on Semirings Isomorphic to $(\times, \max)$ on $\mathbb{R}_+$
+Learning Weak Constraints in Answer Set Programming
+Statistical Mechanics of On-line Learning when a Moving Teacher Goes around an U
+Difference of Convex Programming in the Wasserstein Space with Applications to M
+Learning to Solve Combinatorial Optimization under Positive Linear Constraints v
+Learning-Augmented Algorithms for Online Concave Packing and Convex Covering Pro
+DASC: a Decomposition Algorithm for multistage stochastic programs with Strongly
+Variational analysis of inference from dynamical systems
+Parameter Learning in PRISM Programs with Continuous Random Variables
+Entropy-based Pruning for Learning Bayesian Networks using BIC
+Structural Return Maximization for Reinforcement Learning
+Learning of Discrete Graphical Models with Neural Networks
+Active-LATHE: An Active Learning Algorithm for Boosting the Error Exponent for L
+Numerical Considerations in Weighted Model Counting
+Revisiting Maximum Entropy Inverse Reinforcement Learning: New Perspectives and 
+A new Sinkhorn algorithm with Deletion and Insertion operations
+Decision-Focused Learning in Network Interdiction Games
+Distributed Estimation and Inference for Semi-parametric Binary Response Models
+Self-Improving Algorithms
+Learning to Refit for Convex Learning Problems
+One-step ahead sequential Super Learning from short times series of many slightl
+Computations in Stochastic Acceptors
+Learning Determinantal Point Processes with Moments and Cycles
+A Theory of Machine Learning
+Robust Data-Driven Accelerated Mirror Descent
+Dynamic Sampling from Graphical Models
+Exact Asymptotics for Learning Tree-Structured Graphical Models with Side Inform
+Trees in the Real Field
+Efficient Optimization for Sparse Gaussian Process Regression
+Genetic Algorithm for the Weight Maximization Problem on Weighted Automata
+Decision-Dependent Risk Minimization in Geometrically Decaying Dynamic Environme
+Learning with Semi-Definite Programming: new statistical bounds based on fixed p
+Learning higher-order sequential structure with cloned HMMs
+POMO: Policy Optimization with Multiple Optima for Reinforcement Learning
+From Sequential to Recursive: Enhancing Decision-Focused Learning with Bidirecti
+Warm-Starting All-Pairs Shortest Paths with Predictions
+Robust optimization with incremental recourse
+Sinkhorn Linearization and the Spectral Proxy: Unifying the Statistical and Algo
+Annealed Training for Combinatorial Optimization on Graphs
+Duality for Continuous Graphical Models
+Beyond entropic regularization: Debiased Gaussian estimators for discrete optima
+Learning efficient representations of complex constraints for scalable optimizat
+E-LSTM-D: A Deep Learning Framework for Dynamic Network Link Prediction
+The Gradient of Algebraic Model Counting
+Maximum Likelihood Reinforcement Learning
+Landscape Surrogate: Learning Decision Losses for Mathematical Optimization Unde
+State-space models through the lens of ensemble control
+Near-Optimal Solutions of Constrained Learning Problems
+Cost-augmented Schrödinger bridges on graphs are exactly solvable: a Feynman-Kac
+SISTA: learning optimal transport costs under sparsity constraints
+Automatic Debiased Machine Learning via Neural Nets for Generalized Linear Regre
+Sample-Efficient L0-L2 Constrained Structure Learning of Sparse Ising Models
+Learning with Confidence
+Online MAP Inference and Learning for Nonsymmetric Determinantal Point Processes
+Path-dependent Discrete Amortized Inference
+What's Wrong with Deep Learning in Tree Search for Combinatorial Optimization
+Efficiently learning Ising models on arbitrary graphs
+DAG Learning from Zero-Inflated Count Data Using Continuous Optimization
+New Linear-time Algorithm for SubTree Kernel Computation based on Root-Weighted 
+Deeply AggreVaTeD: Differentiable Imitation Learning for Sequential Prediction
+Learning to Predict Independent of Span
+Necessary and Sufficient Conditions for Optimal Decision Trees using Dynamic Pro
+BUILD with Precision: Bottom-Up Inference of Linear DAGs
+Minimax Semiparametric Learning With Approximate Sparsity
+Learning-Augmented Dynamic Submodular Maximization
+PDHG-Unrolled Learning-to-Optimize Method for Large-Scale Linear Programming
+Gradient-Flow Optimization as Dynamic Random-Effects Inference: Testing and Earl
+On-line Viterbi Algorithm and Its Relationship to Random Walks
+Sandwich Boosting for Accurate Estimation in Partially Linear Models for Grouped
+Positivity in Linear Gaussian Structural Equation Models
+Verifiable Rewards for Calibrated Probabilistic Forecasting
+Incremental Approximate Single-Source Shortest Paths with Predictions
+Online Graph Coloring with Predictions
+D3TW: Discriminative Differentiable Dynamic Time Warping for Weakly Supervised A
+prefer!!: order changed
+Minimum Error Rate Training and the Convex Hull Semiring
+Approximations to the MMI criterion and their effect on lattice-based MMI
+Speech Recognition by Composition of Weighted Finite Automata
+Viterbi Algorithm Generalized for n-Tape Best-Path Search
+Comparative Analysis of Viterbi Training and Maximum Likelihood Estimation for H
+Minimax deviation strategies for machine learning and recognition with short lea
+Adjusted Viterbi training for hidden Markov models
+Adjusted Viterbi training
+Gradient Computation In Linear-Chain Conditional Random Fields Using The Entropy
+Beyond Discretization: Learning the Optimal Solution Path
+The Maximum Entropy Relaxation Path
+A generalized risk approach to path inference based on hidden Markov models
+Finite State Transducers Approximating Hidden Markov Models
+Exact Decoding on Latent Variable Conditional Models is NP-Hard
+Look-Back and Look-Ahead in the Conversion of Hidden Markov Models into Finite S
+A linear memory algorithm for Baum-Welch training
+Branch-and-bound method for calculating Viterbi path in triplet Markov models
+Viterbi Sequences and Polytopes
+Viterbi training in PRISM
+How to Formulate and Solve Statistical Recognition and Learning Problems
+Stability and Complexity of Minimising Probabilistic Automata
+A Large-Deviation Analysis of the Maximum-Likelihood Learning of Markov Tree Str
+Better Algorithms for Constructing Minimum Cost Markov Chains and AIFV Codes
+Differentiable Combinatorial Losses through Generalized Gradients of Linear Prog
+Seer: Maximum Likelihood Regression for Learning-Speed Curves
+Towards An Exact Combinatorial Algorithm for LP Decoding of Turbo Codes
+Asymptotic risks of Viterbi segmentation
+A* shortest string decoding for non-idempotent semirings
+Learning string edit distance
+Incremental Construction of Minimal Acyclic Sequential Transducers from Unsorted
+Density Ratio Hidden Markov Models
+Learning Gaussian Tree Models: Analysis of Error Exponents and Extremal Structur
+Learning a Machine for the Decision in a Partially Observable Markov Universe
+Active-LATHE: An Active Learning Algorithm for Boosting the Error Exponent for L
+Efficient algorithms for training the parameters of hidden Markov models using s
+MAP segmentation in Bayesian hidden Markov models: a case study
+Interpolation Learning With Minimum Description Length
+Statistical Machine Translation by Generalized Parsing
+Decoding Hidden Markov Models Faster Than Viterbi Via Online Matrix-Vector (max,
+Regenerativity of Viterbi process for pairwise Markov models
+Towards Low-Complexity Linear-Programming Decoding
+3-Way Composition of Weighted Finite-State Transducers
+Learning Binary Decision Trees by Argmin Differentiation
+Selection Criterion for Log-Linear Models Using Statistical Learning Theory
+Proof of Correctness and Time Complexity Analysis of a Maximum Distance Transfor
+A new method for parameter estimation in probabilistic models: Minimum probabili
+Existence of infinite Viterbi path for pairwise Markov models
+Cross-Entropic Learning of a Machine for the Decision in a Partially Observable 
+Optimal Weighting of Training Data in Adaptive Coding
+Convolutional Matching Pursuit and Dictionary Training
+A Latent-Variable Lattice Model
+Conserving Fuel in Statistical Language Learning: Predicting Data Requirements
+Low-Rank Approximation of Weighted Tree Automata
+Decoding with Finite-State Transducers on GPUs
+Learning Internal Representations (COLT 1995)
+The Generalized A* Architecture
+An Approximate, Efficient Solver for LP Rounding
+Learning to Branch
+Head Automata and Bilingual Tiling: Translation with Minimal Representations
+Probabilistic Line Searches for Stochastic Optimization
+Probabilistic Line Searches for Stochastic Optimization
+Query-decision Regression between Shortest Path and Minimum Steiner Tree
+A fast numerical method for max-convolution and the application to efficient max
+A Hough Transform Approach to Solving Linear Min-Max Problems
+Quick Adaptive Ternary Segmentation: An Efficient Decoding Procedure For Hidden 
+Solving Empirical Risk Minimization in the Current Matrix Multiplication Time
+Parallel Composition of Weighted Finite-State Transducers
+On Maximum a Posteriori Estimation of Hidden Markov Processes
+The Minimax Learning Rates of Normal and Ising Undirected Graphical Models
+Interior-Point Algorithms for Linear-Programming Decoding
+The Viterbi process, decay-convexity and parallelized maximum a-posteriori estim
+On-line Viterbi Algorithm and Its Relationship to Random Walks
+PAC Learnability for Reliable Communication over Discrete Memoryless Channels
+Inside-Outside Estimation Meets Dynamic EM
+Outer-Product Hidden Markov Model and Polyphonic MIDI Score Following
+Linear-Space Computation of the Edit-Distance between a String and a Finite Auto
+Learning Is a Kan Extension
+Learning in a Compiler for MINSAT Algorithms
+Query Training: Learning a Worse Model to Infer Better Marginals in Undirected G
+The on-line shortest path problem under partial monitoring
+Approximation and Exactness in Finite State Optimality Theory
+Learning with Local Search MCMC Layers
+Inference algorithms for pattern-based CRFs on sequence data
+Algorithms for Acyclic Weighted Finite-State Automata with Failure Arcs
+Optimal choice: new machine learning problem and its solution
+The Proper Treatment of Optimality in Computational Phonology
+Bayesian Properties of Normalized Maximum Likelihood and its Fast Computation
+Optimizing Spectral Learning for Parsing
+Extracting Weighted Automata for Approximate Minimization in Language Modelling
+MAP- and MLE-Based Teaching
+Tree Learning: Optimal Algorithms and Sample Complexity
+A simple randomized algorithm for sequential prediction of ergodic time series
+Compact Representations by Finite-State Transducers
+Empirical Risk Minimization for Time Series: Nonparametric Performance Bounds fo
+Linear and Parallel Learning of Markov Random Fields
+Fitting Jump Models
+Reliable and Efficient Inference of Bayesian Networks from Sparse Data by Statis
+Optimal Approximate Minimization of One-Letter Weighted Finite Automata
+Learning with Differentiable Perturbed Optimizers
+Neural Conditional Gradients
+Practical Bayesian Optimization of Machine Learning Algorithms
+Optimal Linear Discriminators For The Discrete Choice Model In Growing Dimension
+Least Action Principles and Well-Posed Learning Problems
+A Solver-Free Training Method for Predict-then-Optimize
+Approximating probabilistic models as weighted finite automata
+Learning Deterministic Weighted Automata with Queries and Counterexamples
+An Exact Junction-Tree Extended Formulation for Optimal Classification Trees
+Asymptotics of Discrete MDL for Online Prediction
+Rethinking Warm-Starts with Predictions: Learning Predictions Close to Sets of O
+Probabilistic DAG Search
+On learning parametric-output HMMs
+On equivalence between linear-chain conditional random fields and hidden Markov 
+Differentiable Dynamic Programming for Structured Prediction and Attention
+Exact Learning of RNA Energy Parameters From Structure
+Learning to Condition: A Neural Heuristic for Scalable MPE Inference
+Prediction Under Imperfect Compression: A Theory of Approximate MDL
+Faster Discrete Convex Function Minimization with Predictions: The M-Convex Case
+Clustering by transitive propagation
+Universal Supervised Learning for Individual Data
+Learning with a Drifting Target Concept
+A Spectral Algorithm for Learning Hidden Markov Models
+Learning Concave Conditional Likelihood Models for Improved Analysis of Tandem M
+A Generalization of the Chow-Liu Algorithm and its Application to Statistical Le
+Faster Parametric Shortest Path and Minimum Balance Algorithms
+Learning Logistic Circuits
+Rejoinder: Latent variable graphical model selection via convex optimization
+Learning High-Dimensional Markov Forest Distributions: Analysis of Error Rates
+Higher-order Derivatives of Weighted Finite-state Machines
+Discussion: Latent variable graphical model selection via convex optimization
+Discussion: Latent variable graphical model selection via convex optimization
+Discussion: Latent variable graphical model selection via convex optimization
+Discussion: Latent variable graphical model selection via convex optimization
+Discussion: Latent variable graphical model selection via convex optimization
+Discussion: Latent variable graphical model selection via convex optimization
+LaT: LLM-as-Trainer for Multi-Task Vehicle Routing Solvers
+An Algebraic Formalization of Forward and Forward-backward Algorithms
+Markov Property in Generative Classifiers
+Soft Dynamic Time Warping for Multi-Pitch Estimation and Beyond
+Maximum Likelihood Learning With Arbitrary Treewidth via Fast-Mixing Parameter S
+Deep Declarative Dynamic Time Warping for End-to-End Learning of Alignment Paths
+Automatic Music Accompanist
+Optimal Decision Diagrams for Classification
+Score Function Gradient Estimation to Widen the Applicability of Decision-Focuse
+Learning Graphical Model Parameters with Approximate Marginal Inference
+A Class of Linear Programs Solvable by Coordinate-Wise Minimization
+Optimal convex $M$-estimation via score matching
+Learning Graphical Models Using Multiplicative Weights
+Weighted Empirical Risk Minimization for Machine Learning under Long-Range Depen
+Optimizing Discrete Spaces via Expensive Evaluations: A Learning to Search Frame
+An efficient algorithm for estimating state sequences in imprecise hidden Markov
+MIPaaL: Mixed Integer Program as a Layer
+Directional Evidence Guided Search-Space Reduction for Exact DAG Learning
+A Canonical Form for Weighted Automata and Applications to Approximate Minimizat
+Self-Improving Algorithms
+Setting Parameters by Example
+CaVE: A Cone-Aligned Approach for Fast Predict-then-optimize with Binary Linear 
+Two Algorithms for Finding $k$ Shortest Paths of a Weighted Pushdown Automaton
+Differentiable TAN Structure Learning for Bayesian Network Classifiers
+Decision-Focused Learning via Tangent-Space Projection of Prediction Error
+Taking Primitive Optimality Theory Beyond the Finite State
+Quotient Normalized Maximum Likelihood Criterion for Learning Bayesian Network S
+Efficient Training of Multi-task Combinarotial Neural Solver with Multi-armed Ba
+Efficient non-greedy optimization of decision trees
+A Traveling Salesman Learns Bayesian Networks
+A Parallel Min-Cut Algorithm using Iteratively Reweighted Least Squares
+Composing Finite State Transducers on GPUs
+Incorporating Type II Error Probabilities from Independence Tests into Score-Bas
+FLASH Viterbi: Fast and Adaptive Viterbi Decoding for Modern Data Systems
+On Pruning for Score-Based Bayesian Network Structure Learning
+The fundamental nature of the log loss function
+Implicit MLE: Backpropagating Through Discrete Exponential Family Distributions
+Maximum Likelihood Estimation of Latent Variable Structural Equation Models: A N
+Learning-Augmented Scalable Linear Assignment Problem Optimization via Neural Du
+Multitape automata and finite state transducers with lexicographic weights
+Fast Rates for Nonstationary Weighted Risk Minimization
+Efficient implementation of linear programming decoding
+Integer Programming for Learning Directed Acyclic Graphs from Continuous Data
+Exact Learning Augmented Naive Bayes Classifier
+Path Finding under Uncertainty through Probabilistic Inference
+Positive factor networks: A graphical framework for modeling non-negative sequen
+A Novel Training Algorithm for HMMs with Partial and Noisy Access to the States
+Convex and linear models of NP-problems
+Stochastic Discriminative EM
+Adaptive Sequential Machine Learning
+Bounds on the number of inference functions of a graphical model
+Global Optimality in Bivariate Gradient-based DAG Learning
+Finding Probably Approximate Optimal Solutions by Training to Estimate the Optim
+Learning Optimal Augmented Bayes Networks
+Learning to Prune: Speeding up Repeated Computations
+Maximum Flow and Minimum-Cost Flow in Almost-Linear Time
+Advances in Bayesian Network Learning using Integer Programming
+Discrete-Convex-Analysis-Based Framework for Warm-Starting Algorithms with Predi
+Melding the Data-Decisions Pipeline: Decision-Focused Learning for Combinatorial
+Parametric Inference for Biological Sequence Analysis
+Efficient Active Search for Combinatorial Optimization Problems
+The Sum-Product Theorem: A Foundation for Learning Tractable Models
+Convergence Rates of Active Learning for Maximum Likelihood Estimation
+Fast and General Automatic Differentiation for Finite-State Methods
+Easy and Hard Constraint Ranking in OT: Algorithms and Complexity
+A Faster Cutting Plane Method and its Implications for Combinatorial and Convex 
+Maximum a Posteriori Estimation by Search in Probabilistic Programs
+Dynamical Systems On Weighted Lattices: General Theory
+Efficient Learning of Optimal Markov Network Topology with k-Tree Modeling
+OpenGM: A C++ Library for Discrete Graphical Models
+Learning to Search Better Than Your Teacher
+Sharp Structure-Agnostic Minimax Risk for Partial Linear Models
+Minimax Estimation of Conditional Moment Models
+Collaborative Training in Sensor Networks: A graphical model approach
+Approximating solution structure of the Weighted Sentence Alignment problem
+A Bounded $p$-norm Approximation of Max-Convolution for Sub-Quadratic Bayesian I
+Monte Carlo Algorithms for Optimal Stopping and Statistical Learning
+Large-Margin Determinantal Point Processes
+A Simple Explanation of A Spectral Algorithm for Learning Hidden Markov Models
+Maximum Entropy Distributions: Bit Complexity and Stability
+How to show a probabilistic model is better
+Learning Mixtures of Linear Classifiers
+Sum-Product Networks for Sequence Labeling
+The OS* Algorithm: a Joint Approach to Exact Optimization and Sampling
+From Sampling to Optimization on Discrete Domains with Applications to Determina
+A Canonical Semi-Deterministic Transducer
+Tutorial: $φ$-Transductions in OpenFst via the Gallic Semiring
+High-Performance Tensor Formulation of the Viterbi Algorithm for Hidden Semi-Mar
+End-to-end Learning of Deterministic Decision Trees
+Learning to Guide Local Search for MPE Inference in Probabilistic Graphical Mode
+Finite-sample performance of the maximum likelihood estimator in logistic regres
+Solver-Free Decision-Focused Learning for Linear Optimization Problems
+Searching for More Efficient Dynamic Programs
+Probably Approximately Correct Maximum A Posteriori Inference
+Matrix-Free Least Squares Solvers: Values, Gradients, and What to Do With Them
+Equiprobable mappings in weighted constraint grammars
+Learning to Solve Network Flow Problems via Neural Decoding
+Learning Optimal Classification Trees: Strong Max-Flow Formulations
+Algorithms and Training for Weighted Multiset Automata and Regular Expressions
+Achievability results for statistical learning under communication constraints
+CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constr
+Differentiation of Blackbox Combinatorial Solvers
+Decision-Theoretic Approaches for Improved Learning-Augmented Algorithms
+Structure-Aware Path Inference for Neural Finite State Transducers
+Stabilized Best-of-$K$ Training for Neural Combinatorial Optimization
+Decision-Aware Predictions for Right-Hand Side Parameters in Linear Programs
+Automating the Analysis and Improvement of Dynamic Programming Algorithms with A
+Weighted sampling, Maximum Likelihood and minimum divergence estimators
+Learning Linear Programs from Optimal Decisions
+Tropical Modeling of Weighted Transducer Algorithms on Graphs
+Optimisation of Overparametrized Sum-Product Networks
+Conditional Probability Tree Estimation Analysis and Algorithms
+Exact Dynamics and Finite-Sample Trajectory Recovery of Linear Recursive Feature
+Learning Warm Starts for the Simplex Method from Measured Solver Cost
+Graphical Models for Discrete and Continuous Data
+Factoring nonnegative matrices with linear programs
+Polyhedral aspects of score equivalence in Bayesian network structure learning
+PolyStepOR: Learning to Decide Without Optimal Decisions
+Lifted Tree-Reweighted Variational Inference
+Solving Linear Programs in the Current Matrix Multiplication Time
+Decision-focused predictions via pessimistic bilevel optimization: a computation
+Using Machine Learning Predictions to Speed-up Dijkstra's Shortest Path Algorith
+Turbocharging Treewidth-Bounded Bayesian Network Structure Learning
+LINC: Decoupling Local Consequence Scoring from Hidden Matching in Constructive 
+Random Spanning Trees and the Prediction of Weighted Graphs
+Pen and Paper Exercises in Machine Learning
+Stability Improvements for Fast Matrix Multiplication
+DOGE-Train: Discrete Optimization on GPU with End-to-end Training
+Neural Induction of Finite-State Transducers
+Computations in Stochastic Acceptors
+Convex Relaxations for Learning Bounded Treewidth Decomposable Graphs
+Virtual Arc Consistency for Linear Constraints in Cost Function Networks
+Warm-Starting All-Pairs Shortest Paths with Predictions
+Learning Bayesian and Markov Networks with an Unreliable Oracle
+A Maximum Matching Algorithm for Basis Selection in Spectral Learning
+Physarum Powered Differentiable Linear Programming Layers and Applications
+Stochastic Context-Free Grammars, Regular Languages, and Newton's Method
+Proper Scoring Rules, Gradients, Divergences, and Entropies for Paths and Time S
+MPE inference using an Incremental Build-Infer-Approximate Paradigm
+Teaching Networks to Solve Optimization Problems
+A tractable class of binary VCSPs via M-convex intersection
+Bounded Coordinate-Descent for Biological Sequence Classification in High Dimens
+Latent variable graphical model selection via convex optimization
+Generalization Bounds for Weighted Automata
+A Fast Algorithm for Computing Prefix Probabilities
+High-Dimensional Graphical Model Selection Using $\ell_1$-Regularized Logistic R
+Statistical Mechanics of On-line Learning when a Moving Teacher Goes around an U
+A Unified Approach for Learning the Parameters of Sum-Product Networks
+Score-oriented loss (SOL) functions
+Approximation Complexity of Maximum A Posteriori Inference in Sum-Product Networ
+Inverse Optimization Latent Variable Models for Learning Costs Applied to Route 
+Newton Losses: Using Curvature Information for Learning with Differentiable Algo
+Mathematical Programming in Machine Learning and Artificial Intelligence: A Unif
+Learning Large DAGs by Combining Continuous Optimization and Feedback Arc Set He
+Learning Combinations of Sigmoids Through Gradient Estimation
+Trees in the Real Field
+Accelerated Forward-Backward Optimization using Deep Learning
+Learning undirected models via query training
+Decision-Focused Learning: Through the Lens of Learning to Rank
+Chow-Liu++: Optimal Prediction-Centric Learning of Tree Ising Models
+Entropy-based Pruning for Learning Bayesian Networks using BIC
+OptNet: Differentiable Optimization as a Layer in Neural Networks
+Block Belief Propagation for Parameter Learning in Markov Random Fields
+Online Minimum Spanning Trees with Weight Predictions
+Fixed-point algorithms for learning determinantal point processes
+Maximum a Posteriori Inference for Factor Graphs via Benders' Decomposition
+Throwing Vines at the Wall: Structure Learning via Random Search
+Learning Chordal Markov Networks by Constraint Satisfaction
+NLP Solutions as Asymptotic Values of ODE Trajectories
+Sparse Logistic Regression Learns All Discrete Pairwise Graphical Models
+GridOT -- a discrete optimal transport solver on grids
+Gradient-Based Neural DAG Learning
+Stabilizing Training with Soft Dynamic Time Warping: A Case Study for Pitch Clas
+Learning Optimized Risk Scores
+Learning pairwise Markov network structures using correlation neighborhoods
+Support Selection Beyond Smooth DAG Exactness: Completion Geometry,Score Margins
+Learning Closed Signal Flow Graphs
+Negative Learning Rates and P-Learning
+Diversified Hidden Markov Models for Sequential Labeling
+How much data is sufficient to learn high-performing algorithms? Generalization 
+Divide and Conquer Networks
+Competing with Markov prediction strategies
+A Bayesian Approach for Online Classifier Ensemble
+Flows in Almost Linear Time via Adaptive Preconditioning
+Fast Computation on Semirings Isomorphic to $(\times, \max)$ on $\mathbb{R}_+$
+How Proper Scoring Rules Shape LLM Forecasting
+Approximate Profile Maximum Likelihood
+On a Convex Logic Fragment for Learning and Reasoning
+Variational analysis of inference from dynamical systems
+Sequence Annotation with HMMs: New Problems and Their Complexity
+Toric invariant theory for maximum likelihood estimation in log-linear models
+Learning Dynamic Bayesian Networks from Data: Foundations, First Principles and 
+SMT-Based Active Learning of Weighted Automata
+Labeled Optimal Partitioning
+Causal Unit Selection using Tractable Arithmetic Circuits
+Expectation-maximization for logistic regression
+Minimum-Cost Network Flow with Dual Predictions
+The AdaBoost Flow
+Computational Separations between Sampling and Optimization
+StackSeq2Seq: Dual Encoder Seq2Seq Recurrent Networks
+Statistical and Computational Tradeoffs in Stochastic Composite Likelihood
+Unsupervised Training for Neural TSP Solver
+Sequential Local Learning for Latent Graphical Models
+Graph-based Composite Local Bregman Divergences on Discrete Sample Spaces
+On Finding Optimal Polytrees
+Estimating Maximally Probable Constrained Relations by Mathematical Programming
+Credal Learning Theory
+MACRO: A Meta-Algorithm for Conditional Risk Minimization
+Linear Additive Markov Processes
+Convergence Acceleration of Markov Chain Monte Carlo-based Gradient Descent by D
+Exact marginal inference in Latent Dirichlet Allocation
+Difference of Convex Functions Programming Applied to Control with Expert Data
+Reciprocal Learning
+On the Representational Geometry of Dynamic Programs
+Non-approximate Inference for Collective Graphical Models on Path Graphs via Dis
+Dynamic Partition Models
+Efficient and Scalable Structure Learning for Bayesian Networks: Algorithms and 
+The Libra Toolkit for Probabilistic Models
+Faster Global Minimum Cut with Predictions
+Sorting Can Exponentially Speed Up Pure Dynamic Programming
+ExDAG: Exact learning of DAGs
+On Learning Discrete Graphical Models Using Greedy Methods
+High-dimensional learning of linear causal networks via inverse covariance estim
+Scalable Decision-Focused Learning through Cost-Sensitive Regression
+Learning from networked examples in a k-partite graph
+Limit Cycles of AdaBoost
+A Courcelle-Type Metatheorem for Rank-Bounded Unconstrained Binary Optimization
+AMP Chain Graphs: Minimal Separators and Structure Learning Algorithms
+Better Approximate Inference for Partial Likelihood Models with a Latent Structu
+Strongly polynomial efficient approximation scheme for segmentation
+Minimizing Surrogate Losses for Decision-Focused Learning using Differentiable O
+A Probabilistic Semi-Supervised Approach with Triplet Markov Chains
+Regularized Large Neighborhood Search
+Optimal structure learning and conditional independence testing
+A Universal Probability Assignment for Prediction of Individual Sequences
+Robust Data-Driven Accelerated Mirror Descent
+Scaling Optimal Classification Trees via Adaptive Feature and Sample Reduction
+Optimal link prediction with matrix logistic regression
+A Universal Error Measure for Input Predictions Applied to Online Graph Problems
+Acceleration Techniques for Learning Optimal Classification Trees with Integer P
+Neural Fixed-Point Acceleration for Convex Optimization
+An Experimental Comparison of Hybrid Algorithms for Bayesian Network Structure L
+The power of linear programming for general-valued CSPs
+Path Finding II : An \~O(m sqrt(n)) Algorithm for the Minimum Cost Flow Problem
+Fast T2T: Optimization Consistency Speeds Up Diffusion-Based Training-to-Testing
+Learning Constrained Optimization with Deep Augmented Lagrangian Methods
+Asynchronous Algorithms for Solving Linear Programs
+Learning high-dimensional graphical models with regularized quadratic scoring
+Learning of Discrete Graphical Models with Neural Networks
+Minibatch Gibbs Sampling on Large Graphical Models
+Stochastic Learning for Sparse Discrete Markov Random Fields with Controlled Gra
+Full-Span Log-Linear Model and Fast Learning Algorithm
+Learning Fast-Mixing Models for Structured Prediction
+Robust Losses for Decision-Focused Learning
+Neural Tractability via Structure: Learning-Augmented Algorithms for Graph Combi
+Online Estimation of SAT Solving Runtime
+The Power of Linear Programming for Valued CSPs
+Labeled Directed Acyclic Graphs: a generalization of context-specific independen
+Tropical Geometry of Statistical Models
+Low congestion online routing and an improved mistake bound for online predictio
+Faster Matchings via Learned Duals
+State-space models through the lens of ensemble control
+Fast rates in learning with dependent observations
+A Bregman Method for Structure Learning on Sparse Directed Acyclic Graphs
+Learning-Augmented Maximum Flow
+Pitch Smoothing Using Relative Interval Networks
+TaskMet: Task-Driven Metric Learning for Model Learning
+Solving Mixed Integer Programs Using Neural Networks
+A fast approach to optimal transport: The back-and-forth method
+Sum-product networks: A survey
+Statistical Learning from Biased Training Samples
+From Theory to Throughput: CUDA-Optimized APML for Large-Batch 3D Learning
+Dynamic programming by polymorphic semiring algebraic shortcut fusion
+Taming the Curse of Dimensionality: Discrete Integration by Hashing and Optimiza
+The Dynamics of AdaBoost Weights Tells You What's Hard to Classify
+Hardness of parameter estimation in graphical models
+Differentiating the Value Function by using Convex Duality
+Grammatical Inference as a Satisfiability Modulo Theories Problem
+Learning-Augmented Online Minimization with Dual Predictions
+On polyhedral approximations of polytopes for learning Bayes nets
+Piecewise Linear Valued Constraint Satisfaction Problems with Fixed Number of Va
+Efficient Independence-Based MAP Approach for Robust Markov Networks Structure D
+Synchronous Context-Free Grammars and Optimal Linear Parsing Strategies
+Structure Learning in Bayesian Networks of Moderate Size by Efficient Sampling
+Herding as a Learning System with Edge-of-Chaos Dynamics
+A Dual Perspective on Decision-Focused Learning: Scalable Training via Dual-Guid
+Solution of the optimal assignment problem by diagonal scaling algorithms
+A Tutorial on Learning With Bayesian Networks
+Exact Structure Learning of Bayesian Networks by Optimal Path Extension
+Solving Linear Programs with Sqrt(rank) Linear System Solves
+A Predictive View on Streaming Hidden Markov Models
+Smart "Predict, then Optimize"
+Learning higher-order sequential structure with cloned HMMs
+Graph Minors Meet Machine Learning: the Power of Obstructions
+A Concise Function Representation for Faster Exact MPE and Constrained Optimisat
+Dynamic Sum Product Networks for Tractable Inference on Sequence Data (Extended 
+Concave Flow on Small Depth Directed Networks
+Orthogonal Statistical Learning with Self-Concordant Loss
+PACE: A Parallelizable Computation Encoder for Directed Acyclic Graphs
+Structural Information Learning Machinery: Learning from Observing, Associating,
+The IBMAP approach for Markov networks structure learning
+Scaling Hidden Markov Language Models
+Learning Directed Acyclic Graphs with Penalized Neighbourhood Regression
+On Probability Distributions for Trees: Representations, Inference and Learning
+Data-driven nonsmooth optimization
+Proactive Message Passing on Memory Factor Networks
+DPP-PMRF: Rethinking Optimization for a Probabilistic Graphical Model Using Data
+Learning to Refit for Convex Learning Problems
+Provably Data-driven Lagrangian Relaxation for Mixed Integer Linear Programming
+Probabilistic Modeling Using Tree Linear Cascades
+What's Wrong with Deep Learning in Tree Search for Combinatorial Optimization
+Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers
+Convergence and Loss Bounds for Bayesian Sequence Prediction
+NLF: A Resistor-Network Framework and Linear-Time Solver for Convex Network-Flow
+Using Optimization to Solve Positive LPs Faster in Parallel
+DAGs with NO TEARS: Continuous Optimization for Structure Learning
+Recursive max-linear models with propagating noise
+The Integer Linear Programming Inference Cookbook
+Learning-Augmented Algorithms for Online Steiner Tree
+Trail-Weighted Influence Scores for Approximate Outcome Prediction in Bayesian N
+Extension of Path Probability Method to Approximate Inference over Time
+Outperformance Inverse Optimization: Learning Objective Functions that Outperfor
+Efficient differentiable quadratic programming layers: an ADMM approach
+Natural gradient via optimal transport
+An explicit analysis of the entropic penalty in linear programming
+Optimization Problems with Diseconomies of Scale via Decoupling
+Locally Convex Global Loss Network for Decision-Focused Learning
+Implicit Maximum Likelihood Estimation
+Learning from Satisfying Assignments Using Risk Minimization
+Fitting and Learning Basis-Restricted Propositional Formulas
+Maximum A Posteriori Inference in Sum-Product Networks
+End-to-End Learning for Stochastic Optimization: A Bayesian Perspective
+Efficient First-Order Methods for Linear Programming and Semidefinite Programmin
+Online Learning with Continuous Ranked Probability Score
+Parsimonious Learning-Augmented Approximations for Dense Instances of $\mathcal{
+Duality for Continuous Graphical Models
+A Score-and-Search Approach to Learning Bayesian Networks with Noisy-OR Relation
+Constraint-free Graphical Model with Fast Learning Algorithm
+On the Disambiguation of Weighted Automata
+Structural Risk Minimization for Learning Nonlinear Dynamics
+Learning restricted Bayesian network structures
+Active Learning in the Predict-then-Optimize Framework: A Margin-Based Approach
+The Symbolic Interior Point Method
+Computationally and Statistically Efficient Truncated Regression
+Pareto-Optimality, Smoothness, and Stochasticity in Learning-Augmented One-Max-S
+Learning Determinantal Point Processes with Moments and Cycles
+Learning Juntas under Markov Random Fields
+End-to-end Learning of Convolutional Neural Net and Dynamic Programming for Left
+Lifted Convex Quadratic Programming
+Faster Fundamental Graph Algorithms via Learned Predictions
+A Limitation of V-Matrix based Methods
+Minimum bounding polytropes for estimation of max-linear Bayesian networks
+Geometric Losses for Distributional Learning
+Learning-augmented smooth integer programs with PAC-learnable oracles
+Bayesian Structure Scores for Probabilistic Circuits
+Learning a Tree-Structured Ising Model in Order to Make Predictions
+Conditional Risk Minimization for Stochastic Processes
+Learning Scripts as Hidden Markov Models
+Optimizing Differentiable Relaxations of Coreference Evaluation Metrics
+Learning General Latent-Variable Graphical Models with Predictive Belief Propaga
+Cost-augmented Schrödinger bridges on graphs are exactly solvable: a Feynman-Kac
+Reversible Markov chain estimation using convex-concave programming
+Probabilistic Graphical Models: A Concise Tutorial
+Efficient Semiring-Weighted Earley Parsing
+A Regression Approach to Learning-Augmented Online Algorithms
+On Learning Continuous Pairwise Markov Random Fields
+On Combining Machine Learning with Decision Making
+Composition and Weight Pushing of Monotonic Subsequential Failure Transducers Re
+Learning Arbitrary Sum-Product Network Leaves with Expectation-Maximization
+Maximum Probability Theorem: A Framework for Probabilistic Learning
+Learning-Augmented Algorithms: Guarantees, Construction Mechanisms, and System-L
+Learning to Solve Combinatorial Optimization Problems on Real-World Graphs in Li
+Lifted Weight Learning of Markov Logic Networks Revisited
+Learning Unstable Dynamical Systems with Time-Weighted Logarithmic Loss
+Determinization of Min-Plus Weighted Automata is Decidable
+Faster Greedy MAP Inference for Determinantal Point Processes
+Learning SMaLL Predictors
+Compute Time Scaling with Recursive Models for Combinatorial Optimization
+Predict-Then-Optimize by Proxy: Learning Joint Models of Prediction and Optimiza
+Generalization Bounds in the Predict-then-Optimize Framework
+Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Sea
+Erdos Goes Neural: an Unsupervised Learning Framework for Combinatorial Optimiza
+Data-Driven Mirror Descent with Input-Convex Neural Networks
+On the String Kernel Pre-Image Problem with Applications in Drug Discovery
+Multi-Task Predict-then-Optimize
+AHEAD: Adaptive Neural Acceleration for Large-Scale Linear Programming
+Risk Guarantees for End-to-End Prediction and Optimization Processes
+Learning the Sherrington-Kirkpatrick Model Even at Low Temperature
+Interaction Screening: Efficient and Sample-Optimal Learning of Ising Models
+Efficient Computation of Expectations under Spanning Tree Distributions
+Learning loopy graphical models with latent variables: Efficient methods and gua
+Computational Complexity of Normalizing Constants for the Product of Determinant
+Conformal Prediction for Early Stopping in Mixed Integer Optimization
+Exact and approximate inference in graphical models: variable elimination and be
+Comment on: Decomposition of structural learning about directed acyclic graphs [
+Predictive Flows for Faster Ford-Fulkerson
+Decision-Focused Learning: When and Why Traditional Prediction Models Fail
+Weighted automata are compact and actively learnable
+A Simple Boosting Framework for Transshipment
+Learning Nonlinear Dynamic Models
+Automatic Debiased Machine Learning via Neural Nets for Generalized Linear Regre
+Predictor-corrector algorithms for stochastic optimization under gradual distrib
+Structure learning in polynomial time: Greedy algorithms, Bregman information, a
+Best-Choice Edge Grafting for Efficient Structure Learning of Markov Random Fiel
+dOPT: Differentiating Conic Optimization via Geometric Reduction
+Probabilistic Constraint Logic Programming. Formal Foundations of Quantitative a
+Annealed Training for Combinatorial Optimization on Graphs
+DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characteriz
+Sharp Structure-Agnostic Lower Bounds for General Linear Functional Estimation
+High Dimensional Inference with Random Maximum A-Posteriori Perturbations
+Half-quadratic transportation problems
+Distributed Estimation and Inference for Semi-parametric Binary Response Models
+On the Latent Variable Interpretation in Sum-Product Networks
+Maximum Optimality Margin: A Unified Approach for Contextual Linear Programming 
+A Logical Approach to Efficient Max-SAT solving
+Speeding Up Mixed-Integer Programming Solvers with Sparse Learning for Branching
+You Shall Pass: Dealing with the Zero-Gradient Problem in Predict and Optimize f
+Learning Determinantal Point Processes in Sublinear Time
+Learning with Combinatorial Optimization Layers: a Probabilistic Approach
+A Compositional Approach to Network Algorithms
+Finding Structure and Causality in Linear Programs
+Recurrent State Encoders for Efficient Neural Combinatorial Optimization
+Efficient Optimization for Sparse Gaussian Process Regression
+Learning the intensity of time events with change-points
+Learning from networked examples
+Pre-Training Estimators for Structural Models: Application to Consumer Search
+Automatic Debiased Machine Learning for Smooth Functionals of Nonparametric M-Es
+Some Inapproximability Results of MAP Inference and Exponentiated Determinantal 
+Markov Equivalence and Consistency in Differentiable Structure Learning
+Exact Combinatorial Optimization with Graph Convolutional Neural Networks
+New Linear-time Algorithm for SubTree Kernel Computation based on Root-Weighted 
+Efficient Decoder Scaling Strategy for Neural Routing Solvers
+A Minimalistic Approach to Sum-Product Network Learning for Real Applications
+Computing a partition function of a generalized pattern-based energy over a semi
+Learning Augmented Exact Exponential Algorithms
+Necessary and Sufficient Conditions for Optimal Decision Trees using Dynamic Pro
+Structure As Search: Unsupervised Permutation Learning for Combinatorial Optimiz
+The Perils of Learning Before Optimizing
+Jacobian Rank Collapse in Decision-Focused Learning
+Connected by Construction: Learning Tractable Near-Tour Marginals for Traveling 
+Differentiable Convex Optimization Layers
+A Time and Space Efficient Junction Tree Architecture
+Prequential MDL for Causal Structure Learning with Neural Networks
+A fast algorithm to minimize prediction loss of the optimal solution in inverse 
+A new Sinkhorn algorithm with Deletion and Insertion operations
+Non-Euclidean dual gradient ascent for entropically regularized linear and semid
+BUILD with Precision: Bottom-Up Inference of Linear DAGs
+PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belie
+Differentiating Through Integer Linear Programs with Quadratic Regularization an
+Reified Context Models
+Online Decision-Focused Learning
+Selective Inference and Learning Mixed Graphical Models
+Learning Joint Models of Prediction and Optimization
+Learning Planar Ising Models
+Learning-Based Hierarchical Approach for Fast Mixed-Integer Optimization
+Leaving the Nest: Going Beyond Local Loss Functions for Predict-Then-Optimize
+Decision-Dependent Risk Minimization in Geometrically Decaying Dynamic Environme
+Structure Learning Using Forced Pruning
+PyEPO: A PyTorch-based End-to-End Predict-then-Optimize Library for Linear and I
+Relational Marginal Problems: Theory and Estimation
+Parsimonious Inference
+Algorithm Runtime Prediction: Methods & Evaluation
+Max-linear models on directed acyclic graphs
+Learning Weighted Finite Automata over the Max-Plus Semiring and its Termination
+NGO-GM: Natural Gradient Optimization for Graphical Models
+Ecole: A Library for Learning Inside MILP Solvers
+Adversarially-learned Inference via an Ensemble of Discrete Undirected Graphical
+Inverse optimization problems with multiple weight functions
+Gradient boosting for convex cone predict and optimize problems
+Deep Declarative Networks: A New Hope
+Inverse Optimization Without Inverse Optimization: Direct Solution Prediction wi
+Learning from Rational Behavior: Predicting Solutions to Unknown Linear Programs
+The complexity of finite-valued CSPs
+Computationally Efficient Wasserstein Loss for Structured Labels
+Scaling Up Bayesian DAG Sampling
+The Complexity of Bayesian Network Learning: Revisiting the Superstructure
+Herded Gibbs Sampling
+Exact Asymptotics for Learning Tree-Structured Graphical Models with Side Inform
+Reconsidering Dependency Networks from an Information Geometry Perspective
+Dynamic Programming Optimization over Random Data: the Scaling Exponent for Near
+Path-dependent Discrete Amortized Inference
+Fibonacci-Driven Recursive Ensembles: Algorithms, Convergence, and Learning Dyna
+Parametrized Stochastic Grammars for RNA Secondary Structure Prediction
+Tree-Preconditioned Differentiable Optimization and Axioms as Layers
+CG4AI: A Column Generation Framework for Training AI Models Under Constraints
+Difference of Convex Programming in the Wasserstein Space with Applications to M
+An Improved Deterministic Rescaling for Linear Programming Algorithms
+Learning Ising Models with Independent Failures
+Prediction Loss Guided Decision-Focused Learning
+Temporal-Difference Networks
+Exact Regular-Constrained Variable-Order Markov Generation via Sparse Context-St
+FAQ: Questions Asked Frequently
+Learning Predictions for Algorithms with Predictions
+BandMaxSAT: A Local Search MaxSAT Solver with Multi-armed Bandit
+Efficient Learning of Bounded-Treewidth Bayesian Networks from Complete and Inco
+Polynomial-time algorithms for Multimarginal Optimal Transport problems with str
+Structure Learning of Contextual Markov Networks using Marginal Pseudo-likelihoo
+Scaling Structured Inference with Randomization
+Ecole: A Gym-like Library for Machine Learning in Combinatorial Optimization Sol
+Ising Models with Latent Conditional Gaussian Variables
+A Note on Task-Aware Loss via Reweighing Prediction Loss by Decision-Regret
+Learning Proximal Operators to Discover Multiple Optima
+Einsum Networks: Fast and Scalable Learning of Tractable Probabilistic Circuits
+Bayesian Optimization of Combinatorial Structures
+Identifiability and estimation of recursive max-linear models
+Learning-Augmented Algorithms for Boolean Satisfiability
+Risk Bounds and Calibration for a Smart Predict-then-Optimize Method
+A Differentiable Approach to Combinatorial Optimization using Dataless Neural Ne
+Solving Marginal MAP Exactly by Probabilistic Circuit Transformations
+Backpropagation through Combinatorial Algorithms: Identity with Projection Works
+Factorization, Inference and Parameter Learning in Discrete AMP Chain Graphs
+Optimal Training of Fair Predictive Models
+Polynomial Time Learning-Augmented Algorithms for NP-hard Permutation Problems
+Parsimonious Learning-Augmented Online Metric Matching
+Learning from Survey Propagation: a Neural Network for MAX-E-$3$-SAT
+A Loss-Function for Causal Machine-Learning
+Efficient Search-Based Weighted Model Integration
+Residual-Controlled Douglas--Rachford Splitting for Differentiable Solver Layers
+Approximate Inference in Structured Instances with Noisy Categorical Observation
+Gradient-Flow Optimization as Dynamic Random-Effects Inference: Testing and Earl
+Complex Markov Logic Networks: Expressivity and Liftability
+Graph-based algorithms for the efficient solution of a class of optimization pro
+Structure Learning for Directed Trees
+Quadratic Direct Forecast for Training Multi-Step Time-Series Forecast Models
+Prefix Parsing is Just Parsing
+Proper local scoring rules on discrete sample spaces
+Two-Stage Predict+Optimize for Mixed Integer Linear Programs with Unknown Parame
+Learning Weighted Automata over Principal Ideal Domains
+Reconsidering Dependency Networks from an Information Geometry Perspective
+Unsupervised Diffusion Solver for Combinatorial Optimization via Combinatorial A
+Structure Learning of Markov Random Fields through Grow-Shrink Maximum Pseudolik
+Robust Learning of Fixed-Structure Bayesian Networks in Nearly-Linear Time
+TACTiS-2: Better, Faster, Simpler Attentional Copulas for Multivariate Time Seri
+Robust Learning of Fixed-Structure Bayesian Networks
+Genetic Algorithm for the Weight Maximization Problem on Weighted Automata
+Consistent Second-Order Conic Integer Programming for Learning Bayesian Networks
+Regularization for Multiple Kernel Learning via Sum-Product Networks
+Positivity in Linear Gaussian Structural Equation Models
+Scalable Approximate Algorithms for Optimal Transport Linear Models
+Decision-Oriented Learning with Differentiable Submodular Maximization for Vehic
+Learning Sparse Nonparametric DAGs
+Provably Efficient Neural Estimation of Structural Equation Model: An Adversaria
+Scalable Probabilistic Routes
+Boosting Method in Approximately Solving Linear Programming with Fast Online Alg
+Learning by stochastic serializations
+RockIt: Exploiting Parallelism and Symmetry for MAP Inference in Statistical Rel
+Constraint Optimization over Semirings
+Variational Inference for Logical Inference
+Learning noisy-OR Bayesian Networks with Max-Product Belief Propagation
+A Logic-based Approach to Generatively Defined Discriminative Modeling
+Decision-Focused Forecasting: Decision Losses for Multistage Optimisation
+Learning to Solve Combinatorial Optimization under Positive Linear Constraints v
+Probabilistic Label Relation Graphs with Ising Models
+Managing sparsity, time, and quality of inference in topic models
+Learning structured approximations of operations research problems
+Decision-Focused Learning to Predict Action Costs for Planning
+CASP: Learning-Augmented Offline Approximation with Verifiable Certificates and 
+Distribution Learning Meets Graph Structure Sampling
+Probable convexity and its application to Correlated Topic Models
+Tight Efficiency Guarantees for Strategyproof Linear Regression
+On the trade-off between complexity and correlation decay in structural learning
+Self-Supervised Combinatorial Optimization with Constraints via Frank-Wolfe
+Robust optimization with incremental recourse
+Efficient and Reliable Probabilistic Interactive Learning with Structured Output
+DASC: a Decomposition Algorithm for multistage stochastic programs with Strongly
+A Reduction of Imitation Learning and Structured Prediction to No-Regret Online 
+Learning-Augmented Streaming Algorithms for Approximating MAX-CUT
+From Inverse Optimization to Feasibility to ERM
+Minimax Semiparametric Learning With Approximate Sparsity
+Size Generalization for Diffusion Routing Solvers
+Efficiently learning Ising models on arbitrary graphs
+Solving Recurrent MIPs with Semi-supervised Graph Neural Networks
+Optimization with Trained Machine Learning Models Embedded
+Coordinate Methods for Accelerating $\ell_\infty$ Regression and Faster Approxim
+Scalable Learning and MAP Inference for Nonsymmetric Determinantal Point Process
+Causal Label Recovery in Payment Networks
+On Training Survival Models with Scoring Rules
+Decision-Focused Learning: Foundations, State of the Art, Benchmark and Future O
+Cold-Start Reinforcement Learning with Softmax Policy Gradient
+Structure Learning and Parameter Estimation for Graphical Models via Penalized M
+Inexact Column Generation for Bayesian Network Structure Learning via Difference
+Neural Certificate Pricing for Combinatorial Optimization Problems
+Efficient parallel implementation of the multiplicative weight update method for
+Differentiable DAG Sampling
+Convex Network Flows
+Learning to Deliver: a Foundation Model for the Montreal Capacitated Vehicle Rou
+On Learning Paradigms for the Travelling Salesman Problem
+Bayesian Network Structure Learning with Integer Programming: Polytopes, Facets,
+$\ell_0$-penalized maximum likelihood for sparse directed acyclic graphs
+Incremental Approximate Single-Source Shortest Paths with Predictions
+The Logistic Network Lasso
+Learning Mixed Graphical Models
+Learning with Confidence
+Lazy and Fast Greedy MAP Inference for Determinantal Point Process
+Efficient PAC Reinforcement Learning in Regular Decision Processes
+Scaling Decision-Focused Learning to Large Problems with Lagrangian Decompositio
+Scalable Structure Learning of Continuous-Time Bayesian Networks from Incomplete
+PSD Representations for Effective Probability Models
+Dual Filter: A Transformer-like Inference Architecture for Hidden Markov Models
+On the Role of Sparsity and DAG Constraints for Learning Linear DAGs
+Maximum Likelihood Reinforcement Learning
+Algorithms with Prediction Portfolios
+D3TW: Discriminative Differentiable Dynamic Time Warping for Weakly Supervised A
+Learning Data Dependency with Communication Cost
+DAGs with No Curl: An Efficient DAG Structure Learning Approach
+Recurrent Sum-Product-Max Networks for Decision Making in Perfectly-Observed Env
+Learning Deterministic Surrogates for Robust Convex QCQPs
+Online Stochastic Packing Applied to Display Ad Allocation
+Decision-Weighted Flow Matching for Contextual Stochastic Optimization
+Scalable Decision Focused Learning via Online Trainable Surrogates
+SISTA: learning optimal transport costs under sparsity constraints
+Divide and Learn: A Divide and Conquer Approach for Predict+Optimize
+Learning to Predict Independent of Span
+Learning optimization models in the presence of unknown relations
+Online MAP Inference and Learning for Nonsymmetric Determinantal Point Processes
+Generalization Bounds of Surrogate Policies for Combinatorial Optimization Probl
+Dynamic Programming in Rank Space: Scaling Structured Inference with Low-Rank HM
+On the Convergence of Continuous Constrained Optimization for Structure Learning
+Low Rank Forecasting
+Tensors over Semirings for Latent-Variable Weighted Logic Programs
+Contrastive Losses and Solution Caching for Predict-and-Optimize
+From Sequential to Recursive: Enhancing Decision-Focused Learning with Bidirecti
+Efficient Localized Inference for Large Graphical Models
+Neural Learning of One-of-Many Solutions for Combinatorial Problems in Structure
+A Simple and General Debiased Machine Learning Theorem with Finite Sample Guaran
+Learning to Sample from Censored Markov Random Fields
+Efficient Learning of Sparse Invariant Representations
+Approximate Homomorphisms and Convergent Representations in Transducers
+Nonlinear Optimization over a Weighted Independence System
+Structured Differentiable Optimization for Efficient Decision-focused Learning i
+Bayesian Structure Learning for Markov Random Fields with a Spike and Slab Prior
+Explicit Iteration Complexity of Exact Data-Driven Inverse Optimization for Inte
+MathOptAI.jl: Embed trained machine learning predictors into JuMP models
+Landscape Surrogate: Learning Decision Losses for Mathematical Optimization Unde
+Sparse Probabilistic Circuits via Pruning and Growing
+The Parameterized Complexity of Learning Monadic Second-Order Logic
+Gumbel-softmax Optimization: A Simple General Framework for Combinatorial Optimi
+Probabilistic Duality for Parallel Gibbs Sampling without Graph Coloring
+End-to-end Conditional Robust Optimization
+Rapidly Mixing Gibbs Sampling for a Class of Factor Graphs Using Hierarchy Width
+A Theory of Machine Learning
+Deeply AggreVaTeD: Differentiable Imitation Learning for Sequential Prediction
+Integrated Learning and Robust Optimization
+Measuring Learned Monotone Temporal Aggregation at Matched Admissibility
+Decision-Focused Learning in Network Interdiction Games
+A new structure exploiting derivation of recursive direct weight optimization
+A Boosting Approach to Reinforcement Learning
+Restructuring Tractable Probabilistic Circuits
+Decision-Focused Learning without Differentiable Optimization: Learning Locally 
+Max-affine estimators for convex stochastic programming
+Branch & Learn with Post-hoc Correction for Predict+Optimize with Unknown Parame
+Non-negative Weighted DAG Structure Learning
+DPMS: An ADD-Based Symbolic Approach for Generalized MaxSAT Solving
+Hypertree Decompositions Revisited for PGMs
+Structure Learning for Relational Logistic Regression: An Ensemble Approach
+Approximate Inference via Weighted Rademacher Complexity
+Learning Gaussian Graphical Models with Observed or Latent FVSs
+Efficient Learning of Survival Analysis Models Under Outcome-Dependent Truncatio
+VLM Fine-Tuning for End-to-End Combinatorial Optimization
+Contextual Directed Acyclic Graphs
+Learning DAGs without imposing acyclicity
+Feasability of Learning Weighted Automata on a Semiring
+Semiparametric Efficiency Theory as Differential Calculus on a Space of Probabil
+Dynamic Sampling from Graphical Models
+Branch & Learn for Recursively and Iteratively Solvable Problems in Predict+Opti
+The Gradient of Algebraic Model Counting
+Scaling Optimization Over Uncertainty via Compilation
+Structured Learning Modulo Theories
+Flows, Scaling, and Entropy Revisited: a Unified Perspective via Optimizing Join
+Structure learning of antiferromagnetic Ising models
+Predictions as statements and decisions
+Learning Early-to-Final Solution Consistency for MILP Acceleration
+Pretrained Cost Model for Distributed Constraint Optimization Problems
+Algorithms for Weighted Pushdown Automata
+Statistical Estimation from Dependent Data
+Sum-Product Graphical Models
+Inferring large graphs using l1-penalized likelihood
+Learning in Inverse Optimization: Incenter Cost, Augmented Suboptimality Loss, a
+Learning definable hypotheses on trees
+A General Weighting Theory for Ensemble Learning: Beyond Variance Reduction via 
+Prediction with eventual almost sure guarantees
+Deep Inverse Optimization
+Optimal Stopping with a Predicted Prior
+Self-Supervised Learning of Iterative Solvers for Constrained Optimization
+On the Relationship Between Probabilistic Circuits and Determinantal Point Proce
+Feasibility-Aware Decision-Focused Learning for Predicting Parameters in the Con
+Accelerating Exact and Approximate Inference for (Distributed) Discrete Optimiza
+Near-Optimal Solutions of Constrained Learning Problems
+Revisiting Maximum Entropy Inverse Reinforcement Learning: New Perspectives and 
+Learning of Structurally Unambiguous Probabilistic Grammars
+Exploiting Non-Negativity in DAG Structure Learning
+Tailoring Strictly Proper Scoring Rules for Downstream Tasks: An Application to 
+An Almost-Linear-Time Algorithm for Approximate Max Flow in Undirected Graphs, a
+SurCo: Learning Linear Surrogates For Combinatorial Nonlinear Optimization Probl
+Sample-Efficient L0-L2 Constrained Structure Learning of Sparse Ising Models
+Sum-Product-Set Networks: Deep Tractable Models for Tree-Structured Graphs
+SPFlow: An Easy and Extensible Library for Deep Probabilistic Learning using Sum
+Hypertree Decompositions Revisited for PGMs
+Learning-Augmented Algorithms for Online Vertex Cover
+Piecewise Linear Valued CSPs Solvable by Linear Programming Relaxation
+Variational Pseudolikelihood for Regularized Ising Inference
+An Efficient Unsupervised Framework for Convex Quadratic Programs via Deep Unrol
+Structural Return Maximization for Reinforcement Learning
+Imperfect Is Perfect: Learned Column Prefilling for Branch-Price-and-Cut
+Learning Markov networks with context-specific independences
+Predict+Optimize for Packing and Covering LPs with Unknown Parameters in Constra
+Dual Interior-Point Optimization Learning
+Bayesian Learning of Sum-Product Networks
+Spectral Learning for Supervised Topic Models
+Practical Learning of Predictive State Representations
+Practical Large-Scale Linear Programming using Primal-Dual Hybrid Gradient
+Exploiting Problem Structure in Deep Declarative Networks: Two Case Studies
+Top-Down Bayesian Posterior Sampling for Sum-Product Networks
+MAP Inference for Probabilistic Logic Programming
+Markov risk mappings and risk-sensitive optimal prediction
+Functional Graphical Models: Structure Enables Offline Data-Driven Optimization
+Pareto-Optimal Learning-Augmented Algorithms for Online Conversion Problems
+Learning AMP Chain Graphs under Faithfulness
+Scalable computation of dynamic flow problems via multi-marginal graph-structure
+A Framework for Directed Acyclic Hypergraph Learning
+Learning to Solve Inverse Problems for Perceptual Sound Matching
+Improved linear programming methods for checking avoiding sure loss
+Learning MAX-SAT from Contextual Examples for Combinatorial Optimisation
+Inverse Reinforcement Learning with Unknown Reward Model based on Structural Ris
+Learning Bayesian Networks with Incomplete Data by Augmentation
+Online Structure Learning for Sum-Product Networks with Gaussian Leaves
+PDHG-Unrolled Learning-to-Optimize Method for Large-Scale Linear Programming
+Weight Learning in a Probabilistic Extension of Answer Set Programs
+The problem with probabilistic DAG automata for semantic graphs
+Optimal transport based theory for latent structured models
+Incremental Monoidal Grammars
+Dynamic inference in probabilistic graphical models
+Inference for Probabilistic Dependency Graphs
+Sobolev Training of End-to-End Optimization Proxies
+Scalable Deep Unfolding of Conic Optimizers
+Estimation of Graphical Models through Structured Norm Minimization
+Super-Reparametrizations of Weighted CSPs: Properties and Optimization Perspecti
+AL-CoLe: Augmented Lagrangian for Constrained Learning
+Learning performance in inverse Ising problems with sparse teacher couplings
+Structural Learning of Probabilistic Sentential Decision Diagrams under Partial 
+Highly Efficient Structural Learning of Sparse Staged Trees
+Linear Models of Computation and Program Learning
+Parameter Learning in PRISM Programs with Continuous Random Variables
+DAG DECORation: Continuous Optimization for Structure Learning under Hidden Conf
+Smart Predict-and-Optimize for Hard Combinatorial Optimization Problems
+Active Learning amidst Logical Knowledge
+Self-Supervised Primal-Dual Learning for Constrained Optimization
+Fast-PGM: Fast Probabilistic Graphical Model Learning and Inference
+Inverse Mixed-Integer Programming: Learning Constraints then Objective Functions
+Sinkhorn Linearization and the Spectral Proxy: Unifying the Statistical and Algo
+Structure Learning of Probabilistic Logic Programs by Searching the Clause Space
+POMO: Policy Optimization with Multiple Optima for Reinforcement Learning
+Learning to Match via Inverse Optimal Transport
+Machine Learning for Combinatorial Optimisation of Partially-Specified Problems:
+Learning with Semi-Definite Programming: new statistical bounds based on fixed p
+When is Network Lasso Accurate: The Vector Case
+Learning Graph Weighted Models on Pictures
+Scaling Inference for Markov Logic with a Task-Decomposition Approach
+Learning Networked Exponential Families with Network Lasso
+Beyond entropic regularization: Debiased Gaussian estimators for discrete optima
+Non-negative DAG Learning from Time-Series Data
+On efficiency gains via augmenting a tiny sample with a massive auxiliary sample
+Differentiable RNA Secondary Structure Extraction for Deep Learning
+Safe Semi-Supervised Learning of Sum-Product Networks
+How to learn a graph from smooth signals
+One-step ahead sequential Super Learning from short times series of many slightl
+Multi-marginal optimal transport and probabilistic graphical models
+Avoiding Premature Collapse: Adaptive Annealing for Entropy-Regularized Structur
+DAG Learning from Zero-Inflated Count Data Using Continuous Optimization
+Dynamic Prediction Length for Time Series with Sequence to Sequence Networks
+Semiring Programming: A Declarative Framework for Generalized Sum Product Proble
+Weighted Score-Oriented Losses for Temporally Localized Event Prediction
+Solving Max-Cut to Global Optimality via Feasibility-Preserving Graph Neural Net
+Smoothing Structured Decomposable Circuits
+Only Project Once: Projection-Adaptive Loss for Exact Constraint Satisfaction
+Axiomatic Learning and Probabilistic Structures with first applications to varia
+End-to-End Constrained Optimization Learning: A Survey
+Delta-AI: Local objectives for amortized inference in sparse graphical models
+See the Tree Through the Lines: The Shazoo Algorithm -- Full Version --
+Conditional Sum-Product Networks: Imposing Structure on Deep Probabilistic Archi
+SHSP: Structure-Aware Hierarchical Solution Prediction for Mixed-Integer Linear 
+Learnable and Instance-Robust Predictions for Online Matching, Flows and Load Ba
+WeCon: An Efficient Weight-Conditioned Neural Solver for Multi-Objective Combina
+The Primal-Dual method for Learning Augmented Algorithms
+Augment with Care: Contrastive Learning for Combinatorial Problems
+Enforcing tail calibration when training probabilistic forecast models
+Enhancing Local Search for MaxSAT with Deep Differentiation Clause Weighting
+Calibeating Prediction-Powered Inference
+DuaLip-GPU Technical Report
+Network Learning with Directional Sign Patterns
+Constraint Learning by Optimizing over Trained Neural Networks: A Pragmatic Tuto
+Just Weather Scoring: Efficient End-to-end Nowcasting with Distributional Diffus
+Link Prediction: A Graphical Model Approach
+Sufficient Decision Proxies for Decision-Focused Learning
+Sandwich Boosting for Accurate Estimation in Partially Linear Models for Grouped
+Faithful Inversion of Generative Models for Effective Amortized Inference
+A Simple Learning-Augmented Algorithm for Online Packing with Concave Objectives
+Embedding Foundation Model Predictions in Discrete-Choice Models with Structural
+Relational Linear Programs
+Structured Optimal Transport
+Learning to Solve Vehicle Routing Problems with Time Windows through Joint Atten
+dynPARTIX - A Dynamic Programming Reasoner for Abstract Argumentation
+Learned Pairwise Deep Dual-Optimal Inequalities for Stabilizing Column Generatio
+Solving Hypergraph Laplacian Systems in Almost-Linear Time
+Prediction-Specific Design of Learning-Augmented Algorithms
+Amortized Inference for Causal Structure Learning
+Automatic doubly robust inference for linear functionals via calibrated debiased
+Smart Surrogate Losses for Contextual Stochastic Linear Optimization with Robust
+Learning-Augmented Algorithms for Online Concave Packing and Convex Covering Pro
+Scalable Structure Learning for Probabilistic Soft Logic
+A Surrogate Objective Framework for Prediction+Optimization with Soft Constraint
+Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcas
+Outcome Assumptions and Duality Theory for Balancing Weights
+Learning to Solve Weighted Maximum Satisfiability with a Co-Training Architectur
+Tractable Uncertainty for Structure Learning
+Hinge-Loss Markov Random Fields and Probabilistic Soft Logic
+Inverse Optimization via Learning Feasible Regions
+Learning efficient representations of complex constraints for scalable optimizat
+Learning-Augmented Algorithms for Online Linear and Semidefinite Programming
+On Constraint Definability in Tractable Probabilistic Models
+A multi-scale loss formulation for learning a probabilistic model with proper sc
+Probabilistic Deep Learning using Random Sum-Product Networks
+Numerical Considerations in Weighted Model Counting
+Learning Weak Constraints in Answer Set Programming
+Fast and Simple Densest Subgraph with Predictions
+SimPO: Simultaneous Prediction and Optimization
+Verifiable Rewards for Calibrated Probabilistic Forecasting
+Weighted Maximum Entropy Inverse Reinforcement Learning
+Hardness of Learning Regular Languages in the Next Symbol Prediction Setting
+Differentiable and Transportable Structure Learning
+Incremental Strongly Connected Components with Predictions
+Submodular Framework for Structured-Sparse Optimal Transport
+Optimization Learning
+Proper Scoring Rules and Domination
+Learning to Reason: Leveraging Neural Networks for Approximate DNF Counting
+Inference and learning in probabilistic logic programs using weighted Boolean fo
+Enforcing and Discovering Structure in Machine Learning
+Self-Supervised Penalty-Based Learning for Robust Constrained Optimization
+Online Graph Coloring with Predictions
+Consistency-Robustness Tradeoffs for Online Bipartite Allocation with Multiple S
+Ensemble Learning with Statistical and Structural Models
+Learning Graph-Structured Sum-Product Networks for Probabilistic Semantic Maps
+Augmented balancing weights as linear regression
+Scaling up Hybrid Probabilistic Inference with Logical and Arithmetic Constraint
+Learning-Augmented Dynamic Submodular Maximization
+Future-as-Label: Scalable Supervision from Real-World Outcomes
+Scaling up Probabilistic Inference in Linear and Non-Linear Hybrid Domains by Le
+Bayesian Predictive Synthesis for Dynamic Networks: Forecasting and Identifying 
+Weighted Rules under the Stable Model Semantics
+Nearly Optimal Bayesian Inference for Structural Missingness
+Greedy structure learning from data that contain systematic missing values
+E-LSTM-D: A Deep Learning Framework for Dynamic Network Link Prediction
+Question Answering via Integer Programming over Semi-Structured Knowledge
+SMT-based Weighted Model Integration with Structure Awareness
+SSPO: Structure-Aware Similarity-Weighted Preference Optimization for Neural Com
+Efficient Inference and Learning in a Large Knowledge Base: Reasoning with Extra
+Inference, Learning, and Population Size: Projectivity for SRL Models
+Learning Concepts Described by Weight Aggregation Logic
+Deep Probabilistic Logic: A Unifying Framework for Indirect Supervision
+1. Methodologies for Automatic Checking of Satisfiability of CHC Systems for Proving Timing Sensitive Non-Interference of Arbitarary Programs
+2. Real Time Face Detection System for Embedded Devices
+3. formal ISA specification (Sail) lifted for binary verification of RISC-V machine code
+4. information flow policies for TEE security monitors, dynamic intransitive noninterference
+5. propagating DINI policies through program code to derive the resulting policy
+6. combining invariant inference and bug finding for hyperproperties and relational verification
+7. generating per-instruction semantics from ISA specifications, cross-checked by testing
+8. accelerating bounded model checking and symbolic execution for bug finding: loop acceleration and summarization, state merging, solver query optimization, applied to binary code and relational two-copy checks
+9. accelerating bounded model checking and symbolic execution for bug finding: loop acceleration and summarization, state merging, solver query optimization, applied to binary code and relational two-copy checks
+10. Indexing in distributed graph database
+11. Finding Images by meaning in a large scale general purpose database
+12. certifying the results of automated verifiers: proof certificates and witnesses checked by small trusted checkers, translation validation of verification condition generation, and verified checkers for model checking and SMT results
+13. when to inline and when to summarise in modular verification with Horn clause solvers: procedure summaries inferred by the solver versus fixed interfaces, stratified or lazy inlining, relational summaries for two-copy product programs, and keeping learned lemmas across solver calls
+14. aligning the two executions in relational verification of timing-sensitive noninterference and constant-time: lockstep by a shared clock or step counter, product programs that allow divergent paths of equal duration, and how the choice of alignment affects proofs in self-composition
+15. validating symbolic execution traces of instruction set architecture semantics (Sail, Isla) against the authoritative ISA specification, translation validation and certificates for ISA-level tools, configuring and versioning formal ISA models such as RISC-V
+16. derive per-instruction semantics from a formal ISA specification (Sail, L3, ASL) with machine-checked proofs of correctness, for verifying security properties of privileged machine code and isolation of unprivileged code
+17. Statistical methods for Credibility Driven Microarchitectural Simulation for Processor Hardware
+18. Declarative Functional Instruction Set Architecture Specification Language for Verification and Emulation of Computer Architecture and Microarchitecture
+19. measuring progress of a proof or model-checking engine (IC3/PDR, CHC solving, SAT/SMT search) toward a verdict before it finishes, sound partial results and estimates of remaining work
+20. scheduling a portfolio of stateful solvers or verification engines that pay off late, time slicing, algorithm selection with improving (rising) rewards, cooperative verification
+21. Microarchitectural Certificate Generation for RISC-V Hardware
+22. Machine instruction cache for hardware simulation with minimal redundancy
+23. data structures that store program fragments such as basic blocks, symbolic instruction semantics and summaries once and share them across many control-flow graphs and analysis runs: hash-consing, content-addressed caches, incremental and demand-driven computation, memoized symbolic execution, with concurrent compute-once access
+24. verifying that a security monitor or separation kernel running on several CPU cores is secure by checking each core alone: conditions under which single-core noninterference proofs compose to multicore, including shared state, locks, cross-core interference and timing channels
+25. when a block of code in a concurrent program can be treated as atomic and sequential reasoning stays valid: reduction and mover theorems (Lipton), atomicity checking, and when sequential information-flow or noninterference proofs remain sound under interference from concurrent threads, including timing-sensitive security of multithreaded programs
+26. cross-core microarchitectural timing channels between CPU cores through shared last-level cache, memory bus, interconnect, coherence and DRAM controller, and defenses for enclaves, security monitors and separation kernels: cache partitioning, page colouring, co-scheduling, time protection, and hardware-software leakage contracts for multicore
+27. information flow security of a verified security monitor, hypervisor or separation kernel on a multiprocessor, where domains observe each other only through the monitor's calls: concurrent calls, locks and try-locks, reduction and atomicity, and whether refinement or abstraction preserves noninterference
+28. inferring the command interface of a closed binary handler (firmware, hypervisor, kernel driver, trusted OS) from its code by symbolic or dynamic analysis: identifying which input field selects the command at the dispatcher, recovering the set of commands and their handlers without source or symbols, and deriving per-command preconditions or an interface automaton over call sequences
+29. fast instruction set simulation from a formal ISA specification at near-native speed (dynamic binary translation, JIT, partial evaluation), combined with tracking which state is undetermined or tainted and switching to symbolic execution when needed
+30. define what one call into a privileged security monitor or kernel is, as the unit of a noninterference or information-flow proof, at the machine level without source functions: actions, trap handling transitions, big-step actions, system call identification, interface state machines
+31. balancing a learned evaluation network against search depth, as in Stockfish NNUE and AlphaZero, for perfect play in single-player grid puzzles with random spawns such as Snake
+32. map matching of noisy GPS trajectories onto a given road network graph, recovering the exact sequence of road segments driven
+33. tracking a vehicle on a road network with a motion model of its position and speed along the roads, constrained to the road graph, from noisy GPS positions
+34. learning the weights of a linear scoring function for an exact dynamic-programming structured predictor (Viterbi, shortest path) so that its decoded output minimises a task loss, with guarantees and fast training

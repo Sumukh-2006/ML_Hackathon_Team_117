@@ -1,0 +1,19 @@
+{
+  "setting": "exact_woeltche_terms",
+  "weights": {
+    "distance": 0.6881425964710159,
+    "last_distance": 3.7415444224047354,
+    "length": 1.0523836938437587,
+    "heading": 0.5485983365623868,
+    "turn": 0.5,
+    "turning": 0.5682461193299718,
+    "cover_fix": 0.0,
+    "cover_route": 0.0,
+    "speed": 0.0,
+    "too_fast": 0.0,
+    "turn_force": 0.0,
+    "skip": 833.6820972911664,
+    "first_distance": 2.4000000000000004,
+    "restart_distance": 0.08000000000000002
+  }
+}
