@@ -76,6 +76,9 @@ uv sync
 The corpus is **not in this repository**: it is about 300 MB and it is course material.
 `data/*` is gitignored except `data/hand_labels/`.
 
+[`docs/dataset_analysis.pdf`](docs/dataset_analysis.pdf) is a three page summary of the
+corpus: what one folder holds, how many fixes and arcs there are, and where the drives are.
+
 A corpus root is a directory whose immediate children are split folders, and each split
 folder holds one folder per trip:
 
@@ -121,7 +124,7 @@ metadata ship in `data/hand_labels/`.
 | `web/` | Demo pages: `minimal.py` (streaming) and `app.py` (proxy and upload) |
 | `tests/` | Test suite |
 | `results/` | Measured parameters, predicted routes, benchmark tables, approach 5 record |
-| `docs/` | `api.md` (the HTTP contract) and the derivation notes |
+| `docs/` | `api.md` (the HTTP contract), `dataset_analysis.pdf` (the corpus in three pages) and the derivation notes |
 | `data/` | Corpus and hand labels, not committed |
 
 ---
