@@ -36,12 +36,15 @@ j('corpus').then(c => { C = c; folder.innerHTML = c.map((r, i) => `<option value
 j('models').then(ms => model.innerHTML = ms.filter(m => m.available).map(m => `<option>${m.id}`).join(''));
 async function go() {
   const c = C[folder.value], m = model.value, {fixes} = await j(`corpus/${c.split}/${c.id}/track`);
-  drawn.clearLayers(); map.fitBounds(L.polyline(fixes.map(([x, y]) => [y, x]), {color: '#999'}).addTo(drawn).getBounds());
+  drawn.clearLayers(); L.polyline(fixes.map(([x, y]) => [y, x]), {color: '#999'}).addTo(drawn);
+  const dot = L.circleMarker([fixes[0][1], fixes[0][0]], {radius: 6, color: 'black'}).addTo(drawn);
+  map.setView(dot.getLatLng(), 16);
   const s = await j('sessions', {map_id: c.map_id, models: [m], options: {truth: {corpus: {split: c.split, id: c.id}}}});
   let tail = L.layerGroup().addTo(drawn);
   for (let i = 0; i < fixes.length; i++) {           // one GPS fix per request
     const u = (await j(`sessions/${s.session_id}/fixes`, {seq: i, fixes: [fixes[i]]})).updates[m];
     out.textContent = `fix ${i + 1}/${fixes.length}`;
+    dot.setLatLng([fixes[i][1], fixes[i][0]]); map.panTo(dot.getLatLng(), {animate: false});  // camera follows the fix
     if (u.kept === null) continue;                    // at-finish model: nothing until the end
     line(u.geometry.committed, {color: 'blue'}); tail.remove();
     tail = line(u.geometry.tentative, {color: 'blue', dashArray: '4'});
