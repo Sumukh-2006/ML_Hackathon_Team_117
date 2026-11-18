@@ -13,3 +13,9 @@ Thumbs.db
 /data/
 /*.zip
 /*.pdf
+
+# temporarily untracked (files stay on disk)
+/README.md
+/notes/
+/submissions/
+/study/
