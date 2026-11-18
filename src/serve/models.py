@@ -54,7 +54,7 @@ def version(model: str, results: Path, source: Path) -> str:
     """Hash of what decides the model's output: its measured parameters
     and its hyperparameters file. A new value invalidates old results."""
     digest = hashlib.sha256()
-    for path in [results / model / "parameters.json",
+    for path in [results / model / "parameters.json", results / model / "weights.json",
                  source / model / "hyperparameters.py"]:
         if path.exists():
             digest.update(path.read_bytes())
