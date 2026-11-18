@@ -22,3 +22,13 @@ results/learned/*
 *.pt
 *.npy
 results/serve/
+
+# Provided by the course, or generated locally: never commit these.
+/train/
+/student_test/
+/evaluator_test/
+/notes/
+/submissions/
+/study/
+/*.zip
+/*.pdf
