@@ -1,0 +1,5 @@
+matched 90 folders in results/mcm
+
+real	0m1.826s
+user	0m23.740s
+sys	0m0.988s

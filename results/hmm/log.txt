@@ -1,0 +1,5 @@
+sigma 8.32 m, beta 0.80 m; matched 90 folders in results/hmm
+
+real	0m12.705s
+user	1m42.723s
+sys	0m2.421s

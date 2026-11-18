@@ -1,0 +1,5 @@
+matched 90 folders in results/segment
+
+real	0m38.666s
+user	4m8.471s
+sys	0m2.286s

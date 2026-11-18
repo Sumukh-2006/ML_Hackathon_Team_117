@@ -1,0 +1,2144 @@
+[INFO ] Cleave is starting                                                                < 18/11/2026 10:21:06 >
+[INFO ] opening the databases in db                                                       < 18/11/2026 10:21:06 >
+[INFO ] hashing 175 files in data                                                         < 18/11/2026 10:21:06 >
+[INFO ] the data has not changed                                                          < 18/11/2026 10:21:06 >
+[WARN ] http://127.0.0.1:8095: io: Connection refused (os error 111)                      < 18/11/2026 10:21:06 >
+[INFO ] connected to Qwen3-Embedding-8B-Q8_0 at http://127.0.0.1:8096                     < 18/11/2026 10:21:06 >
+[INFO ] using NVIDIA GeForce RTX 5050 Laptop GPU                                          < 18/11/2026 10:21:06 >
+[INFO ] loading paper vectors                                                             < 18/11/2026 10:21:06 >
+[INFO ] loaded 1473820 paper vectors                                                      < 18/11/2026 10:21:13 >
+[INFO ] loading title candidates                                                          < 18/11/2026 10:21:13 >
+[INFO ] loaded 125540 title candidates                                                    < 18/11/2026 10:21:14 >
+[INFO ] Cleave is ready                                                                   < 18/11/2026 10:21:14 >
+goal: <text>       start a project: build a tree for a goal
+projects           every project so far
+open <number>      go back to a project, where you left it
+remove project <n> delete a project and everything typed in it
+blobs              the options on this screen
+dive <number>      go into an option
+back               go back up
+tree               everything below here
+ls                 the papers here, best fits first
+must <text>        keep papers about this, from here down
+must not <text>    drop papers about this, from here down
+prefer <text>      show papers about this first, from here down
+avoid <text>       show papers about this last, from here down
+                   add ? ! or !! for strength: must? must! must!! must not!
+                   a rule overrides the rules above it, unless bracketed:
+                   [must not!] <text> only adds on top of them
+filters            the rules in force here, this node's numbered
+remove filter <n>  remove one of this node's rules
+set papers <n>     cover size for the next goal
+quit               leave
+[INFO ] building a tree for: tracking a vehicle on a road network with a motion model of  < 18/11/2026 10:21:35 >
+        its position and speed along the roads, constrained to the road graph, from
+        noisy GPS positions
+[INFO ] 8000 papers, effective dimension 68.1                                             < 18/11/2026 10:21:41 >
+[INFO ] 128 final blobs                                                                   < 18/11/2026 10:21:43 >
+[INFO ] 10 options on top, 20 screens, message length -618320.3                           < 18/11/2026 10:22:04 >
+[INFO ] 15 screens without ladders                                                        < 18/11/2026 10:22:09 >
+tracking a vehicle on a road network with a motion model of its position and speed along the roads, constrained to the road graph, from noisy GPS positions [] {8000 papers} focus 0.01
+1. Dynamic Geospatial Networks [networks, routing, traffic] {1786 papers} focus 0.31
+2. Data sparsity and heterogeneity in trajectory prediction tasks [prediction, trajectory, forecasting] {1169 papers} focus 0.44
+3. Bayesian estimation with particle filters [filtering, tracking, filter] {1150 papers} focus 0.39
+4. Optimization-based Motion Planning [planning, motion, autonomous] {802 papers} focus 0.42
+5. Integration of Generative Models in CAVs [traffic, map, road] {749 papers} focus 0.32
+6. Robustness Analysis against Localization Error [localization, positioning, navigation] {746 papers} focus 0.40
+7. Reproducible Research in Active SLAM [slam, odometry, visual] {713 papers} focus 0.42
+8. Sensor Fusion Based MOT [tracking, multi-object, object] {455 papers} focus 0.55
+9. Radar Odometry and Machine Learning [navigation, radar, mapping] {279 papers} focus 0.38
+10. Information Fusion in LiDAR-Centric Occupancy [occupancy, perception, lidar] {151 papers} focus 0.42
+Bayesian estimation with particle filters [filtering, tracking, filter] {1150 papers} focus 0.39
+1. Object tracking sensor networks (OTSNs) [distributed, sensor, tracking] {315 papers} focus 0.29
+2. Dynamic State Estimation and Inference [inference, belief, propagation] {143 papers} focus 0.42
+3. The non-linear Gaussian filtering approach [smoothing, state, estimation] {137 papers} focus 0.37
+4. Multiple Target Tracking [tracking, multi-bernoulli, filter] {133 papers} focus 0.48
+5. Error-State Kalman Filter [kalman, filter, filtering] {115 papers} focus 0.40
+6. Conditional particle filter [particle, filters, filter] {104 papers} focus 0.45
+7. VLMs for State Estimation and Localization [kalman, learning, filtering] {69 papers} focus 0.44
+8. Data Assimilation and Control [transport, optimal, nonlinear] {47 papers} focus 0.46
+9. Moving sources and deep tracking [cell, tracking, points] {41 papers} focus 0.51
+10. Object Tracking with Radar and Camera [object, tracking, extended] {36 papers} focus 0.46
+11. Results of Traffic Flow Parameter Estimation [parameter, parameters, time-varying] {10 papers} focus 0.56
+must!!: 549 dropped, 601 left here
+Bayesian estimation with particle filters [filtering, tracking, filter] {601 papers} focus 0.39
+1. Object tracking sensor networks (OTSNs) [distributed, sensor, tracking] {224 papers} focus 0.29
+2. Dynamic State Estimation and Inference [inference, belief, propagation] {14 papers} focus 0.42
+3. The non-linear Gaussian filtering approach [smoothing, state, estimation] {37 papers} focus 0.37
+4. Multiple Target Tracking [tracking, multi-bernoulli, filter] {125 papers} focus 0.48
+5. Error-State Kalman Filter [kalman, filter, filtering] {50 papers} focus 0.40
+6. Conditional particle filter [particle, filters, filter] {39 papers} focus 0.45
+7. VLMs for State Estimation and Localization [kalman, learning, filtering] {38 papers} focus 0.44
+8. Data Assimilation and Control [transport, optimal, nonlinear] {9 papers} focus 0.46
+9. Moving sources and deep tracking [cell, tracking, points] {24 papers} focus 0.51
+10. Object Tracking with Radar and Camera [object, tracking, extended] {35 papers} focus 0.46
+11. Results of Traffic Flow Parameter Estimation [parameter, parameters, time-varying] {6 papers} focus 0.56
+Robust Lane Tracking with Multi-mode Observation Model and Particle Filtering
+Joint Vehicle Tracking and RSU Selection for V2I Communications with Extended Ka
+Distributed Multi-Target Tracking for Autonomous Vehicle Fleets
+Multi-target particle filtering for the probability hypothesis density
+Obstructed Target Tracking in Urban Environments
+Multisensor Poisson Multi-Bernoulli Filter for Joint Target-Sensor State Trackin
+Trajectory probability hypothesis density filter
+Nonlinear filtering in target tracking using cooperative mobile sensors
+A Survey of Manoeuvring Target Tracking Methods
+Beyond Direct Sensing: Harnessing Indirect Observations from Third-Party Sensors
+Scaling the Kalman filter for large-scale traffic estimation
+Decentralized Poisson Multi-Bernoulli Filtering for Vehicle Tracking
+Target Tracking in Confined Environments with Uncertain Sensor Positions
+Tracking before detection using partial orders and optimization
+Multiple target tracking based on sets of trajectories
+Distributed Joint Sensor Registration and Multitarget Tracking Via Sensor Networ
+Moving object tracking employing rigid body motion on matrix Lie groups
+Feature Tracks are not Zero-Mean Gaussian
+Multi-Target Tracking in Distributed Sensor Networks using Particle PHD Filters
+Learning Vehicle Trajectory Uncertainty
+Detection and Tracking of General Movable Objects in Large 3D Maps
+Trajectory PHD and CPHD filters
+A Generalized Labeled Multi-Bernoulli Filter for Maneuvering Targets
+Interaction-Aware Labeled Multi-Bernoulli Filter
+Poisson multi-Bernoulli mixture trackers: continuity through random finite sets 
+A Comparison of Bayesian Prediction Techniques for Mobile Robot Trajectory Track
+Continuous-Time Estimation-Aware Optimal Control of Mobile Sensors for Target Tr
+Uncertainty-bounded Active Monitoring of Unknown Dynamic Targets in Road-network
+Extended Object Tracking Using Sets Of Trajectories with a PHD Filter
+Robust Mobile Object Tracking Based on Multiple Feature Similarity and Trajector
+Distributed Maximum Likelihood for Simultaneous Self-localization and Tracking i
+SAFE-IMM: Robust and Lightweight Radar-Based Object Tracking on Mobile Platforms
+Consensus Labeled Random Finite Set Filtering for Distributed Multi-Object Track
+Distributed Target Tracking using Radar Networks
+Online Target Localization using Adaptive Belief Propagation in the HMM Framewor
+Lighweight Target Tracking Using Passive Traces in Sensor Networks
+The Integrated Probabilistic Data Association Filter Adapted to Lie Groups
+Joint Smoothing, Tracking, and Forecasting Based on Continuous-Time Target Traje
+A metric on the space of finite sets of trajectories for evaluation of multi-tar
+Extended Object Tracking: Introduction, Overview and Applications
+Probabilistic Visibility-Aware Trajectory Planning for Target Tracking in Clutte
+Poisson Multi-Bernoulli Mixtures for Sets of Trajectories
+Generalized optimal sub-pattern assignment metric
+Through-Wall Tracking Using Variance-Based Radio Tomography Networks
+Cooperative Estimation of 3D Target Motion via Networked Visual Motion Observer
+Vehicle Tracking in Wireless Sensor Networks via Deep Reinforcement Learning
+Joint Estimation and Localization in Sensor Networks
+Convergence and Rates for Fixed-Interval Multiple-Track Smoothing Using $k$-Mean
+Tracking Multiple Vehicles Using a Variational Radar Model
+Probabilistic Data Association-Feedback Particle Filter for Multiple Target Trac
+High Performance Low Complexity Multitarget Tracking Filter for a Array of Non-d
+The Mean of Multi-Object Trajectories
+Homotopic information gain for sparse active target tracking
+Track Extraction with Hidden Reciprocal Chain Models
+Robust Kalman tracking and smoothing with propagating and non-propagating outlie
+Unscented Kalman Filter for Long-Distance Vessel Tracking in Geodetic Coordinate
+Estimation and Tracking of a Moving Target by Unmanned Aerial Vehicles
+Filtering Point Targets via Online Learning of Motion Models
+Distributed Kalman--Consensus Filtering with Adaptive Uncertainty Weighting for 
+Dynamic Radar Network of UAVs: A Joint Navigation and Tracking Approach
+A Message Passing Approach for Multiple Maneuvering Target Tracking
+On the Convergence of Belief Propagation for Multipath Data Association in Targe
+Probabilistic Trajectory GOSPA: A Metric for Uncertainty-Aware Multi-Object Trac
+Influence Diagrams for Robust Multi-Target Tracking
+Controlled Tracking in Urban Terrain: Closing the Loop
+Networked Tracking of Multiple Moving Targets in 6G Network
+Track estimation with binary derivative observations
+Variational Inference with Parameter Learning Applied to Vehicle Trajectory Esti
+Randomized Multiple Model Multiple Hypothesis Tracking
+An Informative Planning Framework for Target Tracking and Active Mapping in Dyna
+Tracking using explanation-based modeling
+IMMNet: Hybrid Fusion of Model-based and Data-driven Approaches for Maneuvering 
+Decentralized Mobile Target Tracking Using Consensus-Based Estimation with Nearl
+A Gaussian Process Regression based Dynamical Models Learning Algorithm for Targ
+Target State Estimation and Prediction for High Speed Interception
+Machine Learning Models for Improved Tracking from Range-Doppler Map Images
+Consensus-based joint target tracking and sensor localization
+SimpleTrack:Adaptive Trajectory Compression with Deterministic Projection Matrix
+GPU-GLMB: Assessing the Scalability of GPU-Accelerated Multi-Hypothesis Tracking
+MOTLEE: Distributed Mobile Multi-Object Tracking with Localization Error Elimina
+A Moving Window Based Approach to Multi-scan Multi-Target Tracking
+A Distributed Particle-PHD Filter with Arithmetic-Average PHD Fusion
+Anti-Delay Kalman Filter Fusion Algorithm for Vehicle-borne Sensor Network with 
+Fast-Tracker: A Robust Aerial System for Tracking Agile Target in Cluttered Envi
+An extended target tracking model with multiple random matrices and unified kine
+Cooperative Tracking of Cyclists Based on Smart Devices and Infrastructure
+Trajectory Poisson multi-Bernoulli filters
+A Scalable Algorithm for Tracking an Unknown Number of Targets Using Multiple Se
+Multiple Target Tracking with RF Sensor Networks
+Data-Driven Distributed State Estimation and Behavior Modeling in Sensor Network
+Joint Probabilistic Data Association-Feedback Particle Filter for Multiple Targe
+Distributed Extended Object Tracking Information Filter Over Sensor Networks
+Track A*: Fast Visibility-Aware Trajectory Planning for Active Target Tracking
+Multi-target filtering with linearised complexity
+Multi-object Tracking for Generic Observation Model Using Labeled Random Finite 
+Real-Time Multi-Convex Model Predictive Control for Occlusion Free Target Tracki
+Occlusion-Aware Ground Target Tracking by a Dubins Vehicle using Visibility Volu
+Decentralized Trajectory Tracking Using Homology and Hodge Decomposition in Sens
+Particle Filter Networks with Application to Visual Localization
+Online Visual Multi-Object Tracking via Labeled Random Finite Set Filtering
+LMMSE Filtering in Feedback Systems with White Random Modes: Application to Trac
+GM-PHD Filter for Searching and Tracking an Unknown Number of Targets with a Mob
+Model-Driven Sensing-Node Selection and Power Allocation for Tracking Maneuverin
+Pedestrian Tracking with Monocular Camera using Unconstrained 3D Motion Model
+Track-to-Track Association for Collective Perception based on Stochastic Optimiz
+Shape and Trajectory Tracking of Moving Obstacles
+Multiple Model Poisson Multi-Bernoulli Mixture Filter for Maneuvering Targets
+Decentralized Multi-target Tracking in Urban Environments: Overview and Challeng
+The Greedy Dirichlet Process Filter - An Online Clustering Multi-Target Tracker
+ARREST: A RSSI Based Approach for Mobile Sensing and Tracking of a Moving Object
+A Catalog of Probability Generating Functionals for Multitarget Tracking and Dat
+Resource-Constrained Adaptive Search and Tracking for Sparse Dynamic Targets
+A Dynamic Generalized Kalman Consensus Filter for Switching Sensor Networks
+Computing Consensus Curves
+Interpretable Augmented Physics-Based Model for Estimation and Tracking
+A Distributed Consensus Particle Filter for Target Tracking using Autonomous Sur
+KATANA: A Fast, Low-Power Mapping of Kalman Filters onto Edge NPUs for Real-Time
+Target tracking in the framework of possibility theory: The possibilistic Bernou
+Moving Target Interception Considering Dynamic Environment
+Simultaneous Distributed Sensor Self-Localization and Target Tracking Using Beli
+A Belief Space Perspective of RFS based Multi-Target Tracking and its Relationsh
+DMVC-Tracker: Distributed Multi-Agent Trajectory Planning for Target Tracking Us
+Multiple target tracking with interaction using an MCMC MRF Particle Filter
+Belief Propagation and Bethe approximation for Traffic Prediction
+Joint Target Detection, Tracking and Classification with Forward-Backward PHD Sm
+Probabilistic Search and Track with Multiple Mobile Agents
+Distributed Computation Particle PHD filter
+Approximate Bayesian algorithms for multiple target tracking with binary sensors
+State tracking of linear ensembles via optimal mass transport
+Learning to be Smooth: An End-to-End Differentiable Particle Smoother
+Fast computation of the TGOSPA metric for multiple target tracking via unbalance
+A Computationally Efficient Approach to Non-cooperative Target Detection and Tra
+Path sampling for particle filters with application to multi-target tracking
+On the Stability and the Approximation of Branching Distribution Flows, with App
+Labelled OSPA metric for fixed and known number of targets
+Gaussian multi-target filtering with target dynamics driven by a stochastic diff
+Enhanced Multi-Target Tracking in Dynamic Environments: Distributed Control Meth
+A Bearing-Angle Approach for Unknown Target Motion Analysis Based on Visual Meas
+Mathematical Representation of Multitarget Systems
+Gaussian Belief Propagation for Tracking With Unresolved Measurements
+Joint Target Detection and Tracking in Multipath Environment: A Variational Baye
+Tracking of a Mobile Target Using Generalized Polarization Tensors
+Distributed Expectation Propagation for Multi-Object Tracking over Sensor Networ
+Resilient Active Target Tracking with Multiple Robots
+Non-Myopic Target Tracking Strategies for State-Dependent Noise
+Poisson multi-Bernoulli mixture filter for trajectory measurements
+Optimal Minimax Mobile Sensor Scheduling Over a Network
+Image Moment Models for Extended Object Tracking
+A track-before-detect labelled multi-Bernoulli particle filter with label switch
+Sensor Scheduling for Energy-Efficient Target Tracking in Sensor Networks
+From Target Tracking to Targeting Track -- Part II: Regularized Polynomial Traje
+Policy Learning for Active Target Tracking over Continuous SE(3) Trajectories
+Distributed Variational Bayesian Algorithms for Extended Object Tracking
+Development of a N-type GM-PHD Filter for Multiple Target, Multiple Type Visual 
+An Overview of Particle Methods for Random Finite Set Models
+Jointly-Optimized Searching and Tracking with Random Finite Sets
+Variational Probabilistic Multi-Hypothesis Tracking
+Heterogeneous Measurement Selection for Vehicle Tracking using Submodular Optimi
+A Semantic and Occlusion-Aware GM-PHD Filter
+Target Tracking Using the Invariant Extended Kalman Filter with Numerical Differ
+The Adaptive Labeled Multi-Bernoulli Filter
+A Finite-Time Algorithm for the Distributed Tracking of Maneuvering Target
+Tracking the Tracker from its Passive Sonar ML-PDA Estimates
+Consensus-based Distributed Variational Multi-object Tracker in Multi-Sensor Net
+Intent Inference and Syntactic Tracking with GMTI Measurements
+Kalman Filtering with Equality and Inequality State Constraints
+Consistent Map-based 3D Localization on Mobile Devices
+Maximum a Posteriori State Path Estimation: Discretization Limits and their Inte
+Adaptive mixture approximation for target tracking in clutter
+Sequential detection of Markov targets with trajectory estimation
+Adaptive Extended Kalman Filter (ROSE-Filter) for Positioning System
+Automatic tracking of protein vesicles
+Non-Myopic Sensor Control for Target Search and Track Using a Sample-Based GOSPA
+Tracking an Object with Unknown Accelerations using a Shadowing Filter
+An Extended Kalman Filter with a Computed Mean Square Error Bound
+Multiple Object Detection, Tracking and Long-Term Dynamics Learning in Large 3D 
+From Target Tracking to Targeting Track -- Part III: Stochastic Process Modeling
+Decentralized Risk-Aware Tracking of Multiple Targets
+Improved NN-JPDAF for Joint Multiple Target Tracking and Feature Extraction
+Extended Object Tracking and Classification based on Linear Splines
+Visual-Inertial Target Tracking and Motion Planning for UAV-based Radiation Dete
+A Generalized Labeled Multi-Bernoulli Filter Implementation using Gibbs Sampling
+Interacting Multiple Model-Feedback Particle Filter for Stochastic Hybrid System
+Autonomous Tracking and State Estimation with Generalised Group Lasso
+Multi-mode Tracking of a Group of Mobile Agents
+Federated Calibration of Motion Uncertainty for UAV Tracking in Multi-Operator I
+Seamless Tracking of Group Targets and Ungrouped Targets Using Belief Propagatio
+Sensor Control for Multi-Object Tracking Using Labeled Multi-Bernoulli Filter
+Distributed Multi-Object Tracking Under Limited Field of View Heterogeneous Sens
+Fast Calibration of Car Following models to Trajectory data using the Adjoint Me
+Sequential Channel State Tracking & SpatioTemporal Channel Prediction in Mobile 
+Multi-Sensor Control for Multi-Object Bayes Filters
+Dynamic Bit Allocation for Object Tracking in Bandwidth Limited Sensor Networks
+Sliding Window Neural Generated Tracking Based on Measurement Model
+Observability-driven Assignment of Heterogeneous Sensors for Multi-Target Tracki
+Simultaneous Localization and Parameter Estimation for Single Particle Tracking 
+Distributed Estimation using Bayesian Consensus Filtering
+Tracking multiple moving objects in images using Markov Chain Monte Carlo
+State estimation with the Interacting Multiple Model (IMM) method
+Sensor Management for Tracking in Sensor Networks
+Multi-Base Station Cooperative Sensing with AI-Aided Tracking
+Active Target Tracking Using Bearing-only Measurements With Gaussian Process Lea
+Cinematica Topologica
+Robust Bayesian Filtering and Smoothing Using Student's t Distribution
+Poisson multi-Bernoulli conjugate prior for multiple extended object filtering
+Set-Type Belief Propagation with Applications to Poisson Multi-Bernoulli SLAM
+Particle approximation of the intensity measures of a spatial branching point pr
+GSP-KalmanNet: Tracking Graph Signals via Neural-Aided Kalman Filtering
+MPM: Joint Representation of Motion and Position Map for Cell Tracking
+A unified approach for multi-object triangulation, tracking and camera calibrati
+Tracking People in Highly Dynamic Industrial Environments
+Arithmetic Average Density Fusion -- Part III: Heterogeneous Unlabeled and Label
+Potential Game-Based Non-Myopic Sensor Network Planning for Multi-Target Trackin
+Location Tracking for Reconfigurable Intelligent Surfaces Aided Vehicle Platoons
+3D Visual Tracking with Particle and Kalman Filters
+Poisson multi-Bernoulli mixture filter: direct derivation and implementation
+Multi-object Tracking in Unknown Detection Probability with the PMBM Filter
+Integrated Gaussian Processes for Robust and Adaptive Multi-Object Tracking
+Particle-Based Score Estimation for State Space Model Learning in Autonomous Dri
+Local Strong Convexity of Source Localization and Error Bound for Target Trackin
+Visual Pursuit Control based on Gaussian Processes with Switched Motion Trajecto
+Adaptive Entropy-Driven Sensor Selection in a Camera-LiDAR Particle Filter for S
+Multi-target tracking algorithms in 3D
+Decision-Theoretic Coordination and Control for Active Multi-Camera Surveillance
+Computationally Efficient Distributed Multi-sensor Fusion with Multi-Bernoulli F
+Multi-Target Tracking and Occlusion Handling with Learned Variational Bayesian C
+3D Extended Object Tracking based on Extruded B-Spline Side View Profiles
+Robust TMA using the possibility particle filter
+Arithmetic Average Density Fusion -- Part IV: Distributed Heterogeneous Fusion o
+Extended Object Tracking with Random Hypersurface Models
+Deep Recurrent Neural Network for Multi-target Filtering
+Multi-sensor Joint Adaptive Birth Sampler for Labeled Random Finite Set Tracking
+Multi-Target Tracking of Cooperating Swarms by an Ensemble Gaussian Mixture Filt
+An Elementary Introduction to Kalman Filtering
+Asymptotic Lower Bounds for Optimal Tracking: a Linear Programming Approach
+On Universal Sensor Registration
+Decentralized Multi-target Tracking with Multiple Quadrotors using a PHD Filter
+Scalar Field Estimation with Mobile Sensor Networks
+Transport Map Coupling Filter for State-Parameter Estimation
+Distributed Bayesian Filtering using Logarithmic Opinion Pool for Dynamic Sensor
+TrackerBots: Autonomous Unmanned Aerial Vehicle for Real-Time Localization and T
+Simultaneous Communication and Tracking using Fused Bistatic Measurements
+Weighted Information Filtering, Smoothing, and Out-of-Sequence Measurement Proce
+Elastic Tracker: A Spatio-temporal Trajectory Planner Flexible Aerial Tracking
+A Cooperative Bearing-Rate Approach for Observability-Enhanced Target Motion Est
+Split-KalmanNet: A Robust Model-Based Deep Learning Approach for SLAM
+Sensor Assignment Algorithms to Improve Observability while Tracking Targets
+POSE.R: Prediction-based Opportunistic Sensing for Resilient and Efficient Senso
+Estimating adaptive cruise control model parameters from on-board radar units
+Bayesian nonparametric modeling for predicting dynamic dependencies in multiple 
+Communication-aware algorithms for target tracking in wireless sensor networks
+Inference for multiple object tracking: A Bayesian nonparametric approach
+Rendezvous Planning from Sparse Observations of Optimally Controlled Targets
+Rumor-robust Decentralized Gaussian Process Learning, Fusion, and Planning for M
+Path Tracking using Echoes in an Unknown Environment: the Issue of Symmetries an
+Information-Weighted Distributed Kalman Filter for Multi-Target Tracking over Sw
+Passive Multi-Target Tracking Using the Adaptive Birth Intensity PHD Filter
+Asynchronous Distributed Multi-Sensor Fusion Over Sensor Track Hypotheses
+Feedback Particle Filter on Matrix Lie Groups
+Tracking multiple spawning targets using Poisson multi-Bernoulli mixtures on set
+Particle Filter Based Monocular Human Tracking with a 3D Cardbox Model and a Nov
+Optimizing Consensus-based Multi-target Tracking with Multiagent Rollout Control
+Active Particle Filter Networks: Efficient Active Localization in Continuous Act
+Robust Distributed Fusion with Labeled Random Finite Sets
+On the Effect of Data Contamination on Track Purity
+Comparing Multi-Target Trackers on Different Force Unit Levels
+On Communication-Efficient Multisensor Track Association via Measurement Transfo
+The Extended Kalman Filter is a Natural Gradient Descent in Trajectory Space
+Estimating Activity at Multiple Scales using Spatial Abstractions
+Utility and Privacy in Object Tracking from Video Stream using Kalman Filter
+SMA-NBO: A Sequential Multi-Agent Planning with Nominal Belief-State Optimizatio
+Distributed Multi-Target Tracking in Camera Networks
+Simple Two-Dimensional Object Tracking based on a Graph Algorithm
+Narrow Artificial Intelligence with Machine Learning for Real-Time Estimation of
+A Batch Update Using Multiplicative Noise Modelling for Extended Object Tracking
+Adaptive Learned State Estimation based on KalmanNet
+SpaRTA - Tracking across occlusions via global partitioning of 3D clouds of poin
+Interactive Model Fusion-Based GM-PHD Filter
+Multi-Target Tracking Using A Randomized Hypothesis Generation Technique
+A New Perspective and Extension of the Gaussian Filter
+Robust and Scalable Tracking of Radiation Sources with Cheap Binary Proximity Se
+Use of Bayesian Nonparametric methods for Estimating the Measurements in High Cl
+A Technical Note on (Labeled) RFS-AA Fusion: Derivation from PHD Consistency
+Selection-Induced Contraction of Innovation Statistics in Gated Kalman Filters
+A Library for Implementing the Multiple Hypothesis Tracking Algorithm
+Variational Bayes for robust radar single object tracking
+Identification of multi-object dynamical systems: consistency and Fisher informa
+Tracking the Orientation and Axes Lengths of an Elliptical Extended Object
+Sensor Query Schedule and Sensor Noise Covariances for Accuracy-constrained Traj
+Mobile Sensor Path Planning for Kalman Filter Spatiotemporal Estimation
+Sensor management for multi-target tracking via Multi-Bernoulli filtering
+Distributed Fusion with Multi-Bernoulli Filter based on Generalized Covariance I
+Sensor Selection Based on Generalized Information Gain for Target Tracking in La
+Dynamic Association of Semantics and Parameter Estimates by Filtering
+Belief Consensus Algorithms for Fast Distributed Target Tracking in Wireless Sen
+UAV-enabled Integrated Sensing and Communication: Tracking Design and Optimizati
+Factored Probabilistic Belief Tracking
+Distributed Nonlinear Filtering using Triangular Transport Maps
+Temporal parallelisation of continuous-time maximum-a-posteriori trajectory esti
+Non-Linear Estimation using the Weighted Average Consensus-Based Unscented Filte
+Consensus-based Networked Tracking in Presence of Heterogeneous Time-Delays
+Optimal Persistent Monitoring of Mobile Targets in One Dimension
+Random Matrix Based Extended Target Tracking with Orientation: A New Model and I
+GReTA - a novel Global and Recursive Tracking Algorithm in three dimensions
+A Distributed ADMM Approach to Non-Myopic Path Planning for Multi-Target Trackin
+Robust and Trend-following Kalman Smoothers using Student's t
+Multisensor--Multitarget Bearing--Only Sensor Registration
+Matrix-Valued Measures and Wishart Statistics for Target Tracking Applications
+Blinking Molecule Tracking
+SPF-CellTracker: Tracking multiple cells with strongly-correlated moves using a 
+An Extended Consideration of Joint Exploration and Tracking: JET
+Spatio-Temporal Attention Network for Persistent Monitoring of Multiple Mobile T
+Distributed multi-view multi-target tracking based on CPHD filtering
+Fast and Robust State Estimation and Tracking via Hierarchical Learning
+Second-Order Extended Kalman Filter for Extended Object and Group Tracking
+Harmonic Mean Density Fusion in Distributed Tracking: Performance and Comparison
+Distributed Multi-object Tracking under Limited Field of View Sensors
+A Certifiable Algorithm for Simultaneous Shape Estimation and Object Tracking
+Distributed Invariant Unscented Kalman Filter based on Inverse Covariance Inters
+Decoupled Quadratic Kalman Filter for Elliptical Extended Object Tracking with L
+Active Sensing and Deferred-Decision Trajectory Optimization for Robust Target I
+A drift homotopy Monte Carlo approach to particle filtering for multi-target tra
+Fitting a Kalman Smoother to Data
+A Recentered-Domain Yau-Yau Filter for Target Tracking
+Online UAV Path Planning for Joint Detection and Tracking of Multiple Radio-tagg
+Optimal Periodic Multi-Agent Persistent Monitoring of a Finite Set of Targets wi
+Multiple Bayesian Filtering as Message Passing
+Robust Filtering -- Novel Statistical Learning and Inference Algorithms with App
+Stochastic Control of Observer Trajectories in Bearings-only Tracking with Acous
+Differentiable Particle Filters: End-to-End Learning with Algorithmic Priors
+Partial Consensus and Conservative Fusion of Gaussian Mixtures for Distributed P
+Continuous-discrete multiple target tracking with out-of-sequence measurements
+PROBE-GK: Predictive Robust Estimation using Generalized Kernels
+Augmented LRFS-based Filter: Holistic Tracking of Group Objects
+GOSPA-Driven Non-Myopic Multi-Sensor Management with Multi-Bernoulli Filtering
+Resilience in multi-robot multi-target tracking with unknown number of targets t
+Scalable Distributed Planning for Multi-Robot, Multi-Target Tracking
+Optimal Remote State Estimation for Self-Propelled Particle Models
+Incremental learning of environment interactive structures from trajectories of 
+Extended target tracking utilizing machine-learning software -- with application
+The Price of Covertness: Dual-Control Navigation in Uncertain Flows under Advers
+Decentralized Fusion of 3D Extended Object Tracking based on a B-Spline Shape Mo
+Extension of Sinkhorn Method: Optimal Movement Estimation of Agents Moving at Co
+Performance of the Kalman Filter and Smoother for Benchmark Studies
+Distributed Kalman Filter in a Network of Linear Dynamical Systems
+Residual-Aware Distributionally Robust EKF: Absorbing Linearization Mismatch via
+Kalman Filter Meets Subjective Logic: A Self-Assessing Kalman Filter Using Subje
+Simultaneous Mode, Input and State Estimation for Switched Linear Stochastic Sys
+Invariant Kalman Filter for Relative Dynamics
+DynaNet: Neural Kalman Dynamical Model for Motion Estimation and Prediction
+Likelihood Consensus and Its Application to Distributed Particle Filtering
+Centralized active tracking of a Markov chain with unknown dynamics
+Predictive Control for Chasing a Ground Vehicle using a UAV
+Outlier-Insensitive Kalman Filtering Using NUV Priors
+A Novel Maneuvering Target Tracking Approach by Stochastic Volatility GARCH Mode
+Piecewise Constant Sequential Importance Sampling for Fast Particle Filtering
+Particle Filtering on the Audio Localization Manifold
+MAP moving horizon state estimation with binary measurements
+Information Acquisition with Sensing Robots: Algorithms and Error Bounds
+Fast Neural-Network Approximation of Active Target Search Under Uncertainty
+Distributed Active State Estimation with User-Specified Accuracy
+ASPIRe: An Informative Trajectory Planner with Mutual Information Approximation 
+Robust Multi-Sensor Multi-Target Tracking Using Possibility Labeled Multi-Bernou
+Channel Tracking for Relay Networks via Adaptive Particle MCMC
+Optimization viewpoint on Kalman smoothing, with applications to robust and spar
+ComTraQ-MPC: Meta-Trained DQN-MPC Integration for Trajectory Tracking with Limit
+Receding Horizon Recursive Location Estimation
+Unified Estimation-Guidance Framework Based on Bayesian Decision Theory
+Neural Augmentation of Kalman Filter with Hypernetwork for Channel Tracking
+Switching Recurrent Kalman Networks
+Principled information fusion for multi-view multi-agent surveillance systems
+State Estimation for Piecewise Affine State-Space Models
+An efficient, variational approximation of the best fitting multi-Bernoulli filt
+Analysis of error propagation in particle filters with approximation
+Active localization of multiple targets using noisy relative measurements
+A Kinetic Theory of Encounter-Based Information Propagation in Multi-Robot Syste
+Differentiable Adaptive Kalman Filtering via Optimal Transport
+Estimating Dynamic Flow Features in Groups of Tracked Objects
+Decentralized Secure State-Tracking in Multi-Agent Systems
+Particle-Filter-Enabled Real-Time Sensor Fault Detection Without a Model of Faul
+Likelihood Consensus-Based Distributed Particle Filtering with Distributed Propo
+Out-of-Distribution Robustness with Deep Recursive Filters
+Unscented Kalman Filter with a Nonlinear Propagation Model for Navigation Applic
+Robust Estimators for Variance-Based Device-Free Localization and Tracking
+Combining Particle MCMC with Rao-Blackwellized Monte Carlo Data Association for 
+Tracking without Seeing: Geospatial Inference using Encrypted Traffic from Distr
+Analytic MMSE Bounds in Linear Dynamic Systems with Gaussian Mixture Noise Stati
+Generalized Kalman Smoothing: Modeling and Algorithms
+An Improved Self-Organizing Diffusion Mobile Adaptive Network for Pursuing a Tar
+Bayesian Networks for Path-Based Sensors: Gathering Information and Path Plannin
+Probabilistic Object Tracking using a Range Camera
+Multi-Scan Multi-Sensor Multi-Object State Estimation
+Distributed Multi-Sensor Fusion Using Generalized Multi-Bernoulli Densities
+Leader Tracking of Euler-Lagrange Agents on Directed Switching Networks Using A 
+On Pooling-Based Track Fusion Strategies : Harmonic Mean Density
+Resilience in multi-robot target tracking through reconfiguration
+Identifiability of car-following dynamic
+Cell Multi-Bernoulli (Cell-MB) Sensor Control for Multi-object Search-While-Trac
+The Kalman Filter: a didactical overview
+Design of Efficient Point-Mass Filter with Application in Terrain Aided Navigati
+An Approach for GCI Fusion With Labeled Multitarget Densities
+Compressive Data Aggregation on Mobile Wireless Sensor Networks for Sensing in B
+Coded Distributed Tracking
+Distributed Estimation of Dynamic Parameters : Regret Analysis
+Depth-Based Object Tracking Using a Robust Gaussian Filter
+Distributed Particle Filter Implementation with Intermittent/Irregular Consensus
+Refined Particle Swarm Intelligence Method for Abrupt Motion Tracking
+Hybrid Neural Network Augmented Physics-based Models for Nonlinear Filtering
+TrackDiffuser: Nearly Model-Free Bayesian Filtering with Diffusion Model
+Exact recursive estimation of linear systems subject to bounded disturbances
+Hybrid Adaptive Kalman Filtering for Data-Efficient Joint Tracking and Classific
+Resolution Limits of 20 Questions Search Strategies for Moving Targets
+Ghostline: a six-node Wi-Fi CSI motion tracker with node-to-node Links. System d
+Target Type Tracking with PCR5 and Dempster's rules: A Comparative Analysis
+Context-Aware Sensor Modeling for Asynchronous Multi-Sensor Tracking in Stone So
+An Optimal Control Approach to the Persistent Monitoring Problem
+Optimal Transportation Methods in Nonlinear Filtering: The feedback particle fil
+Resolution Limits of Non-Adaptive 20 Questions Estimation for Tracking Multiple 
+Object Tracking Incorporating Transfer Learning into Unscented and Cubature Kalm
+Multi-Sensor Control for Multi-Target Tracking Using Cauchy-Schwarz Divergence
+The Kernel-SME Filter for Multiple Target Tracking
+Multiparticle Kalman filter for object localization in symmetric environments
+A Note on the Extended Kalman Filter on a Manifold
+Size and shape of tracked Brownian bridges
+Distributed Fusion of Labeled Multi-Object Densities Via Label Spaces Matching
+Learning to track environment state via predictive autoencoding
+Exploiting locality in high-dimensional factorial hidden Markov models
+Distributed Poisson multi-Bernoulli filtering via generalised covariance interse
+Bayesian Estimation with Distance Bounds
+Towards a tracking algorithm based on the clustering of spatio-temporal clouds o
+An Extended Kalman Filter for Systems with Infinite-Dimensional Measurements
+Optimal Dynamic Sensor Subset Selection for Tracking a Time-Varying Stochastic P
+Learning Adaptive Parameter Policies for Nonlinear Bayesian Filtering
+Kalman Filtering with Gaussian Processes Measurement Noise
+Contractor Filters
+Integral estimation based on Markovian design
+Consensus+Innovations Distributed Kalman Filter with Optimized Gains
+Sensor Management: Past, Present, and Future
+Stein-MAP: A Sequential Variational Inference Framework for Maximum A Posteriori
+Stability and Convergence of Stochastic Particle Flow Filters
+Nonlinear Model Predictive Control Based on Constraint-Aware Particle Filtering/
+On the loss of Fisher information in some multi-object tracking observation mode
+Robust Gaussian Filtering using a Pseudo Measurement
+Kalman Filter Applied To A Differential Robot
+Filtering Jump Markov Systems with Partially Known Dynamics: A Model-Based Deep 
+Linear TDOA-based Measurements for Distributed Estimation and Localized Tracking
+Sequential Monte Carlo smoothing for general state space hidden Markov models
+Decentralised Variational Inference Frameworks for Multi-object Tracking on Sens
+Observer Path Planning for Maximum Information
+Comparison of Resampling Schemes for Particle Filtering
+Visual Multiple-Object Tracking for Unknown Clutter Rate
+Line-Circle-Square (LCS): A Multilayered Geometric Filter for Edge-Based Detecti
+Gaussian Process Upper Confidence Bounds in Distributed Point Target Tracking ov
+idtracker.ai: Tracking all individuals in large collectives of unmarked animals
+Formal Verification of Robustness and Resilience of Learning-Enabled State Estim
+Bearing-Only Tracking and Circumnavigation of a Fast Time-Varied Velocity Target
+Robust Multitarget Tracking in Interference Environments: A Message-Passing Appr
+Poisson multi-Bernoulli mixture filter with general target-generated measurement
+Uncertainty in Data-Driven Kalman Filtering for Partially Known State-Space Mode
+Multi-camera Realtime 3D Tracking of Multiple Flying Animals
+Pose Tracking with a Foundation Pose Model and an Ensemble Directional Kalman Fi
+Geometry-Consistent Bayesian Filtering under Structural Model Uncertainty: A Geo
+Learning Flock: Enhancing Sets of Particles for Multi~Sub-State Particle Filteri
+On the Projective Geometry of Kalman Filter
+Long Short-Term Memory Kalman Filters:Recurrent Neural Estimators for Pose Regul
+Data-Driven Approximation of Stationary Nonlinear Filters with Optimal Transport
+Improved PCRLB for radar tracking in clutter with geometry-dependent target meas
+Optimal Transport Particle Filters
+Min-Plus approaches and Cluster Based Pruning for Filtering in Nonlinear Systems
+Interior Point Method for Dynamic Constrained Optimization in Continuous Time
+Multiple scan data association by convex variational inference
+A Bearing-Strength Method for Motion Estimation of Unknown Energy Emitters
+Reference-Filter-Driven Transition Probabilities for IMM-Based Satellite Maneuve
+Simulating Crowds in Real Time with Agent-Based Modelling and a Particle Filter
+Progressive Bayesian Particle Flows based on Optimal Transport Map Sequences
+A Smooth Distributed Feedback for Global Rendezvous of Unicycles
+Efficient particle filtering through residual nudging
+Nonlinear Filtering with Brenier Optimal Transport Maps
+Intensity Particle Flow SMC-PHD Filter For Audio Speaker Tracking
+A Complete Derivation Of The Association Log-Likelihood Distance For Multi-Objec
+Multi-modal filtering for non-linear estimation
+Trajectories for the Optimal Collection of Information
+Estimation and Registration on Graphs
+Gaussian implementation of the multi-Bernoulli mixture filter
+A Minimum Energy Filter for Distributed Multirobot Localisation
+Exact Set-valued Estimation using Constrained Convex Generators for uncertain Li
+Distributed Kalman Filter via Gaussian Belief Propagation
+Neural-Enhanced Micro-Kalman Filtering for Satellite Tracking: A Comparative Stu
+An Online Optimization Approach for Multi-Agent Tracking of Dynamic Parameters i
+Iteratively Saturated Kalman Filtering
+Active Trajectory Estimation for Partially Observed Markov Decision Processes vi
+Poisson Multi-Bernoulli Mapping Using Gibbs Sampling
+Whole cell tracking through the optimal control of geometric evolution laws
+Multiobject fusion with minimum information loss
+The Theory and Practice of MAP Inference over Non-Convex Constraints
+Experimental Characterization of a Bearing-only Sensor for Use With the PHD Filt
+Conservative Filtering for Heterogeneous Decentralized Data Fusion in Dynamic Ro
+Distributed Estimation for a 3-D Moving Target in Quaternion Space with Unknown 
+Windowing and random weighting based cubature RTS smoothing for target tracking
+FlexKalmanNet: A Modular AI-Enhanced Kalman Filter Framework Applied to Spacecra
+UltimateKalman: Flexible Kalman Filtering and Smoothing Using Orthogonal Transfo
+Partitioned Update Kalman Filter
+Jointly Tracking and Separating Speech Sources Using Multiple Features and the g
+Nudging the particle filter
+The Coordinate Particle Filter - A novel Particle Filter for High Dimensional Sy
+Unscented Kalman Filters for Riemannian State-Space Systems
+Parametric annealing: a stochastic search method for human pose tracking
+On wrapping the Kalman filter and estimating with the SO(2) group
+Randomized Approximations of the Image Set of Nonlinear Mappings with Applicatio
+A Bayesian Filtering Algorithm for Gaussian Mixture Models
+MegaParticles: Range-based 6-DoF Monte Carlo Localization with GPU-Accelerated S
+Three-dimensional Tracking of a Large Number of High Dynamic Objects from Multip
+Online Tracking of a Predictable Drifting Parameter of a Time Series
+Knapsack-based Online Sensor Selection for Vehicle State Estimation
+Robust Online Model Adaptation by Extended Kalman Filter with Exponential Moving
+A Gaussian Particle Filter Approach for Sensors to Track Multiple Moving Targets
+Dual Particle Output Feedback Control based on Lyapunov drifts for nonlinear sys
+A Novel Sparsity-Based Approach to Recursive Estimation of Dynamic Parameter Set
+Multi-Target Tracking with Time-Varying Clutter Rate and Detection Profile: Appl
+A New Parameterized Family of Stochastic Particle Flow Filters
+Distributed Event-Triggered Nonlinear Fusion Estimation under Resource Constrain
+Nonlinear Bayesian Estimation: From Kalman Filtering to a Broader Horizon
+Actively Coupled Sensor Configuration and Planning in Unknown Dynamic Environmen
+Projection Filtering with Observed State Increments with Applications in Continu
+A Semidefinite Programming Approach to Discrete-time Infinite Horizon Persistent
+Mitigating Error Accumulation in Continuous Navigation via Memory-Augmented Kalm
+Differentiable and Stable Long-Range Tracking of Multiple Posterior Modes
+PDE-based Dynamic Density Estimation for Large-scale Agent Systems
+Two Modifications of the Unscented Kalman Filter that Specialize to the Kalman F
+Efficient delay-tolerant particle filtering
+On Computational Complexity Reduction Methods for Kalman Filter Extensions
+On Coupling Particle Filter Trajectories
+Deep Pattern of Time Series and Its Applications in Estimation, Forecasting, Fau
+Constrained non-linear estimation and links with stochastic filtering
+A Framework for Robust Assimilation of Potentially Malign Third-Party Data, and 
+A Recommendation System Approach for Interference-Robust Sensor Subset Selection
+A Normal Variance Mixture Model for Robust Kalman Filtering
+Globally Optimal Cell Tracking using Integer Programming
+Robust fixed-lag smoothing under model perturbations
+Dynamic Bayesian diffusion estimation
+Maximum Likelihood Recursive State Estimation using the Expectation Maximization
+Tracking-ADMM for Distributed Constraint-Coupled Optimization
+Motion and Communication Co-optimization with Path Planning and Online Channel E
+Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering
+Latent Parameter Estimation in Fusion Networks Using Separable Likelihoods
+Multivariate Uncertainty in Deep Learning
+Algorithms for leader selection in stochastically forced consensus networks
+On Generalized Bayesian Data Fusion with Complex Models in Large Scale Networks
+Sequential Bayesian Inference for Uncertain Nonlinear Dynamic Systems: A Tutoria
+Observability and nonlinear filtering
+Nonlinear state space smoothing using the conditional particle filter
+A Dynamic Programming Formulation for the Nonlinear Filter
+Stein Particle Filter for Nonlinear, Non-Gaussian State Estimation
+Event-triggered distributed Bayes filter
+Tracking Multiple Audio Sources with the von Mises Distribution and Variational 
+Minimax Adaptive Estimation for Finite Sets of Linear Systems
+NDKF: A Neural-Enhanced Distributed Kalman Filter for Nonlinear Multi-Sensor Est
+Memory-efficient particle filter recurrent neural network for object localizatio
+Mathematically equivalent approaches for equality constrained Kalman Filtering
+KARMA: Kalman-based autoregressive moving average modeling and inference for for
+Spooky effect in optimal OSPA estimation and how GOSPA solves it
+Sequential Fusion Estimation for Clustered Sensor Networks
+Continuously Optimizing Radar Placement with Model Predictive Path Integrals
+Robust Sequential Tracking via Bounded Information Geometry and Non-Parametric F
+iMHS: An Incremental Multi-Hypothesis Smoother
+Active Classification for POMDPs: a Kalman-like State Estimator
+ADMM-Based Distributed Kalman-like Observer with Applications to Cooperative Loc
+Density Approximation for Kinetic Groups
+Single-cluster PHD filter methods for joint multi-object filtering and parameter
+The Extended Parameter Filter
+Sensor Fusion Methods for Gaussian Mixture Models
+Think Fast: Real-Time Kinodynamic Belief-Space Planning for Projectile Intercept
+Recursive Estimation for Dynamical Systems with Measurement Bias, Outliers and C
+Gaussianity and the Kalman Filter: A Simple Yet Complicated Relationship
+K-GMRF: Kinetic Gauss-Markov Random Field for First-Principles Covariance Tracki
+A comparison between PMBM Bayesian track initiation and labelled RFS adaptive bi
+Dynamic Online Processor-Native Inference for State Estimation
+Sequential Monte Carlo smoothing with application to parameter estimation in non
+Localization in Spatiotemporal Fields via Environmental PDEs
+NARRAS: Edge-Triggered Distributed Inference for CSI-Based Localization in Vehic
+Sigma Point Belief Propagation
+Sigma-Point Filtering and Smoothing Based Parameter Estimation in Nonlinear Dyna
+Set-Membership Information Fusion for Multisensor Nonlinear Dynamic Systems
+FutureMapping 2: Gaussian Belief Propagation for Spatial AI
+On the Convergence of the Extended Kalman Filter on Stiefel Manifolds when Obser
+Variational Nonlinear Kalman Filtering with Unknown Process Noise Covariance
+Backprop KF: Learning Discriminative Deterministic State Estimators
+Distributed Kalman Estimation with Decoupled Local Filters
+Markov Observation Models
+Analytic Properties of Trackable Weak Models
+Particle Filtering for Large Dimensional State Spaces with Multimodal Observatio
+Maximum a Posteriori Joint State Path and Parameter Estimation in Stochastic Dif
+Extended Kalman Filtering on Stiefel Manifolds
+Multi-agent estimation and filtering for minimizing team mean-squared error
+Robust Extended Kalman Filtering for Systems with Measurement Outliers
+Stability of Non-linear Filter for Deterministic Dynamics
+Data Assimilation in Optimal Transport Framework
+Uniform Time Average Consistency of Monte Carlo Particle Filters
+Gossip and Distributed Kalman Filtering: Weak Consensus under Weak Detectability
+Partial Diffusion Kalman Filtering
+A linear programming approach to the tracking of partials
+The non-linear Gaussian filtering approach [smoothing, state, estimation] {37 papers} focus 0.37
+a final blob: ls lists its papers
+Joint Smoothing, Tracking, and Forecasting Based on Continuous-Time Target Traje
+LMMSE Filtering in Feedback Systems with White Random Modes: Application to Trac
+Maximum a Posteriori State Path Estimation: Discretization Limits and their Inte
+Autonomous Tracking and State Estimation with Generalised Group Lasso
+State estimation with the Interacting Multiple Model (IMM) method
+Robust Bayesian Filtering and Smoothing Using Student's t Distribution
+Weighted Information Filtering, Smoothing, and Out-of-Sequence Measurement Proce
+Temporal parallelisation of continuous-time maximum-a-posteriori trajectory esti
+Robust and Trend-following Kalman Smoothers using Student's t
+Fitting a Kalman Smoother to Data
+Simultaneous Mode, Input and State Estimation for Switched Linear Stochastic Sys
+MAP moving horizon state estimation with binary measurements
+Optimization viewpoint on Kalman smoothing, with applications to robust and spar
+Unified Estimation-Guidance Framework Based on Bayesian Decision Theory
+State Estimation for Piecewise Affine State-Space Models
+Generalized Kalman Smoothing: Modeling and Algorithms
+Exact recursive estimation of linear systems subject to bounded disturbances
+Exploiting locality in high-dimensional factorial hidden Markov models
+Sequential Monte Carlo smoothing for general state space hidden Markov models
+Min-Plus approaches and Cluster Based Pruning for Filtering in Nonlinear Systems
+Windowing and random weighting based cubature RTS smoothing for target tracking
+Randomized Approximations of the Image Set of Nonlinear Mappings with Applicatio
+A Bayesian Filtering Algorithm for Gaussian Mixture Models
+A Novel Sparsity-Based Approach to Recursive Estimation of Dynamic Parameter Set
+Constrained non-linear estimation and links with stochastic filtering
+Robust fixed-lag smoothing under model perturbations
+Maximum Likelihood Recursive State Estimation using the Expectation Maximization
+Observability and nonlinear filtering
+Nonlinear state space smoothing using the conditional particle filter
+A Dynamic Programming Formulation for the Nonlinear Filter
+Minimax Adaptive Estimation for Finite Sets of Linear Systems
+iMHS: An Incremental Multi-Hypothesis Smoother
+Sequential Monte Carlo smoothing with application to parameter estimation in non
+Sigma-Point Filtering and Smoothing Based Parameter Estimation in Nonlinear Dyna
+Markov Observation Models
+Maximum a Posteriori Joint State Path and Parameter Estimation in Stochastic Dif
+Stability of Non-linear Filter for Deterministic Dynamics
+Bayesian estimation with particle filters [filtering, tracking, filter] {601 papers} focus 0.39
+1. Object tracking sensor networks (OTSNs) [distributed, sensor, tracking] {224 papers} focus 0.29
+2. Dynamic State Estimation and Inference [inference, belief, propagation] {14 papers} focus 0.42
+3. The non-linear Gaussian filtering approach [smoothing, state, estimation] {37 papers} focus 0.37
+4. Multiple Target Tracking [tracking, multi-bernoulli, filter] {125 papers} focus 0.48
+5. Error-State Kalman Filter [kalman, filter, filtering] {50 papers} focus 0.40
+6. Conditional particle filter [particle, filters, filter] {39 papers} focus 0.45
+7. VLMs for State Estimation and Localization [kalman, learning, filtering] {38 papers} focus 0.44
+8. Data Assimilation and Control [transport, optimal, nonlinear] {9 papers} focus 0.46
+9. Moving sources and deep tracking [cell, tracking, points] {24 papers} focus 0.51
+10. Object Tracking with Radar and Camera [object, tracking, extended] {35 papers} focus 0.46
+11. Results of Traffic Flow Parameter Estimation [parameter, parameters, time-varying] {6 papers} focus 0.56
+(no filters)
+tracking a vehicle on a road network with a motion model of its position and speed along the roads, constrained to the road graph, from noisy GPS positions [] {8000 papers} focus 0.01
+1. Dynamic Geospatial Networks [networks, routing, traffic] {1786 papers} focus 0.31
+2. Data sparsity and heterogeneity in trajectory prediction tasks [prediction, trajectory, forecasting] {1169 papers} focus 0.44
+3. Bayesian estimation with particle filters [filtering, tracking, filter] {1150 papers} focus 0.39
+4. Optimization-based Motion Planning [planning, motion, autonomous] {802 papers} focus 0.42
+5. Integration of Generative Models in CAVs [traffic, map, road] {749 papers} focus 0.32
+6. Robustness Analysis against Localization Error [localization, positioning, navigation] {746 papers} focus 0.40
+7. Reproducible Research in Active SLAM [slam, odometry, visual] {713 papers} focus 0.42
+8. Sensor Fusion Based MOT [tracking, multi-object, object] {455 papers} focus 0.55
+9. Radar Odometry and Machine Learning [navigation, radar, mapping] {279 papers} focus 0.38
+10. Information Fusion in LiDAR-Centric Occupancy [occupancy, perception, lidar] {151 papers} focus 0.42
+Robustness Analysis against Localization Error [localization, positioning, navigation] {746 papers} focus 0.40
+1. LIDAR plus Camera-Based Localization [localization, semantic, visual] {129 papers} focus 0.43
+2. Attitude Estimation Filters and Inertial Systems [estimation, navigation, filter] {115 papers} focus 0.46
+3. Impact of the number of APs selected for localization [positioning, networks, cooperative] {105 papers} focus 0.36
+4. Sensor Localization in WSNs [localization, network, distributed] {104 papers} focus 0.49
+5. GNSS Integration with Other Sensors [gnss, factor, fusion] {98 papers} focus 0.41
+6. Learning to Correct Pedestrian Inertial Positioning [inertial, navigation, odometry] {62 papers} focus 0.49
+7. Triangulation-Based Object Geo-localization [geolocalization, street, geo-localization] {37 papers} focus 0.51
+8. Jamming and Anti-Jamming Attacks in GPS Systems [spoofing, detection, attacks] {31 papers} focus 0.56
+9. Radio Map Construction [radio, map, path] {25 papers} focus 0.50
+10. GPS Refinement Approaches [gps, gnss, neural] {25 papers} focus 0.51
+11. Hybrid Tracking Methods [rail, track, train] {15 papers} focus 0.48
+must!!: 346 dropped, 400 left here
+Optimization of Vehicle Connections in V2V-based Cooperative Localization
+The Impact of Road Configuration in V2V-based Cooperative Localization: Mathemat
+Robust Vehicle Localization and Tracking in Rain using Street Maps
+Semi-Interpenetrating Cooperative Localization in Connected Vehicle Networks
+Route-Constrained Robust Fusion Estimation for MEMS/GNSS Integrated Navigation o
+Neural Augmented Kalman Filters for Road Network assisted GNSS positioning
+Locking On: Leveraging Dynamic Vehicle-Imposed Motion Constraints to Improve Vis
+Improving Localization Accuracy in Connected Vehicle Networks Using Rao-Blackwel
+Robust Dead Reckoning: Calibration, Covariance Estimation, Fusion and Integrity 
+The Impact of Road Configuration on V2V-based Cooperative Localization
+Gravity aided navigation using Viterbi map matching algorithm
+Vehicle Localization and Control on Roads with Prior Grade Map
+An IMU-Aided Carrier-Phase Differential GPS Positioning System
+Enhancement of Low-cost GNSS Localization in Connected Vehicle Networks Using Ra
+Implicit Cooperative Positioning in Vehicular Networks
+Enhanced INS/GNSS State Estimation using GNSS-Based Acceleration Measurements
+Path-Constrained State Estimation for Rail Vehicles
+Vehicle Localization in GPS-Denied Scenarios Using Arc-Length-Based Map Matching
+Vehicular Positioning and Tracking in Multipath Non-Line-of-Sight Channels
+Mobile Robot Localization: a Modular, Odometry-Improving Approach
+GNSS/Multi-Sensor Fusion Using Continuous-Time Factor Graph Optimization for Rob
+Nonlinear Estimation for Position-Aided Inertial Navigation Systems
+Mobile Node Localization via Pareto Optimization: Algorithm and Fundamental Perf
+Dual-Branch INS/GNSS Fusion with Inequality and Equality Constraints
+Fast Optimal Joint Tracking-Registration for Multi-Sensor Systems
+Positioning Accuracy Improvement via Distributed Location Estimate in Cooperativ
+Interpenetrating Cooperative Localization in Dynamic Connected Vehicle Networks
+onlineFGO: Online Continuous-Time Factor Graph Optimization with Time-Centric Mu
+Consistent Pose Estimation of Unmanned Ground Vehicles through Terrain-Aided Mul
+Wheel-Mounted/GNSS Fusion with AI-Aided Position Updates
+A General Framework for Multi-vehicle Cooperative Localization Using Pose Graph
+Multiple Update Particle Filter: Position Estimation by Combining GNSS Pseudoran
+Data-Driven Protection Levels for Camera and 3D Map-based Safe Urban Localizatio
+Tram Positioning with Map-Enabled GNSS Data Reconciliation
+Accurate Visual Localization for Automotive Applications
+Distributed High Accuracy Peer-to-Peer Localization in Mobile Multipath Environm
+G-Loc: Tightly-coupled Graph Localization with Prior Topo-metric Information
+Set-Valued Shadow Matching Using Zonotopes for 3-D Map-Aided GNSS Localization
+Real-time Kinematic Ground Truth for the Oxford RobotCar Dataset
+Accurate Global Trajectory Alignment using Poles and Road Markings
+SeA-RVINS: Semantic-Aware Tightly Coupled RTK-Visual-Inertial System with Correl
+A Nonlinear Navigation Observer Using IMU and Generic Position Information
+Learning-based GNSS Uncertainty Quantification using Continuous-Time Factor Grap
+An Assessment on the Use of Stationary Vehicles as a Support to Cooperative Posi
+Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse 
+Linear Features Observation Model for Autonomous Vehicle Localization
+Invariant filtering for wheeled vehicle localization with unknown wheel radius a
+Low-Cost Inertial Aiding for Deep-Urban Tightly-Coupled Multi-Antenna Precise GN
+Vehicular Teamwork: Collaborative localization of Autonomous Vehicles
+Map-Based Temporally Consistent Geolocalization through Learning Motion Trajecto
+Attitude-Estimation-Free GNSS and IMU Integration
+Online IMU-odometer Calibration using GNSS Measurements for Autonomous Ground Ve
+Camera-Based Localization and Enhanced Normalized Mutual Information
+Relative Pose-Velocity Estimation Using Dual IMU Measurements and Relative Posit
+BEVMAPMATCH: Multimodal BEV Neural Map Matching for Robust Re-Localization of Au
+Stop Line Aided Cooperative Positioning of Connected Vehicles
+A Geometric Approach For Pose and Velocity Estimation Using IMU and Inertial/Bod
+Localization Requirements for Autonomous Vehicles
+A Particle Filtering Framework for Integrity Risk of GNSS-Camera Sensor Fusion
+Analyzing Uncertainty in the Spatial Representation of the Kinematic Bicycle Mod
+Autonomous Driving Vehicles Using Adaptive Learning Method for Data Fusion
+V2X-Based Vehicular Positioning: Opportunities, Challenges, and Future Direction
+Factor Graph-Based Smoothing Without Matrix Inversion for Highly Precise Localiz
+Constrained Factor Graph Optimization for Robust Networked Pedestrian Inertial N
+Find your Way by Observing the Sun and Other Semantic Cues
+Multi-modal Image and Radio Frequency Fusion for Optimizing Vehicle Positioning
+Mobile Positioning in Multipath Environments: a Pseudo Maximum Likelihood approa
+Robust Position Estimation by Rao-Blackwellized Particle Filter without Integer 
+Utilizing Semantic Visual Landmarks for Precise Vehicle Navigation
+DeepLocalization: Landmark-based Self-Localization with Deep Neural Networks
+Cooperative Positioning for Sparsely Distributed High-Mobility Wireless Networks
+Multi-layer VI-GNSS Global Positioning Framework with Numerical Solution aided M
+Reliable GNSS Localization Against Multiple Faults Using a Particle Filter Frame
+Tutorial on Aided Inertial Navigation Systems: A Modern Treatment Using Lie-Grou
+Open-Source Factor Graph Optimization Package for GNSS: Examples and Application
+DIeSEL: DIstributed SElf-Localization of a network of underwater vehicles
+Universal Global State Estimation for Inertial Navigation Systems
+Observation Quality in DSM-Assisted Aerial Localization: A Benchmark and Base-An
+A Sensor-based Long Baseline Position and Velocity Navigation Filter for Underwa
+Terrain-based vehicle localization using an active suspension system
+Beyond Dead Reckoning: A Point of View on Camera--DAS--GNSS Continuity in Road T
+Learning Position From Vehicle Vibration Using an Inertial Measurement Unit
+Real-time tightly coupled GNSS and IMU integration via Factor Graph Optimization
+Vision-Based Navigation I: A navigation filter for fusing DTM/correspondence upd
+AutoCompass: Accurate Visual Localization on Public Maps by Learning from Weak L
+Semantic Image Alignment for Vehicle Localization
+Location as a service with a MEC architecture
+Robust Navigation In GNSS Degraded Environment Using Graph Optimization
+Parameter-free Maximum Likelihood Localization of a Network of Moving Agents fro
+High Precision Indoor Navigation for Autonomous Vehicles
+Online Performance Assessment of Multi-Source-Localization for Autonomous Drivin
+Collaborative High Accuracy Localization in Mobile Multipath Environments
+NANO-SLAM : Natural Gradient Gaussian Approximation for Vehicle SLAM
+GNSS Odometry: Precise Trajectory Estimation Based on Carrier Phase Cycle Slip E
+Estimation of the trajectory and attitude of railway vehicles using inertial sen
+The Role of Integrity Monitoring in Connected and Automated Vehicles: Current St
+Robust State Estimation and Integrity Monitoring within Multi-Sensor Navigation 
+Coarse-to-fine Semantic Localization with HD Map for Autonomous Driving in Struc
+Dejavu: An Accurate Energy-Efficient Outdoor Localization System
+AI-IMU Dead-Reckoning
+Cooperative Localization with Angular Measurements and Posterior Linearization
+Indoor Localization for an Autonomous Model Car: A Marker-Based Multi-Sensor Fus
+Algorithms for Nonlinear Mixed-Integer Location Estimation
+Deep urban unaided precise Global Navigation Satellite System vehicle positionin
+Efficient 2D-3D Matching for Multi-Camera Visual Localization
+Technical details of distributed localization
+GICI-LIB: A GNSS/INS/Camera Integrated Navigation Library
+Road Mapping and Localization using Sparse Semantic Visual Features
+Outlier Accommodation for GNSS Precise Point Positioning using Risk-Averse State
+Geolocation estimation of target vehicles using image processing and geometric c
+Centimeter-level Positioning by Instantaneous Lidar-aided GNSS Ambiguity Resolut
+Dynamic Selective Positioning for High-Precision Accuracy in 5G NR V2X Networks
+Relative kinematics of an anchorless network
+Review of Factor Graphs for Robust GNSS Applications
+Mosaic Zonotope Shadow Matching for Risk-Aware Autonomous Localization in Harsh 
+LocDyn: Robust Distributed Localization for Mobile Underwater Networks
+On the Performance Limits of Map-Aware Localization
+Pole-based Vehicle Localization with Vector Maps: A Camera-LiDAR Comparative Stu
+Accurate Pedestrian Tracking in Urban Canyons: A Multi-Modal Fusion Approach
+Mobile Localization in Non-Line-of-Sight Using Constrained Square-Root Unscented
+Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization
+Observability, Identifiability and Sensitivity of Vision-Aided Navigation
+Bayesian Integrity Monitoring for Cellular Positioning -- A Simplified Case Stud
+Geo-Localization Based on Dynamically Weighted Factor-Graph
+Statistical Analysis of Geometric Algorithms in Vehicular Visible Light Position
+Attention-based Vehicle Self-Localization with HD Feature Maps
+Look to Locate: Vision-Based Multisensory Navigation with 3-D Digital Maps for G
+Toward Consistent and Efficient Map-based Visual-inertial Localization: Theory F
+Location Verification Systems in Emerging Wireless Networks
+Iterative Path Reconstruction for Large-Scale Inertial Navigation on Smartphones
+Accurate Vision-based Vehicle Localization using Satellite Imagery
+Nonlinear State Estimation for Inertial Navigation Systems With Intermittent Mea
+GPS-denied Navigation: Attitude, Position, Linear Velocity, and Gravity Estimati
+A Detection and Filtering Framework for Collaborative Localization
+Adaptive Factor Graph-Based Tightly Coupled GNSS/IMU Fusion for Robust Positioni
+Secure Estimation and Attack Isolation for Connected and Automated Driving in th
+Inertial Collaborative Localisation for Autonomous Vehicles using a Minimum Ener
+Scene-Aware Error Modeling of LiDAR/Visual Odometry for Fusion-based Vehicle Loc
+Robots State Estimation and Observability Analysis Based on Statistical Motion M
+Generating Compact Geometric Track-Maps for Train Positioning Applications
+Observer design for position and velocity bias estimation from a single directio
+Hybrid Nonlinear Observers for Inertial Navigation Using Landmark Measurements
+Vision-aided Localization and Navigation Based on Trifocal Tensor
+Observers Design for Inertial Navigation Systems: A Brief Tutorial
+Uncertainty-Aware Velocity Correction for Proprioceptive Vehicle Localization us
+Infrastructure Node-based Vehicle Localization for Autonomous Driving
+Optimization-Based Outlier Accommodation for Tightly Coupled RTK-Aided Inertial 
+Motion model transitions in GPS-IMU sensor fusion for user tracking in augmented
+Indoor Navigation Algorithm Based on a Smartphone Inertial Measurement Unit and 
+Robust Odometry using Sensor Consensus Analysis
+Increasing SLAM Pose Accuracy by Ground-to-Satellite Image Registration
+Riccati observers for position and velocity bias estimation from either directio
+Informative Planning of Mobile Sensor Networks in GPS-Denied Environments
+The Effect of Ground Truth Accuracy on the Evaluation of Localization Systems
+An Experimental Evaluation of Robustness and Precision for Long-term LiDAR-based
+Vehicle Top Tag Assisted Vehicle-Road Cooperative Localization For Autonomous Pu
+Invariant Smoothing with low process noise
+Metrics for the Evaluation of localisation Robustness
+UniMSF: A Unified Multi-Sensor Fusion Framework for Intelligent Transportation S
+FusionCore: A 23-State Unscented Kalman Filter for IMU, Wheel Encoder, GPS, and 
+Exploiting Symmetries to Design EKFs with Consistency Properties for Navigation 
+Bayesian Learning-Enhanced Navigation with Deep Smoothing for Inertial-Aided Nav
+SLAM-based Integrity Monitoring Using GPS and Fish-eye Camera
+Nonlinear Dual control based on Fast Moving Horizon estimation and Model Predict
+Localization in Dynamic Planar Environments Using Few Distance Measurements
+Mobile robot localization with GNSS multipath detection using pseudorange residu
+Further results on the observability analysis and observer design for single ran
+Cooperative Vision-based Localization Networks with Communication Constraints
+Beyond Line-of-Sight: Cooperative Localization Using Vision and V2X Communicatio
+State Estimation Using Single Body-Frame Bearing Measurements
+Physics-Regularized Machine Learning for Proprioceptive Vehicle Localization Usi
+Invariant Extended Kalman Filtering Using Two Position Receivers for Extended Po
+CoordiNet: uncertainty-aware pose regressor for reliable vehicle localization
+Nonlinear Stochastic Position and Attitude Filter on the Special Euclidean Group
+RINS-W: Robust Inertial Navigation System on Wheels
+Monocular Vision based Crowdsourced 3D Traffic Sign Positioning with Unknown Cam
+Velocity and Disturbance Robust Non-linear Estimator for Autonomous Surface Vehi
+Guaranteed Performance Nonlinear Observer for Simultaneous Localization and Mapp
+ZUPT Aided GNSS Factor Graph with Inertial Navigation Integration for Wheeled Ro
+An innovation-based cycle-slip, multipath estimation, detection and mitigation m
+RoadMap: A Light-Weight Semantic Map for Visual Localization towards Autonomous 
+Error Decomposition for Hybrid Localization Systems
+Cooperative Localization for Mobile Networks: A Distributed Belief Propagation -
+A Comparison of Robust Kalman Filters for Improving Wheel-Inertial Odometry in P
+Geometric Stochastic Filter with Guaranteed Performance for Autonomous Navigatio
+A Hybrid Neural-Assisted Unscented Kalman Filter for Unmanned Ground Vehicle Nav
+Factor Graph Fusion of Raw GNSS Sensing with IMU and Lidar for Precise Robot Loc
+A Message Passing based Adaptive PDA Algorithm for Robust Radio-based Localizati
+Security of GPS/INS based On-road Location Tracking Systems
+GPS-DRIFT: Marine Surface Robot Localization using IMU-GPS Fusion and Invariant 
+OpenStreetMap-based LiDAR Global Localization in Urban Environment without a Pri
+Tightly-Coupled, Speed-aided Monocular Visual-Inertial Localization in Topologic
+Road Similarity-Based BEV-Satellite Image Matching for UGV Localization
+Robust Localization for Autonomous Vehicles in Highway Scenes
+A Sliding Window Filter on the Galilean Group for Consistent Aided Inertial Navi
+Performance Analysis for Autonomous Vehicle 5G-Assisted Positioning in GNSS-Chal
+Monocular Camera Localization for Automated Vehicles Using Image Retrieval
+Neural Aided Adaptive Innovation-Based Invariant Kalman Filter
+Nonlinear Pose Filters on the Special Euclidean Group SE(3) with Guaranteed Tran
+Evaluation of Kinematic Precise Point Positioning Convergence with an Incrementa
+TACO: Trajectory Aligning Cross-view Optimisation
+The Geometry of Navigation Problems
+CV2X-LOCA: Roadside Unit-Enabled Cooperative Localization Framework for Autonomo
+Nonlinear Filter for Simultaneous Localization and Mapping on a Matrix Lie Group
+Two stage GNSS outlier detection for factor graph optimization based GNSS-RTK/IN
+Radio Map Construction with Post-Hoc Location Calibration under Quasi-Static Pos
+Observability Analysis of Joint Steering and Extrinsic Calibration
+Crowdsourced 3D Mapping: A Combined Multi-View Geometry and Self-Supervised Lear
+Nonlinear Deterministic Filter for Inertial Navigation and Bias Estimation with 
+Robust GPS-Vision Localization via Integrity-Driven Landmark Attention
+MINS: Efficient and Robust Multisensor-aided Inertial Navigation System
+Position USBL/DVL Sensor-based Navigation Filter in the presence of Unknown Ocea
+Incrementally Learned Mixture Models for GNSS Localization
+Accurate Prior-centric Monocular Positioning with Offline LiDAR Fusion
+Geographical Map Registration and Fusion of Lidar-Aerial Orthoimagery in GIS
+UMLoc: Uncertainty-Aware Map-Constrained Inertial Localization with Quantified B
+Accurate IMU Preintegration Using Switched Linear Systems For Autonomous Systems
+Sensor Fusion of Camera, GPS and IMU using Fuzzy Adaptive Multiple Motion Models
+Data-driven robust UAV position estimation in GPS signal-challenged environment
+Global RTK Positioning in Graphical State Space
+Experimental Comparison of Visual-Aided Odometry Methods for Rail Vehicles
+Operational requirements for localization in autonomous vehicles
+Continuous Self-Localization on Aerial Images Using Visual and Lidar Sensors
+LIDAR data based Segmentation and Localization using Open Street Maps for Rural 
+Supervisory Measurement-Guided Noise Covariance Estimation
+GVINS: Tightly Coupled GNSS-Visual-Inertial Fusion for Smooth and Consistent Sta
+BEV-Patch-PF: Particle Filtering with BEV-Aerial Feature Matching for Off-Road G
+LiDAR-based HD Map Localization using Semantic Generalized ICP with Road Marking
+Architecture, Protocols, and Algorithms for Location-Aware Services in Beyond 5G
+Multi-Array 5G V2V Relative Positioning: Performance Bounds
+Tracking Large-scale Shared Bikes with Inertial Motion Learning in GNSS Blocked 
+Simultaneous Velocity and Position Estimation via Distance-only Measurements wit
+Beyond the Vehicle: Cooperative Localization by Fusing Point Clouds for GPS-Chal
+Discrete Nonlinear Observers for Inertial Navigation
+JVLDLoc: a Joint Optimization of Visual-LiDAR Constraints and Direction Priors f
+Multi-AAV Cooperative Path Planning using Nonlinear Model Predictive Control wit
+Pedestrian Motion Tracking by Using Inertial Sensors on the Smartphone
+Constructive Equivariant Observer Design for Inertial Navigation
+Learning Car Speed Using Inertial Sensors for Dead Reckoning Navigation
+WinTA-GIL: Windowed Trajectory Alignment for GNSS-IMU-LiDAR Heading Refinement i
+SmartLoc: Sensing Landmarks Silently for Smartphone Based Metropolitan Localizat
+Visual Localization for Autonomous Driving: Mapping the Accurate Location in the
+Robust, High-Precision GNSS Carrier-Phase Positioning with Visual-Inertial Fusio
+Wheel-GINS: A GNSS/INS Integrated Navigation System with a Wheel-mounted IMU
+InterLoc: LiDAR-based Intersection Localization using Road Segmentation with Aut
+BLENDS: Bayesian Learning-Enhanced Deep Smoothing for GNSS-Denied Environments
+Robust Monocular Localization in Sparse HD Maps Leveraging Multi-Task Uncertaint
+Real-time loosely coupled GNSS and IMU integration via Factor Graph Optimization
+Robust Self-Tuning Data Association for Geo-Referencing Using Lane Markings
+On base station localization for state estimation over lossy networks
+ConFusion: Sensor Fusion for Complex Robotic Systems using Nonlinear Optimizatio
+Set-theoretic Localization for Mobile Robots with Infrastructure-based Sensing
+TEX-CUP: The University of Texas Challenge for Urban Positioning
+Associating Uncertainty to Extended Poses for on Lie Group IMU Preintegration wi
+Velocity-Based Channel Charting with Spatial Distribution Map Matching
+A Robust 5G Terrestrial Positioning System with Sensor Fusion in GNSS-denied Sce
+PO-GVINS: Tightly Coupled GNSS-Visual-Inertial Integration with Pose-Only Repres
+An Effective Multi-Cue Positioning System for Agricultural Robotics
+Incremental-Smoothing-Based ARAIM Protection Levels for Tightly Coupled GNSS/IMU
+WRAP: Wasserstein-Robust Adaptive Plug-in for Robot Localization
+Night-Rider: Nocturnal Vision-aided Localization in Streetlight Maps Using Invar
+Vehicular Visible Light Positioning for Collision Avoidance and Platooning: A Su
+Riccati observers for velocity-aided attitude estimation of accelerated vehicles
+Using Inertial Sensors for Position and Orientation Estimation
+Long-term Visual Localization using Semantically Segmented Images
+Real-time rail vehicle localisation using spatially resolved magnetic field meas
+GNIO: Gated Neural Inertial Odometry
+Loosely Coupled Factor Graph Optimization for Pseudolite-Augmented Navigation
+CMRNet: Camera to LiDAR-Map Registration
+Localization from Pseudoranges: Quadrics and Duality
+Invariant Extended Kalman Filtering for Human Motion Estimation with Imperfect S
+GHNet:Learning GNSS Heading from Velocity Measurements
+Pose, Velocity and Landmark Position Estimation Using IMU and Bearing Measuremen
+MapLocNet: Coarse-to-Fine Feature Registration for Visual Re-Localization in Nav
+TLIO: Tight Learned Inertial Odometry
+Localizability-Constrained Deployment of Mobile Robotic Networks with Noisy Rang
+Robust Statistics vs. Machine Learning vs. Bayesian Inference: Insights into Han
+Globally Optimal GNSS Multi-Antenna Lever Arm Calibration
+Ground vehicle odometry using a non-intrusive inertial speed sensor
+Machine Learning for LiDAR-Based Navigation System
+Localization with Anticipation for Autonomous Urban Driving in Rain
+Long-term map maintenance pipeline for autonomous vehicles
+Learnable Spatio-Temporal Map Embeddings for Deep Inertial Localization
+A Mathematical Framework for IMU Error Propagation with Applications to Preinteg
+Using PPP Information to Implement a Global Real-Time Virtual Network DGNSS Appr
+uPLAM: Robust Panoptic Localization and Mapping Leveraging Perception Uncertaint
+Unscented Kalman Filtering on Manifolds for AUV Navigation -- Experimental Resul
+Range Image-based LiDAR Localization for Autonomous Vehicles
+Extended Preintegration for Relative State Estimation of Leader-Follower Platfor
+Distributed Localization and Tracking of Mobile Networks Including Noncooperativ
+Fundamental Performance Bounds for Carrier Phase Positioning in Cellular Network
+Accurate Deep Direct Geo-Localization from Ground Imagery and Phone-Grade GPS
+Landmark Placement for Localization in a GPS-denied Environment
+Maximum Consensus Localization using an Objective Function based on Helmert's Po
+Seamless Outdoor-Indoor Pedestrian Positioning System with GNSS/UWB/IMU Fusion: 
+A Bayesian algorithm for distributed network localization using distance and dir
+Integrating Generic Sensor Fusion Algorithms with Sound State Representations th
+DiffVL: Diffusion-Based Visual Localization on 2D Maps via BEV-Conditioned GPS D
+Vision-Based Real-Time Indoor Positioning System for Multiple Vehicles
+GPS-Denied Relative Motion Estimation For Fixed-Wing UAV Using the Variational P
+Dynamic Accuracy Estimation in a Wi-Fi-based Positioning System
+A dynamic state transition algorithm with application to sensor network localiza
+VVLoc: Prior-free 3-DoF Vehicle Visual Localization
+Nonlinear Observer Design for Landmark-Inertial Simultaneous Localization and Ma
+Fast Monte-Carlo Localization on Aerial Vehicles using Approximate Continuous Be
+Batch Estimation of a Steady, Uniform, Flow-Field from Ground Velocity and Headi
+Active Localization using Bernstein Distribution Functions
+Robust Simultaneous Localization of Nodes and Targets in Sensor Networks Using R
+Recursive Bayesian Initialization of Localization Based on Ranging and Dead Reck
+A Chefs KISS -- Utilizing semantic information in both ICP and SLAM framework
+Solution of network localization problem with noisy distances and its convergenc
+Sparse Semantic Map-Based Monocular Localization in Traffic Scenes Using Learned
+Mobile Wireless Localization through Cooperation
+Sensitivity Study of Fiducial-Aided Navigation of Unmanned Aerial Vehicles
+Simultaneous Localization and Mapping Problem in Wireless Sensor Networks
+Modified CRB for Location and Velocity Estimation using Signals of Opportunity
+Graph-based Proprioceptive Localization Using a Discrete Heading-Length Feature 
+IMU as an Input vs. a Measurement of the State in Inertial-Aided State Estimatio
+Cooperative Network Navigation: Fundamental Limit and its Geometrical Interpreta
+Attack-Aware Multi-Sensor Integration Algorithm for Autonomous Vehicle Navigatio
+An opportunistic linear-convex algorithm for localization in mobile robot networ
+Optimal Information-Theoretic Wireless Location Verification
+Robust Extended Kalman Filter for Land Navigation Using Massive Array of MEMS IM
+Information-Aware Guidance for Magnetic Anomaly based Navigation
+Train Localization During GNSS Outages: A Minimalist Approach Using Track Geomet
+Modular Robot and Landmark Localisation Using Relative Bearing Measurements
+Why semantics matters: A deep study on semantic particle-filtering localization 
+Metric Localization using Google Street View
+Ufil: A Unified Framework for Infrastructure-based Localization
+An Underactuated Vehicle Localization Method in Marine Environments
+DeLS-3D: Deep Localization and Segmentation with a 3D Semantic Map
+Inertial Odometry on Handheld Smartphones
+Integrating Geometry-Driven and Data-Driven Positioning via Combinatorial Data A
+RIDI: Robust IMU Double Integration
+Multi-Sensor Fusion for Quadruped Robot State Estimation using Invariant Filteri
+Lost in Time? Continuous Symmetry and Identifiability in Aided Inertial Navigati
+Optimal Initialization Strategies for Range-Only Trajectory Estimation
+Joint Mapping and Calibration via Differentiable Sensor Fusion
+Onboard Model-based Prediction of Tram Braking Distance
+ReLoc-PDR: Visual Relocalization Enhanced Pedestrian Dead Reckoning via Graph Op
+On the Identifiability of Aided Inertial Navigation Under Measurement Delays: A 
+GNSS/MEMS-INS Integration for Drone Navigation using EKF on Lie Groups
+Robust Model-Aided Inertial Localization for Autonomous Underwater Vehicles
+PEOPLEx: PEdestrian Opportunistic Positioning LEveraging IMU, UWB, BLE and WiFi
+Global Localization in Unstructured Environments using Semantic Object Maps Buil
+Improving GNSS Positioning using Neural Network-based Corrections
+SegLocNet: Multimodal Localization Network for Autonomous Driving via Bird's-Eye
+Certifiable Alignment of GNSS and Local Frames via Lagrangian Duality
+A note on Global Positioning System (GPS) and Euclidean distance matrices
+InterKey: Cross-modal Intersection Keypoints for Global Localization on OpenStre
+CredibleDFGO: Differentiable Factor Graph Optimization with Credibility Supervis
+WMINet: A Wheel-Mounted Inertial Learning Approach For Mobile-Robot Positioning
+Correction to:"Position estimation from direction or range measurements"
+Error Scaling Laws for Linear Optimal Estimation from Relative Measurements
+PDRNN: Modular Data-driven Pedestrian Dead Reckoning on Loosely Coupled Radio- a
+Robust Localization of Aerial Vehicles via Active Control of Identical Ground Ve
+Control and State Estimation of Vehicle-Mounted Aerial Systems in GPS-Denied, No
+Square-Root Inverse Filter-based GNSS-Visual-Inertial Navigation
+DILAND: An Algorithm for Distributed Sensor Localization with Noisy Distance Mea
+Improve the autonomy of the SE2(3) group based Extended Kalman Filter for Integr
+Improving Foot-Mounted Inertial Navigation Through Real-Time Motion Classificati
+Empowering a Single-Frequency GNSS Receiver to Achieve High-Precision Positionin
+LESS-Map: Lightweight and Evolving Semantic Map in Parking Lots for Long-term Se
+Cooperative Multi-Point Vehicular Positioning Using Millimeter-Wave Surface Refl
+Attitude and Gyro Bias Estimation Using GPS and IMU Measurements
+Clutter Suppression, Time-Frequency Synchronization, and Sensing Parameter Assoc
+Pure Inertial Navigation in Challenging Environments with Wheeled and Chassis Mo
+Nonlinear Stochastic Estimators on the Special Euclidean Group SE(3) using Uncer
+Trajectory Based Observer Design: A Framework for Lightweight Sensor Fusion
+NeRC: Neural Ranging Correction through Differentiable Moving Horizon Location E
+Optimization-Based Visual-Inertial SLAM Tightly Coupled with Raw GNSS Measuremen
+Geo-locating Road Objects using Inverse Haversine Formula with NVIDIA Driveworks
+Multimodal Indoor Localization Using Crowdsourced Radio Maps
+Secure Platooning of Autonomous Vehicles Under Attacked GPS Data
+Adaptive Tuning of the Unscented Kalman Filter using Particle Swarm Optimization
+Semantic and Feature Guided Uncertainty Quantification of Visual Localization fo
+Distributed Localization in Dynamic Networks via Complex Laplacian
+GNSS Positioning using Cost Function Regulated Multilateration and Graph Neural 
+Iterated Posterior Linearization PMB Filter for 5G SLAM
+Coarse-To-Fine Visual Localization Using Semantic Compact Map
+Experimental Implementation of an Invariant Extended Kalman Filter-based Scan Ma
+Relative Navigation and Dynamic Target Tracking for Autonomous Underwater Proxim
+PrNet: A Neural Network for Correcting Pseudoranges to Improve Positioning with 
+Positioning aiding using LiDAR in GPS signal loss scenarios
+Decentralized Collaborative Inertial Tracking
+Vehicular Multistatic OTFS-ISAC: A Geometry-Aware Deployment and Kalman-Based Tr
+City-wide Street-to-Satellite Image Geolocalization of a Mobile Ground Agent
+High-Performance Motorbike Lean Angle Estimation
+Nonlinear Fisher Particle Output Feedback Control and its application to Terrain
+An iterative scheme for feature based positioning using a weighted dissimilarity
+Long-Term Inertial Navigation Aided by Dynamics of Flow Field Features
+Range and Bearing Data Fusion for Precise Convex Network Localization
+IMU Propagation as Preintegration
+Opportunities of Self Supervised Learning for GNSS: Evaluation of a Deep Learnin
+Gaussian Process-Based Scalar Field Estimation in GPS-Denied Environments
+navlie: A Python Package for State Estimation on Lie Groups
+Cross-View Sequential Visual Localization with Spatio-Temporal Context Modeling 
+ReNiL: Event-Driven Pedestrian Bayesian Localization Using IMU for Real-World Ap
+Deep Learning Based Speed Estimation for Constraining Strapdown Inertial Navigat
+Improving Outdoor Multi-cell Fingerprinting-based Positioning via Mobile Data Au
+(no filters)
+tracking a vehicle on a road network with a motion model of its position and speed along the roads, constrained to the road graph, from noisy GPS positions [] {8000 papers} focus 0.01
+1. Dynamic Geospatial Networks [networks, routing, traffic] {1786 papers} focus 0.31
+2. Data sparsity and heterogeneity in trajectory prediction tasks [prediction, trajectory, forecasting] {1169 papers} focus 0.44
+3. Bayesian estimation with particle filters [filtering, tracking, filter] {1150 papers} focus 0.39
+4. Optimization-based Motion Planning [planning, motion, autonomous] {802 papers} focus 0.42
+5. Integration of Generative Models in CAVs [traffic, map, road] {749 papers} focus 0.32
+6. Robustness Analysis against Localization Error [localization, positioning, navigation] {746 papers} focus 0.40
+7. Reproducible Research in Active SLAM [slam, odometry, visual] {713 papers} focus 0.42
+8. Sensor Fusion Based MOT [tracking, multi-object, object] {455 papers} focus 0.55
+9. Radar Odometry and Machine Learning [navigation, radar, mapping] {279 papers} focus 0.38
+10. Information Fusion in LiDAR-Centric Occupancy [occupancy, perception, lidar] {151 papers} focus 0.42
+Dynamic Geospatial Networks [networks, routing, traffic] {1786 papers} focus 0.31
+1. Realistic Routing Problems [routing, path, shortest] {584 papers} focus 0.26
+2. Models and Methods in Traffic Analysis Targeting Mobile Devices [networks, traffic, vehicular] {583 papers} focus 0.25
+3. Unique Properties of Trajectory Data [trajectory, data, trajectories] {338 papers} focus 0.38
+4. Multi-Robot Path Planning [multi-agent, planning, finding] {64 papers} focus 0.58
+5. n AV + m HV: controllable AVs navigating the HV-dominated traffic [intersections, autonomous, vehicles] {55 papers} focus 0.56
+6. Energy management with EVs: EV scheduling [electric, vehicles, energy] {44 papers} focus 0.54
+7. Collaborative Control of CAVs [connected, vehicles, automated] {42 papers} focus 0.53
+8. From Boundary Coverage to Boundary Patrolling. [tracking, targets, monitoring] {33 papers} focus 0.52
+9. Car-following and Platooning [vehicle, control, automated] {32 papers} focus 0.55
+10. Foundation Model in Trajectory Computing [aircraft, trajectory, modeling] {11 papers} focus 0.64
+must!!: 852 dropped, 934 left here
+Fast Shortest Path Routing in Transportation Networks with Time-Dependent Road S
+Map Matching with Simplicity Constraints
+Transforming Speed Sequences into Road Rays on the Map with Elastic Pathing
+The Infati Data
+CiNCT: Compression and retrieval for massive vehicular trajectories via relative
+A Travel-Time Metric
+Fast paths in large-scale dynamic road networks
+Prediction-based Online Trajectory Compression
+Computing Similarity between a Pair of Trajectories
+Spatio-Temporal Trajectory Similarity Measures: A Comprehensive Survey and Quant
+Intra-City Urban Network and Traffic Flow Analysis from GPS Mobility Trace
+A Topological Algorithm for Determining How Road Networks Evolve Over Time
+Playing with Matches: Vehicular Mobility through Analysis of Trip Similarity and
+Space-Efficient, Fast and Exact Routing in Time-Dependent Road Networks
+Combining Predicted and Live Traffic with Time-Dependent A* Potentials
+An O(M log M) Algorithm for Bipartite Matching with Roadmap Distances
+Optimizing travel routes using temporal networks constructed from GPS data
+Performance Evaluation of GPS Trajectory Rasterization Methods
+SWMLP: Shared Weight Multilayer Perceptron for Car Trajectory Speed Prediction u
+A diffusion-based analysis of a multi-class road traffic network
+Vehicle Routing with Time-Dependent Travel Times: Theory, Practice, and Benchmar
+Temporal Map Labeling: A New Unified Framework with Experiments
+TPM: A GPS-based Trajectory Pattern Mining System
+Towards Reliable Evaluation of Road Network Reconstructions
+Map-aided Dead-reckoning --- A Study on Locational Privacy in Insurance Telemati
+A New Formulation of The Shortest Path Problem with On-Time Arrival Reliability
+Time Dependent Contraction Hierarchies -- Basic Algorithmic Ideas
+Parsimonious shooting heuristic for trajectory control of connected automated tr
+Retrieving Similar Trajectories from Cellular Data at City Scale
+Clustering of Urban Traffic Patterns by K-Means and Dynamic Time Warping: Case S
+Multi-Vehicle Trajectory Optimisation On Road Networks
+Optimal Time-dependent Sequenced Route Queries in Road Networks
+An Algorithmic Framework for Labeling Road Maps
+Trajectory-Based Spatiotemporal Entity Linking
+Trajectory-Based Dynamic Map Labeling
+Syntactic Enhancement to VSIMM for Roadmap Based Anomalous Trajectory Detection:
+An Adaptive Broadcasting Strategy for Efficient Dynamic Mapping in Vehicular Net
+Using Incomplete Information for Complete Weight Annotation of Road Networks -- 
+Path-Based Distance for Street Map Comparison
+Mapping and Matching Algorithms: Data Mining by Adaptive Graphs
+Elastic Pathing: Your Speed is Enough to Track You
+Eco-Routing Using Open Street Maps
+Geometry of Interest (GOI): Spatio-Temporal Destination Extraction and Partition
+A Scalable Framework for Trajectory Prediction
+Route Planning in Transportation Networks
+Kinematic Detection of Anomalies in Human Trajectory Data
+Fast Subtrajectory Similarity Search in Road Networks under Weighted Edit Distan
+Graph-Based Approaches to Clustering Network-Constrained Trajectory Data
+A Framework for Efficient Dynamic Routing under Stochastically Varying Condition
+Online Trajectory Segmentation and Summary With Applications to Visualization an
+Co-Clustering Network-Constrained Trajectory Data
+An Inverse Olympic Medal Tally Transformation for Optimal Lane-level Road Networ
+On the Complexity of an Unregulated Traffic Crossing
+Continuous-time link-based kinematic wave model: formulation, solution existence
+Let Trajectories Speak Out the Traffic Bottlenecks
+A convex reformulation for speed planning of a vehicle under the travel time and
+CT-Mapper: Mapping Sparse Multimodal Cellular Trajectories using a Multilayer Tr
+RWP+: A New Random Waypoint Model for High-Speed Mobility
+Trajectory Clustering Performance Evaluation: If we know the answer, it's not cl
+Comparing maximal mean values on different scales
+Spatio-Temporal Top-k Similarity Search for Trajectories in Graphs
+Speed planning by minimizing travel time and energy consumption
+Querying Shortest Path on Large Time-Dependent Road Networks with Shortcuts
+Discovery of Convoys in Trajectory Databases
+Applications of Trajectory Data from the Perspective of a Road Transportation Ag
+Arc Routing with Time-Dependent Travel Times and Paths
+The ubiquitous efficiency of going further: how street networks affect travel sp
+Predicting Transportation Modes of GPS Trajectories using Feature Engineering an
+Intelligent Truck Matching in Full Truckload Shipments using Ping2Hex approach
+Quickest Path Queries on Transportation Network
+Efficient Spatial Keyword Search in Trajectory Databases
+Privacy-preserving Travel Time Prediction with Uncertainty Using GPS Trace Data
+Kinematic Wave Models of Network Vehicular Traffic
+Fundamental diagram constrained dynamic optimal transport via proximal splitting
+Discovering Semantic Spatial and Spatio-Temporal Outliers from Moving Object Tra
+Graph-Based Approaches to Clustering Network-Constrained Trajectory Data
+Modularity-Based Clustering for Network-Constrained Trajectories
+Car Path Tracking in Traffic Flow Networks with Bounded Buffers at Junctions
+A Hidden Markov Model for Route and Destination Prediction
+Route Reconstruction from Traffic Flow via Representative Trajectories
+Fast Exact Shortest Path and Distance Queries on Road Networks with Parametrized
+A metric for sets of trajectories that is practical and mathematically consisten
+Prioritized SIPP for Multi-Agent Path Finding With Kinematic Constraints
+Inferring Routing Preferences of Bicyclists from Sparse Sets of Trajectories
+Scalable Unsupervised Multi-Criteria Trajectory Segmentation and Driving Prefere
+Pruning Techniques for the Stochastic on-time Arrival Problem\texorpdfstring -- 
+FastATDC: Fast Anomalous Trajectory Detection and Classification
+Bus Travel Time Predictions Using Additive Models
+Trajectory Based Optimal Segment Computation in Road Network Databases
+TRAJEDI: Trajectory Dissimilarity
+Improving Travel Time Reliability with Variable Speed Limits
+VectorTSP: A Traveling Salesperson Problem with Racetrack-like acceleration cons
+Classifying Spatial Trajectories
+The Bounded Acceleration Shortest Path problem: complexity and solution algorith
+PPQ-Trajectory: Spatio-temporal Quantization for Querying in Large Trajectory Re
+Applied Similarity Problems Using Frechet Distance
+Los Angeles Metro Bus Data Analysis Using GPS Trajectory and Schedule Data (Demo
+Large Scale Real-time Ridesharing with Service Guarantee on Road Networks
+Vehicle Route Planning using Dynamically Weighted Dijkstra's Algorithm with Traf
+Fast Shortest Path Polyline Smoothing With G1 Continuity and Bounded Curvature
+Time Window Frechet and Metric-Based Edit Distance for Passively Collected Traje
+Lagrangian-based Hydrodynamic Model: Freeway Traffic Estimation
+Efficient Stochastic Routing in Path-Centric Uncertain Road Networks -- Extended
+Geographic Centroid Routing for Vehicular Networks
+Engineering Oracles for Time-Dependent Road Networks
+A fast implementation of near neighbors queries for Fr\'echet distance (GIS Cup)
+Optimization of continuous-flow over traffic networks with fundamental diagram c
+Online Traffic Routing: Deterministic Limits and Data-driven Enhancements
+Compression of GPS Trajectories using Autoencoders
+Vector Field k-Means: Clustering Trajectories by Fitting Multiple Vector Fields
+Trajectory-based Scene Understanding using Dirichlet Process Mixture Model
+TrajectoryNet: An Embedded GPS Trajectory Representation for Point-based Classif
+PRESS: A Novel Framework of Trajectory Compression in Road Networks
+A fully-discrete-state kinetic theory approach to traffic flow on road networks
+Review and Perspective for Distance Based Trajectory Clustering
+TRAPP: An Efficient Point-to-Point Path Planning Algorithm for Road Networks wit
+Inferring Accurate Bus Trajectories from Noisy Estimated Arrival Time Records
+Online shortest paths with confidence intervals for routing in a time varying ra
+Typical Snapshots Selection for Shortest Path Query in Dynamic Road Networks
+Nash Flows over Time with Spillback and Kinematic Waves
+Piecewise linear car-following modeling
+New algorithms for the simplification of multiple trajectories under bandwidth c
+Traffic-Aware Navigation in Road Networks
+TTDM: A Travel Time Difference Model for Next Location Prediction
+Routing Directions: Keeping it Fast and Simple
+Continuous-Space Roadmap Generation for Mobile Robot Fleets with Distance Constr
+Accelerating Time-Optimal Trajectory Planning for Connected and Automated Vehicl
+Customizable Contraction Hierarchies -- A Survey
+Multiple-Path Selection for new Highway Alignments using Discrete Algorithms
+Semantic segmentation of trajectories with agent models
+Intriguingly Simple and Efficient Time-Dependent Routing in Road Networks
+Simple Distances for Trajectories via Landmarks
+Spatio-Temporal Reference Frames as Geographic Objects
+Un an\'alisis bibliom\'etrico de la producci\'on cient\'ifica acerca del agrupam
+Constrain Path Optimization on Time-Dependent Road Networks
+Studying Geometric Graph Properties of Road Networks Through an Algorithmic Lens
+(k, l)-Medians Clustering of Trajectories Using Continuous Dynamic Time Warping
+Tractable Pathfinding for the Stochastic On-Time Arrival Problem
+Priority-based intersection management with kinodynamic constraints
+The Maximum Trajectory Coverage Query in Spatial Databases
+Constructing Optimal Highways
+Lane-Level Route Planning for Autonomous Vehicles
+Technical Report: Parallel Distance Threshold Query Processing for Spatiotempora
+Fast discovery of multidimensional subsequences for robust trajectory classifica
+Projected Attainable Speed Space: A Driving Efficiency Metric Connecting Instant
+Parametric shortest-path algorithms via tropical geometry
+Destination Prediction Based on Partial Trajectory Data
+Assessing the Potential of Ride-Sharing Using Mobile and Social Data
+Multi-Agent Motion Planning with B\'ezier Curve Optimization under Kinodynamic C
+NEXICA: Discovering Road Traffic Causality (Extended arXiv Version)
+Probabilistic Nearest Neighbor Queries on Uncertain Moving Object Trajectories
+Exact Trajectory Similarity Search With N-tree: An Efficient Metric Index for kN
+A kinetic traffic network model and its macroscopic limit: merging lanes
+Random road networks: the quadtree model
+Spatio-Temporal Techniques for User Identification by means of GPS Mobility Data
+Cloud-Assisted Collaborative Road Information Discovery with Gaussian Process: A
+Congestion Reduction Using Ad hoc Message Dissemination in Vehicular Networks
+Mining Users' Significant Driving Routes with Low-power Sensors
+Personalized Visited-POI Assignment to Individual Raw GPS Trajectories
+Label Placement in Road Maps
+From Target Tracking to Targeting Track -- Part I: A Metric for Spatio-Temporal 
+Optimal departure time advice in road networks with stochastic disruptions
+Customizable Contraction Hierarchies
+Discovery of Driving Patterns by Trajectory Segmentation
+Transit Node Routing Reconsidered
+A 2-phase traffic model based on a speed bound
+Highly Robust Clustering of GPS Driver Data for Energy Efficient Driving Style M
+Unconstrained and Curvature-Constrained Shortest-Path Distances and their Approx
+Nearest-Neighbor Queries in Customizable Contraction Hierarchies and Application
+Cooperative Vehicle Speed Fault Diagnostics and Correction
+Improved Oracles for Time-Dependent Road Networks
+Shortest Path and Distance Queries on Road Networks: Towards Bridging Theory and
+Influence diagrams for the optimization of a vehicle speed profile
+Monotone Causality in Opportunistically Stochastic Shortest Path Problems
+Calibrating microscopic car following models for adaptive cruise control vehicle
+Distance Oracles for Time-Dependent Networks
+GeoPrune: Efficiently Finding Shareable Vehicles Based on Geometric Properties
+Roadside units placement for total travel time minimization in I2X-enabled road 
+Distributed Processing of k Shortest Path Queries over Dynamic Road Networks
+AutoRVO: Local Navigation with Dynamic Constraints in Dense Heterogeneous Traffi
+BusTr: Predicting Bus Travel Times from Real-Time Traffic
+Shared Execution of Path Queries on Road Networks
+A Privacy-Preserving Traffic Monitoring Scheme via Vehicular Crowdsourcing
+Understanding Trajectory Behavior: A Motion Pattern Approach
+PTRAIL -- A python package for parallel trajectory data preprocessing
+Leveraging the Self-Transition Probability of Ordinal Pattern Transition Graph f
+rt2gtfs: A scalable framework for correcting public transport timetables using r
+The FastMap Algorithm for Shortest Path Computations
+Optimizing city-scale traffic through modeling observations of vehicle movements
+SAILing CAVs: Speed-Adaptive Infrastructure-Linked Connected and Automated Vehic
+MPE: A Mobility Pattern Embedding Model for Predicting Next Locations
+GTRSS: Graph-based Top-$k$ Representative Similar Subtrajectory Query
+A Survey on Trajectory Data Management, Analytics, and Learning
+On The Equivalence of Tries and Dendrograms - Efficient Hierarchical Clustering 
+A Data Model and Predicate Logic for Trajectory Data (Extended Version)
+Reverse k Nearest Neighbor Search over Trajectories
+Multi-agent Path Finding for Cooperative Autonomous Driving
+Transportation Modes Classification Using Feature Engineering
+Centralized Decision-Making for Platooning By Using SPaT-Driven Reference Speeds
+Scale-Invariant Random Spatial Networks
+A Middle Way to Traffic Enlightenment
+Adaptive Beam Design for V2I Communications using Vehicle Tracking with Extended
+Mobility-Assisted on-Demand Routing Algorithm for MANETs in the Presence of Loca
+Fast, Exact and Scalable Dynamic Ridesharing
+Hidden convexity property of a speed planning problem
+Compressed Traffic Assignment with the Augmented Lagrangian Method
+Central Trajectories
+The Faulty GPS Problem: Shortest Time Paths in Networks with Unreliable Directio
+Bounded Quadrant System: Error-bounded Trajectory Compression on the Go
+Control strategies for road risk mitigation in kinetic traffic modelling
+Tracking of Wideband Multipath Components in a Vehicular Communication Scenario
+Quality-Aware Broadcasting Strategies for Position Estimation in VANETs
+Optimal trajectory planning meets network-level routing: Integrated control fram
+Faster and Smaller Two-Level Index for Network-based Trajectories
+Dual-Hierarchy Labelling: Scaling Up Distance Queries on Dynamic Road Networks
+Congestion Barcodes: Exploring the Topology of Urban Congestion Using Persistent
+Image Patch-Matching with Graph-Based Learning in Street Scenes
+Finding Risk-Averse Shortest Path with Time-dependent Stochastic Costs
+Highway Hull Revisited
+Delay-Optimal Data Forwarding in Vehicular Sensor Networks
+Decentralized Routing on Spatial Networks with Stochastic Edge Weights
+Optimal Time-Convex Hull under the Lp Metrics
+Trip-Based Public Transit Routing Using Condensed Search Trees
+Inter-Vehicle Range Estimation from Periodic Broadcasts
+Garden city: A synthetic dataset and sandbox environment for analysis of pre-pro
+Efficient Compression and Indexing of Trajectories
+A Distributed Solution for Efficient K Shortest Paths Computation over Dynamic R
+Uncertainty-Aware Trip Purpose Inference from GPS Trajectories via POI Semantic 
+Stochastic stability of traffic maps
+Deep Learning based Urban Vehicle Trajectory Analytics
+Why is My Route Different Today? An Algorithm for Explaining Route Selection
+Efficient Path Routing Over Road Networks in the Presence of Ad-Hoc Obstacles (T
+Learning the optimally coordinated routes from the statistical mechanics of poly
+Attention-based Recurrent Neural Network for Urban Vehicle Trajectory Prediction
+SALT. A unified framework for all shortest-path query variants on road networks
+Staypoint Detection from Noisy Trajectory Data [Experiment Paper]
+Probing a Set of Trajectories to Maximize Captured Information
+Optimal Paths for Variants of the 2D and 3D Reeds-Shepp Car with Applications in
+Dynamic Network Delay Cartography
+Modified Dynamic Programming Algorithms for GLOSA Systems with Stochastic Signal
+Dynamic System Optimum: A Projection-based Framework for Macroscopic Traffic Mod
+Compact Trip Representation over Networks
+Two Multivehicle Routing Problems with Unit-Time Windows
+Stable Tree Labelling for Accelerating Distance Queries on Dynamic Road Networks
+Optimized Customizable Route Planning in Large Road Networks with Batch Processi
+CM Modeling of Trajectory
+Optimal Construction for Time-Convex Hull with Two Orthogonal Highways in the L1
+A fully-discrete-state kinetic theory approach to modeling vehicular traffic
+Pattern retrieval of traffic congestion using graph-based associations of traffi
+Optimization-Based Path-Planning for Connected and non-Connected Automated Vehic
+High Throughput Shortest Distance Query Processing on Large Dynamic Road Network
+Polynomial-Time Approximation Schemes for k-Center and Bounded-Capacity Vehicle 
+Spatio-Temporal Motifs for Optimized Vehicle-to-Vehicle (V2V) Communications
+TraLFM: Latent Factor Modeling of Traffic Trajectory Data
+Spatio-temporal Modeling for Large-scale Vehicular Networks Using Graph Convolut
+Context Trees: Augmenting Geospatial Trajectories with Context
+Contraction of Timetable Networks with Realistic Transfers
+Routing Unmanned Vehicles in GPS-Denied Environments
+Vehicle Platooning
+Towards Knowledge-Enriched Path Computation
+Semantrix: A Compressed Semantic Matrix
+Fast Marching based Rendezvous Path Planning for a Team of Heterogeneous Vehicle
+Stability and bifurcation in network traffic flow: A Poincar\'e map approach
+A link queue model of network traffic flow
+Stay-point Identification as Curve Extrema
+A convex formulation of traffic dynamics on transportation networks
+GeoSplit: Selective Edge--Server Map Acquisition for Cross-User Travel-Mode Reco
+Road layout in the KPZ class
+Computing Dynamic User Equilibrium on Large-Scale Networks Without Knowing Globa
+Towards a Tighter Bound on Possible-Rendezvous Areas: Preliminary Results
+Efficient Trajectory Compression and Range Query Processing
+Intrinsic Point of Interest Discovery from Trajectory Data
+OSM+: Billion-Level OpenStreetMap Dataset for City-wide Experiments
+Route Packing: Geospatially-Accurate Visualization of Route Networks
+On scenario construction for stochastic shortest path problems in real road netw
+Network-Constrained Policy Optimization for Adaptive Multi-agent Vehicle Routing
+Evaluating geospatial context information for travel mode detection
+Introducing a novel Location-Assignment Algorithm for Activity-Based Transport M
+Modelling Metropolitan-area Ambulance Mobility under Blue Light Conditions
+RADAR: a Radio-based Analytics for Dynamic Association and Recognition of pseudo
+GNN-Guided Network Reduction for Centralized Urban Traffic Routing
+A general framework for nonlocal traffic flow models on networks
+Sub-Riemannian Fast Marching in SE(2)
+Information Dissemination Speed in Delay Tolerant Urban Vehicular Networks in a 
+Trajectory Minimum Touching Ball
+The Dynamics of Vehicular Networks in Urban Environments
+A Real-Time Spatial Index for In-Vehicle Units
+Quantifying Point Contributions: A Lightweight Framework for Efficient and Effec
+A Strategic Routing Framework and Algorithms for Computing Alternative Paths
+Dynamic Vehicle Routing for Data Gathering in Wireless Networks
+Optimal Racing of an Energy-Limited Vehicle
+Contextual Stochastic Vehicle Routing with Time Windows
+Stochastic Shockwave Dynamics in First-Order Traffic Flow
+A Survey and Taxonomy of Urban Traffic Management: Towards Vehicular Networks
+Trajectools Demo: Towards No-Code Solutions for Movement Data Analytics
+STT-CBS: A Conflict-Based Search Algorithm for Multi-Agent Path Finding with Sto
+Beyond Shortest Path: Agentic Vehicular Routing with Semantic Context
+Distance between Road Networks: A Macroscopic Method for Road Network Datasets C
+Improving Urban Traffic Throughput with Vehicle Platooning: Theory and Experimen
+$k^{\tau,\epsilon}$-anonymity: Towards Privacy-Preserving Publishing of Spatiote
+A Lightweight Traffic Map for Efficient Anytime LaCAM*
+Routing Multiple Unmanned Vehicles in GPS-Denied Environments
+Optimal Solutions for the Moving Target Vehicle Routing Problem with Obstacles v
+Transports Regulators of Networks with Junctions Detected by Durations Functions
+Technical Report: Towards Efficient Indexing of Spatiotemporal Trajectories on t
+DIOT: Detecting Implicit Obstacles from Trajectories
+Predicting the probability distribution of bus travel time to move towards relia
+Two-dimensional Decompositions of High-dimensional Configurations for Efficient 
+Generalized Maneuvers in Route Planning
+Detecting Transportation Mode Using Dense Smartphone GPS Trajectories and Transf
+Joint Time and Energy-Optimal Control of Connected Automated Vehicles at Signal-
+An integrated assignment, routing, and speed model for roadway mobility and tran
+Parallelized Proximity-Based Query Processing Methods for Road Networks
+The Transdimensional Poisson Process for Vehicular Network Analysis
+The path most travelled: Mining road usage patterns from massive call data
+A geometrical look at MOSPA Estimation using Transportation Theory
+Graph Matching via Optimal Transport
+k-Nearest Neighbors on Road Networks: A Journey in Experimentation and In-Memory
+Succinct Trit-array Trie for Scalable Trajectory Similarity Search
+GPU Accelerated Convex Approximations for Fast Multi-Agent Trajectory Optimizati
+LiMITS: An Effective Approach for Trajectory Simplification
+Online Vehicle Routing with Pickups and Deliveries under Time-Dependent Travel-T
+Scalable Isocontour Visualization in Road Networks via Minimum-Link Paths
+GEO-BLEU: Similarity Measure for Geospatial Sequences
+Modelling imperfect knowledge via location semantics for realistic privacy risks
+DLCSS: Dynamic Longest Common Subsequences
+Simulating the Impact of Dynamic Rerouting on Metropolitan-Scale Traffic Systems
+On Computing Pareto Optimal Paths in Weighted Time-Dependent Networks
+Learning Citywide Patterns of Life from Trajectory Monitoring
+Coordinated Vehicle Platooning with Fixed Routes: Adaptive Time Discretization, 
+A Multi-Threading Algorithm for Constrained Path Optimization Problem on Road Ne
+Cluster-based trajectory segmentation with local noise
+CM Sequence based Trajectory Modeling with Destination
+Path-Aware OMP Algorithms for Provenance Recovery in Wireless Networks
+Analysis of urban traffic data sets for VANETs simulations
+A Convex Optimal Control Framework for Autonomous Vehicle Intersection Crossing
+Probabilistic Game-Theoretic Traffic Routing
+Risk Control of Traffic Flow Through Chance Constraints and Large Deviation Appr
+DTNC: A New Server-side Data Cleansing Framework for Cellular Trajectory Service
+Combined Eco-Routing and Power-Train Control of Plug-In Hybrid Electric Vehicles
+A Mechanical System Inspired Microscopic Traffic Model: Modeling, Analysis, and 
+Urban road networks -- Spatial networks with universal geometric features? A cas
+Map2Schedule: An End-to-End Link Scheduling Method for Urban V2V Communications
+Online Time-Windows TSP with Predictions
+From Constrained Delaunay Triangulations to Roadmap Graphs with Arbitrary Cleara
+TIPS: Mining Top-K Locations to Minimize User-Inconvenience for Trajectory-Aware
+Detecting Braess Routes: an Algorithm Accounting for Queuing Delays With an Exte
+Multimodal Dynamic Journey Planning
+An Open-Source Tool for Reproducible Freeway Network Extraction from OpenStreetM
+Traffic Flow on a Road Network
+Estimating Traffic Disruption Patterns with Volunteered Geographic Information
+NetClus: A Scalable Framework for Locating Top-K Sites for Placement of Trajecto
+Fast Surrogate Models for Adaptive Aircraft Trajectory Prediction in En route Ai
+M-CTX: Exact and Scalable Spatial Context Retrieval for Trajectory Analytics
+Reducing urban traffic congestion due to localized routing decisions
+A Graph Theoretic Approach to the Robustness of k-Nearest Neighbor Vehicle Plato
+SLIM: Scalable Linkage of Mobility Data
+A dynamic model of congestion
+Metaheuristic macro scale traffic flow optimisation from urban movement data
+SMART: Scalable Multi-Agent Reasoning and Trajectory Planning in Dense Environme
+On the Maximal Shortest Path in a Connected Component in V2V
+GeoPTH: A Lightweight Approach to Category-Based Trajectory Retrieval via Geomet
+Efficient Generation of Geographically Accurate Transit Maps
+Estimator: An Effective and Scalable Framework for Transportation Mode Classific
+Empowered by Wireless Communication: Self-Organizing Traffic Collectives
+Selecting and scheduling an optimal subset of road network upgrades
+Transport optimization on complex networks
+Automatic Recognition of Public Transport Trips from Mobile Device Sensor Data a
+The fastest way through a traffic light
+Physics-Guided Abnormal Trajectory Gap Detection
+Trip-Based Public Transit Routing
+Linear Time Algorithm for Optimal Feed-link Placement
+Online Event Recognition from Moving Vehicles: Application Paper
+Low-Latency Spatial-Provenance Recovery Methods for Privacy-Constrained Vehicula
+Maximum likelihood estimation for randomized shortest paths with trajectory data
+Additive consistency of risk measures and its application to risk-averse routing
+ReeSPOT: Reeb Graph Models Semantic Patterns of Normalcy in Human Trajectories
+Finding Top-k Optimal Sequenced Routes -- Full Version
+Collective Shortest Paths for Minimizing Congestion on Temporal Load-Aware Road 
+Scalable Probabilistic Routes
+Sequential Monte Carlo Optimisation for Air Traffic Management
+Capacitated Vehicle Routing with Non-Uniform Speeds
+A Survey of Shortest-Path Algorithms
+Multi-Agent Pathfinding with Continuous Time
+Eco-driving under localization uncertainty for connected vehicles on Urban roads
+Crossing Patterns in Nonplanar Road Networks
+Outage in Motorway Multi-Lane VANETs with Hardcore Headway Distance Using Synthe
+Compressed Transmission of Route Descriptions
+Efficient Dynamic Programming Solution to a Platoon Coordination Merge Problem W
+LiveMap: Real-Time Dynamic Map in Automotive Edge Computing
+Comparing comparisons between vehicular traffic states in microscopic and macros
+Guidance Trajectory Mathematical Modeling
+Dynamic driving and routing games for autonomous vehicles on networks: A mean fi
+Public Transit Labeling
+Speed Optimization Algorithm based on Deterministic Markov Decision Process for 
+Exploring Maps with Greedy Navigators
+V-STC: A Time-Efficient Multi-Vehicle Coordinated Trajectory Planning Approach
+A spatial algorithm for the analysis of transportation systems using statistical
+Shortest Feasible Paths with Charging Stops for Battery Electric Vehicles
+Approximation Algorithms for the Traveling Repairman and Speeding Deliveryman Pr
+Scalable analysis of stop-and-go waves
+A Sidetrack-Based Algorithm for Finding the k Shortest Simple Paths in a Directe
+Temporally Flexible Transport Scheduling on Networks with Departure-Arrival Cons
+Counting Geodesic Paths in 1D VANETs
+Location Order Recovery in Trails with Low Temporal Resolution
+An Efficient Algorithm for Finding Sets of Optimal Routes
+Scenic Routes Now: Efficiently Solving the Time-Dependent Arc Orienteering Probl
+A Distributed and Privacy-Aware Speed Advisory System for Optimising Conventiona
+Higher Order City Voronoi Diagrams
+A Fast Insertion Operator for Ridesharing over Time-Dependent Road Networks
+Lateral String Stability for Vehicle Platoons: Formulation, Definition, and Anal
+Modeling Information Propagation in General V2V-enabled Transportation Networks
+Automatic City Region Analysis for Urban Routing
+A Framework for Vehicle Routing Approximation Schemes in Trees
+Emerging cooperation on the road by myopic local interactions
+Multi-Stage Improved Route Planning Approach: theoretical foundations
+AoI-Guaranteed Dynamic Route Planning for Connected Vehicles
+Differentiating Population Spatial Behavior using Representative Features of Geo
+Distributed Subtrajectory Join on Massive Datasets
+Bayesian Classifier for Route Prediction with Markov Chains
+Efficient Continuous Top-$k$ Geo-Image Search on Road Network
+Probability-Aware Parking Selection
+Distances and shortest paths on graphs of bounded highway dimension: simple, fas
+Multi-Modal Route Planning in Road and Transit Networks
+GraCT: A Grammar based Compressed representation of Trajectories
+Continuous Average Straightness in Spatial Graphs
+NLPMM: a Next Location Predictor with Markov Modeling
+FlowATC: Aircraft Trajectory Prediction via Flow Matching
+A Kinetic Triangulation Scheme for Moving Points in The Plane
+Quantifying Urban Traffic Anomalies
+Optimal intervention in traffic networks
+Towards a Scalable Dynamic Spatial Database System
+Smarter Cities with Parked Cars as Roadside Units
+Efficient Optimal Planning in non-FIFO Time-Dependent Flow Fields
+Influence of Routing and Speed Limits on Optimal Solutions in Traffic Emission M
+Capacitated Kinetic Clustering in Mobile Networks by Optimal Transportation Theo
+Collectively optimal routing for congested traffic limited by link capacity
+Guaranteed, Predictable, Polynomial AGV Time-Pathing
+Platoons of connected vehicles can double throughput in urban roads
+Introduction to stochastic models of transportation flows. Part I
+One-Pass Trajectory Simplification Using the Synchronous Euclidean Distance
+Robust Learning-Based Trajectory Planning for Emerging Mobility Systems
+Approximate Hotspots of Orthogonal Trajectories
+Vehicle Routing Problem with Time Windows: A Deterministic Annealing approach
+A Compact Representation for Trips over Networks built on self-indexes
+Efficient Wind Speed Nowcasting with GPU-Accelerated Nearest Neighbors Algorithm
+Timetable Nodes for Public Transport Network
+Risk-aware Road-network Trajectory Synthesis under Local Differential Privacy
+Space-Time Conflict Spheres for Constrained Multi-Agent Motion Planning
+On The Microscopic Modeling of Vehicular Traffic on General Networks
+Trajectory Grouping Structures
+Stable Trajectory Clustering: An Efficient Split and Merge Algorithm
+Comfortable Priority Handling with Predictive Velocity Optimization for Intersec
+Stable Visual Summaries for Trajectory Collections
+Efficient Greedy Discrete Subtrajectory Clustering
+Efficient Algorithms for Earliest and Fastest Paths in Public Transport Networks
+Dynamic Geodesics in Treespace via Parametric Maximum Flow
+A characteristic particle method for traffic flow simulations on highway network
+Looking for Bird Nests: Identifying Stay Points with Bounded Gaps
+Fundamental Diagrams of 1D-Traffic Flow by Optimal Control Models
+Rapid Quantification of Outdoor Object Visibility in Urban Setting Using Connect
+Comparing Numerical Integration Schemes for Time-Continuous Car-Following Models
+Wardrop equilibria : rigorous derivation of continuous limits from general netwo
+On Vehicle Placement to Intercept Moving Targets
+Efficient Multiple Temporal Network Kernel Density Estimation
+Vehicle Sequencing at Signal-Free Intersections: Analytical Performance Guarante
+Joint Routing and Control Optimization in VANET
+Scalable and Congestion-aware Routing for Autonomous Mobility-on-Demand via Fran
+Speed Partitioning for Indexing Moving Objects
+Balancing Safety and Traffic Throughput in Cooperative Vehicle Platooning
+Conservation-Based Modeling and Boundary Control of Congestion with an Applicati
+A Traffic Model Aware of Real Time Data
+Speed Advisory System Using Real-Time Actuated Traffic Light Phase Length Predic
+Universally Safe Swerve Manoeuvres for Autonomous Driving
+Efficient Exact k-Flexible Aggregate Nearest Neighbor Search in Road Networks Us
+Adverse Effects of V2V Adoption on Road Safety
+Crowdsense Roadside Parking Spaces with Dynamic Gap Reduction Algorithm
+Poisson Cox Point Processes for Vehicular Networks
+An easy-to-use algorithm for simulating traffic flow on networks: numerical expe
+Simpler is More: Efficient Top-K Nearest Neighbors Search on Large Road Networks
+Trust as a Field: A Macroscopic Representation for Vehicular Networks
+Computing Shortest Paths Using A*, Landmarks, and Polygon Inequalities (Abstract
+A Prioritized Trajectory Planning Algorithm for Connected and Automated Vehicle 
+About Dynamical Systems Appearing in the Microscopic Traffic Modeling
+OMOD: An open-source tool for creating disaggregated mobility demand based on Op
+W-Trace: Robust and Effective Watermarking for GPS Trajectories
+Assessment of Path Reservation in Distributed Real-Time Vehicle Guidance
+Discovering Heterogeneous Subsequences for Trajectory Classification
+Safe platooning control of connected and autonomous vehicles on curved multi-lan
+A message-passing algorithm for multi-agent trajectory planning
+Globally Optimal Departure Rates for Several Groups of Drivers
+Geodesics in planar Poisson roads random metric
+CAN-Trace Attack: Exploit CAN Messages to Uncover Driving Trajectories
+Driving Path Stability in VANETs
+Two-Phase Bicriterion Search for Finding Fast and Efficient Electric Vehicle Rou
+Optimal Solutions for the Moving Target Vehicle Routing Problem via Branch-and-P
+Boundary Control of Traffic Congestion Modeled as a Non-stationary Stochastic Pr
+Jamming as Information: a Geometric Approach
+Dynamic Multi-Vehicle Routing with Multiple Classes of Demands
+Influence of a slow moving vehicle on traffic: Well-posedness and approximation 
+Balanced dynamic multiple travelling salesmen: algorithms and continuous approxi
+Reducing Onboard Processing Time for Path Planning in Dynamically Evolving Polyg
+A GPS Pseudorange Based Cooperative Vehicular Distance Measurement Technique
+Eco-Routing of Plug-In Hybrid Electric Vehicles in Transportation Networks
+Realistic Boundary Conditions for Ad Hoc Network Node Mobility Models and a New 
+Relieving the Wireless Infrastructure: When Opportunistic Networks Meet Guarante
+Predictive Risk Analysis and Safe Trajectory Planning for Intelligent and Connec
+Automation Of Road Intersections Using Consensus-based Auction Algorithms
+Assisted Shortest Path Planning for a Convoy through a Repairable Network
+Modeling Human Mobility and its Applications in Routing in Delay-Tolerant Networ
+Lateral String Stability for Vehicle Platoons
+Trans-Sense: Real Time Transportation Schedule Estimation Using Smart Phones
+Speedup in the Traveling Repairman Problem with Constrained Time Windows
+Clustering and Analysis of GPS Trajectory Data using Distance-based Features
+One-Shot Traffic Assignment with Forward-Looking Penalization
+From Simple Features to Moving Features and Beyond?
+Characterizing Driving Styles with Deep Learning
+Energy-aware Vehicle Routing in Networks with Charging Nodes
+TraClets: Harnessing the power of computer vision for trajectory classification
+Collision-Free Velocity Scheduling for Multi-Agent Systems on Predefined Routes 
+Altruistic Autonomy: Beating Congestion on Shared Roads
+A Novel Framework for Online Amnesic Trajectory Compression in Resource-constrai
+Traffic Predictive Control from Low-Rank Structure
+Arc-Flags Meet Trip-Based Public Transit Routing
+A Generalization of the Shortest Path Problem to Graphs with Multiple Edge-Cost 
+A Coverage Based Decentralised Routing Algorithm for Vehicular Traffic Networks
+PathRec: Visual Analysis of Travel Route Recommendations
+A Mixed-Integer Conic Program for the Moving-Target Traveling Salesman Problem b
+Managing connected and automated vehicles with flexible routing at "lane-allocat
+TraHist: Fast and Accurate Cardinality Estimation for Trajectory Data (Extended 
+ODIN: Object Density Aware Index for CkNN Queries over Moving Objects on Road Ne
+Local Parametric Surface Approximation With Automatic Order Selection From Posit
+Quantifying Intrinsic Value of Information of Trajectories
+Towards Mobility Data Science (Vision Paper)
+Routing Guidance for Emerging Transportation Systems with Improved Dynamic Trip 
+Time-Dependent Shortest Path Queries Among Growing Discs
+Consensus at Competitive Equilibrium: Dynamic Flow of Autonomous Cars in Traffic
+Aggregation Languages for Moving Object and Places of Interest Data
+SLAS: Speed and Lane Advisory System for Highway Navigation
+Continuous formulations and analytical properties of the link transmission model
+A dynamic system characterization of road network node models
+On the Quality Requirements of Demand Prediction for Dynamic Public Transport
+Speedup in the Traveling Repairman Problem with Unit Time Windows
+Shortest Paths in Graphs of Convex Sets
+Cooperative Speed Estimation of an RF Jammer in Wireless Vehicular Networks
+Plausible Mobility: Inferring Movement from Contacts
+Connected Vehicular Transportation: Data Analytics and Traffic-dependent Network
+Representations, Metrics and Statistics For Shape Analysis of Elastic Graphs
+Approximate Discontinuous Trajectory Hotspots
+An Empirical Survey and Benchmark of Learned Distance Indexes for Road Networks
+Efficient 3D Road Map Data Exchange for Intelligent Vehicles in Vehicular Fog Ne
+An LLM-Powered Cooperative Framework for Large-Scale Multi-Vehicle Navigation
+Stability and Equilibrium Analysis of Laneless Traffic with Local Control Laws
+A New Microscopic Traffic Model Using a Spring-Mass-Damper-Clutch System
+A Fast Projected Fixed-Point Algorithm for Large Graph Matching
+Engineering Time-dependent One-To-All Computation
+Geodesic Tracking via New Data-driven Connections of Cartan Type for Vascular Tr
+Finding Multiple New Optimal Locations in a Road Network
+An Equilibrium Dynamic Traffic Assignment Model with Linear Programming Formulat
+A Repeated Route-then-Schedule Approach to Coordinated Vehicle Platooning: Algor
+Stochastic Cell Transmission Models of Traffic Networks
+Topology Density Map for Urban Data Visualization and Analysis
+A Complete Algorithm for a Moving Target Traveling Salesman Problem with Obstacl
+Learning Probabilistic Trajectory Models of Aircraft in Terminal Airspace from P
+Large-Scale Traffic Signal Offset Optimization
+M/g/c/c state dependent queueing model for road traffic simulation
+Critical Placements of a Square or Circle amidst Trajectories for Junction Detec
+A Polynomial-time Decentralised Algorithm for Coordinated Management of Multiple
+VJA\'G\'G -- A Thick-Client Smart-Phone Journey Detection Algorithm
+Connection-Based Scheduling for Real-Time Intersection Control
+Modeling Severe Traffic Accidents With Spatial And Temporal Features
+Defining Equitable Geographic Districts in Road Networks via Stable Matching
+A matheuristic approach for the Pollution-Routing Problem
+Stochastic Time-Optimal Trajectory Planning for Connected and Automated Vehicles
+On Learning Spatial Provenance in Privacy-Constrained Wireless Networks
+An easy-to-use algorithm for simulating traffic flow on networks: theoretical st
+Fuel-Optimal Centralized Coordination of Truck Platooning Based on Shortest Path
+Proactive Doppler Shift Compensation in Vehicular Cyber-Physical Systems
+Joint Age of Information and Self Risk Assessment for Safer 802.11p based V2V Ne
+Measuring Road Network Topology Vulnerability by Ricci Curvature
+Fast and Memory Efficient Multimodal Journey Planning with Delays
+Speed-Aware Routing for UAV Ad-Hoc Networks
+Relation-Aware LNN-Transformer for Intersection-Centric Next-Step Prediction
+Traffic regulation via controlled speed limit
+Kinetic Voronoi Diagrams and Delaunay Triangulations under Polygonal Distance Fu
+Stability of Information-Based Routing in Dynamic Transportation Networks
+NAVI: Neighbor Aware Virtual Infrastructure for Information Dissemination in Veh
+Deep Learning Based Proactive Multi-Objective Eco-Routing Strategies for Connect
+On the Accuracy of Anisotropic Fast Marching
+Framework for Highway Traffic Profiling using Connected Vehicle Data
+VTrails: Inferring Vessels with Geodesic Connectivity Trees
+Energy-efficient Routing of Hybrid Vehicles
+CSDO: Enhancing Efficiency and Success in Large-Scale Multi-Vehicle Trajectory P
+Efficient Destination Prediction Based on Route Choices with Transition Matrix O
+Fast Public Transit Routing with Unrestricted Walking through Hub Labeling
+Geometry-Based Vehicle-to-Vehicle Channel Modeling for Large-Scale Simulation
+Sensitivity analysis of the LWR model for traffic forecast on large networks usi
+An Edge-powered Approach to Assisted Driving
+Faster and Better Nested Dissection Orders for Customizable Contraction Hierarch
+Scaling and Placing Distributed Services on Vehicle Clusters in Urban Environmen
+Optimized sensor placement for dependable roadside infrastructures
+Smartphone-based Vehicle Telematics - A Ten-Year Anniversary
+Optimizing the Driving Profile for Vehicle Mass Estimation -- extended version
+Mobility and Safety Benefits of Connectivity in CACC Vehicle Strings
+Communication-Constrained Routing and Traffic Control for Autonomous Vehicles
+On the $k$ Nearest-Neighbor Path Distance from the Typical Intersection in the M
+GraCT: A Grammar-based Compressed Index for Trajectory Data
+Connection Scan Algorithm
+Rectilinear Shortest Paths Among Transient Obstacles
+Beyond Highway Dimension: Small Distance Labels Using Tree Skeletons
+A Probabilistic Approach for Discovering Daily Human Mobility Patterns with Mobi
+SafeRNet: Safe Transportation Routing in the era of Internet of Vehicles and Mob
+Differentially Private Trajectory Data Publication
+Applications of the Dynamic Distance Potential Field Method
+Efficient Route Planning with Temporary Driving Bans, Road Closures, and Rated P
+A multi-vehicle covering tour problem with speed optimization
+A Multi-Level Fast-Marching Method For The Minimum Time Problem
+A microscopic traffic flow model on network with destination-aware V2V communica
+Traffic signal optimization: combining static and dynamic models
+Preserving Privacy of Agents in Participatory-Sensing Schemes for Traffic Estima
+Approximation Algorithms for Road Coverage Using Wireless Sensor Networks for Mo
+FLASH-TB: Integrating Arc-Flags and Trip-Based Public Transit Routing
+Vehicle Following On A Ring Road Under Safety Constraints: Role of Connectivity 
+From Encounters to Plausible Mobility
+Scalable and Efficient Geographic Routing in Mobile Ad Hoc Wireless Networks
+CTRMs: Learning to Construct Cooperative Timed Roadmaps for Multi-agent Path Pla
+The Traffic Phases of Road Networks
+A Parameter-Specific Retrieval and Knowledge-Guided Reasoning Framework for LLM-
+Approximation Algorithms for Route Planning with Nonlinear Objectives
+Optimal transport in multilayer networks for traffic flow optimization
+A path following algorithm for the graph matching problem
+Simplification of Trajectory Streams
+Polestar: An Intelligent, Efficient and National-Wide Public Transportation Rout
+On path ranking in time-dependent graphs
+Real-Time Estimation of the Distribution of Brake Response Times for an Individu
+An Analysis of Constraint-Based Multi-Agent Pathfinding Algorithms
+Integrated Framework of Vehicle Dynamics, Instabilities, Energy Models, and Spar
+HLSR: Hybrid Live Forecast Selective Dynamic Vehicle Rerouting for Real-Time Con
+T-REX: Fast and Dynamic Journey Planning for Continental-Scale Public Transit Ne
+Optimization of Velocity Ramps with Survival Analysis for Intersection Merge-Ins
+COL-Trees: Efficient Hierarchical Object Search in Road Networks
+Vehicle-to-Vehicle Communications with Urban Intersection Path Loss Models
+Packet Speed and Cost in Mobile Wireless Delay-Tolerant Networks
+Discovering the Network Backbone from Traffic Activity Data
+Parallel, Asymptotically Optimal Algorithms for Moving Target Traveling Salesman
+Causality Graph of Vehicular Traffic Flow
+The Pollution-Routing Problem with Speed Optimization and Uneven Topography
+Nonlinear Model Predictive Control for Distributed Motion Planning in Road Inter
+Decentralized Optimization of Vehicle Route Planning -- A Cross-City Comparative
+Heavy traffic on a controlled motorway
+Two algorithms for a fully coupled and consistently macroscopic PDE-ODE system m
+Physics-Informed Koopman Learning for Data-Efficient System Identification of Au
+Ensuring Predictable Contact Opportunity for Scalable Vehicular Internet Access 
+Generalized Multivariate Extreme Value Models for Explicit Route Choice Sets
+Intersection-Traffic Control of Autonomous Vehicles using Newton-Raphson Flows a
+Optimal cooperative motion planning for vehicles at intersections
+Centralized Coordination of Connected Vehicles at Intersections using Graphical 
+Privacy-Preserved Collaborative Estimation for Networked Vehicles with Applicati
+Street Network Models and Indicators for Every Urban Area in the World
+Dynamic Exploration on Segment-Proposal Graphs for Tubular Centerline Tracking
+A case study of the profit-maximizing multi-vehicle pickup and delivery selectio
+CAMETA: Conflict-Aware Multi-Agent Estimated Time of Arrival Prediction for Mobi
+Beam Alignment for Millimetre Wave Links with Motion Prediction of Autonomous Ve
+Motion Estimation of Connected and Automated Vehicles under Communication Delay 
+The Price of Anarchy in Transportation Networks: Data-Driven Evaluation and Redu
+Linearly Solvable Mean-Field Road Traffic Games
+Tracking Progress in Multi-Agent Path Finding
+Performance-Sensitive Potential Functions for Efficient Flow of Connected and Au
+Optimal Vehicle Dynamics and Powertrain Control for Connected and Automated Vehi
+Learning to Handle Complex Constraints for Vehicle Routing Problems
+Locally optimal routes for route choice sets
+A Deterministic Construction of Projection matrix for Adaptive Trajectory Compre
+Energy-Efficient Routing for Electric Vehicles under Acceleration and Load Effec
+PointQ model of an arterial network: calibration and experiments
+Connected and Autonomous Vehicle Scheduling Problems: Some Models and Algorithms
+Modeling Spatial and Temporal Dependencies of User Mobility in Wireless Mobile N
+The Braess Paradox in Dynamic Traffic
+Existence of optima and equilibria for traffic flow on networks
+Tree-Deletion Pruning in Label-Correcting Algorithms for the Multiobjective Shor
+Optimal and Scalable MAPF via Multi-Marginal Optimal Transport and Schrödinger B
+Constrained Shortest Path Search with Graph Convolutional Neural Networks
+Mining Topological Dependencies of Recurrent Congestion in Road Networks
+Characteristics of Optimal Solutions to the Sensor Location Problem
+Predictive Rerouting of Connected and Automated Vehicles Using Traffic and Charg
+Correlations and Scaling Laws in Human Mobility
+Structured Nonnegative Matrix Factorization for Traffic Flow Estimation of Large
+Gaussian Process based Stochastic Model Predictive Control for Cooperative Adapt
+Routing Apps May Deteriorate Stability in Traffic Networks: Oscillating Congesti
+Analyzing Contact Patterns in Public Transportation Systems for Opportunistic Co
+Contraction-based Observers using non-Euclidean Norms with an Application to Tra
+Assignment Based Metrics for Attributed Graphs
+Adaptive model predictive control for traffic signal timing with unknown demand 
+The Penetration Rate Effect of Connected and Automated Vehicles in Mixed Traffic
+A Riemann solver for a system of hyperbolic conservation laws at a general road 
+Dynamic Scope-Based Dijkstra's Algorithm
+Speed-up of Self-Organizing Networks for Routing Problems in a Polygonal Domain
+Tracking Accuracy Based Generation Rules of Collective Perception Messages
+A Novel Max Pressure Algorithm Based on Traffic Delay
+Analysis of a Markovian Queuing Model for Autonomous Signal-Free Intersection
+Vehicular Fog Computing Enabled Real-time Collision Warning via Trajectory Calib
+The continuum limit of Follow-the-Leader models - a short proof
+Linearly Solvable Mean-Field Traffic Routing Games
+Informational Braess' Paradox: The Effect of Information on Traffic Congestion
+Intelligent Processing in Vehicular Ad hoc Networks: a Survey
+Temporal complex networks modeling applied to vehicular ad-hoc networks
+A Saturation-Based Optimal Velocity Model for Traffic Flow Dynamics
+Proposition d'approches de d\'eploiement des unit\'es de bord de route dans les 
+RouteFlow: Trajectory-Aware Animated Transitions
+On the evolution of topological connectivity by thresholding of affinities. An a
+Simulating Vehicle Movement and Multi-Hop Connectivity from Basic Safety Message
+WiSM: Windowing Surrogate Model for Evaluation of Curvature-Constrained Tours wi
+Breadcrumbs: A Feature Rich Mobility Dataset with Point of Interest Annotation
+InTAS -- The Ingolstadt Traffic Scenario for SUMO
+Local Area Routes for Vehicle Routing Problems
+Open Traffic Models -- A framework for hybrid simulation of transportation netwo
+20 Years of Mobility Modeling & Prediction: Trends, Shortcomings & Perspectives
+Traffic Congestion Awareness and On-Demand Distribution in Vehicular Delay-Toler
+Exploring a New Model for Mobile Positioning Based on CDR Data of The Cellular N
+Euclidean Approach to Green-Wave Theory Applied to Traffic Signal Networks
+Distributed Processing of kNN Queries over Moving Objects on Dynamic Road Networ
+Temporal Correlation of Interference in Vehicular Networks with Shifted-Exponent
+Whittle--Matérn metrics and isotropic Gaussian processes on compact metric graph
+Overconfident Coordinates: Quantifying Confidence in Traceroute Geolocation
+Canadian Traveller Problem with Predictions
+A Random Walk Approach for Simulation-Based Continuous Dynamic Traffic Assignmen
+Extending the Time Horizon: Efficient Public Transit Routing on Arbitrary-Length
+Error Bounds for Discrete-Continuous Shortest Path Problems with Application to 
+Scalable Solution of the Stochastic Multi-path Traveling Salesman Problem via Ne
+Online and Adaptive Parking Availability Mapping: An Uncertainty-Aware Active Se
+Revisiting FastMap: New Applications
+Towards Privacy in Geographic Message Dissemination for Connected Vehicles
+T-CONV: A Convolutional Neural Network For Multi-scale Taxi Trajectory Predictio
+When and Where: Predicting Human Movements Based on Social Spatial-Temporal Even
+A joint routing and speed optimization problem
+VeReMi: A Dataset for Comparable Evaluation of Misbehavior Detection in VANETs
+A Feasibility-Enforcing Primal-Decomposition SQP Algorithm for Optimal Vehicle C
+LINC: Decoupling Local Consequence Scoring from Hidden Matching in Constructive 
+Collective Autonomous Vehicle Routing Needs Social Awareness for Coexistence wit
+Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding
+Combined Optimal Routing and Coordination of Connected and Automated Vehicles
+Real-Time Predictive Control Strategy Optimization
+Performance Analysis of Location Profile Routing
+Privacy in trajectory micro-data publishing : a survey
+Distilling Privileged Information for Dubins Traveling Salesman Problems with Ne
+Context-Aware Metric Differential Privacy for Vehicle Trajectory Data
+A New Shortest Path Algorithm Generalized on Dynamic Graph for Commercial Intell
+Interpolating Location Data with Brownian Motion
+Mobility Trajectories from Network-Driven Markov Dynamics
+On Channel Estimation for 802.11p in Highly Time-Varying Vehicular Channels
+A computational framework for quantifying route diversification in road networks
+EMATO: Energy-Model-Aware Trajectory Optimization for Autonomous Driving
+Towards a distributed and infrastructure-less vehicular traffic management syste
+Integrated Balanced and Staggered Routing in Autonomous Mobility-on-Demand Syste
+Simultaneous Computation with Multiple Prioritizations in Multi-Agent Motion Pla
+Walking Through Waypoints
+Optimal FIFO grouping in public transit networks
+GPS-Based Geolocation of Consumer IP Addresses
+Spatio-temporal networks: reachability, centrality and robustness
+Scalable Spatial Scan Statistics for Trajectories
+Geographic Routing with Limited Information in Sensor Networks
+Predicting commuter flows in spatial networks using a radiation model based on t
+Generalized bathtub model of network trip flows
+Complete Decentralized Method for On-Line Multi-Robot Trajectory Planning in Val
+An Algorithmic Framework for Labeling Network Maps
+Top-k Community Similarity Search Over Large-Scale Road Networks (Technical Repo
+Parallel Contraction Hierarchies Can Be Efficient and Scalable
+High Speed Convoy in Unstructured Indoor Environments
+A State-Space Approach for Optimal Traffic Monitoring via Network Flow Sampling
+Finding k-Dissimilar Paths with Minimum Collective Length
+Multi Purpose Routing: New Perspectives and Approximation Algorithms
+Minimal curvature-constrained networks
+Connected Spatial Networks over Random Points and a Route-Length Statistic
+On Tightly Bounding the Dubins Traveling Salesman's Optimum
+ALGAMES: A Fast Solver for Constrained Dynamic Games
+Real-Time Multi-path Tracking of Probabilistic Available Bandwidth
+Misbehavior Detection Using Collective Perception under Privacy Considerations
+A First Step Towards Dynamic Hybrid Traffic Modeling
+An Intelligent Multi-Speed Advisory System using Improved Whale Optimisation Alg
+Natural parallel translation and connection associated to navigation data
+Adapting Priority Riemann Solver for GSOM on road networks
+Simulating Crowds and Autonomous Vehicles
+Optimal Bridge, Twin Bridges and Beyond: Inserting Edges into a Road Network to 
+How to Catch Marathon Cheaters: New Approximation Algorithms for Tracking Paths
+On the micro-to-macro limit for first-order traffic flow models on networks
+Navigating MazeMap: indoor human mobility, spatio-logical ties and future potent
+A survey of urban drive-by sensing: An optimization perspective
+A Real-Time Energy and Cost Efficient Vehicle Route Assignment Neural Recommende
+Modelling Correlated Mobility
+A family of graph GOSPA metrics for graphs with different sizes
+Modeling Probability of Path Loss for DSDV, OLSR and DYMO above 802.11 and 802.1
+Empirically Calibrated Differential Games for Simulating Driver Interactions
+Dynamic Speed Limit Control of Connected Automated Vehicles in Freeway Networks 
+DTN Routing in a Mobility Pattern Space
+The Meta Distribution of the SIR in Linear Motorway VANETs
+Scalable Intention Sharing for ETSI VAMs
+Real-Time Energy-Optimal Path Planning for Electric Vehicles
+Machine-Learned Prediction Equilibrium for Dynamic Traffic Assignment
+A Dynamic Boundary Guarding Problem with Translating Targets
+Parallel implementation of the TRANSIMS micro-simulation
+Progressive Simplification of Polygonal Curves
+Fast Newton methods for linear-quadratic dynamic games with application to auton
+Modeling vehicular mobility patterns using recurrent neural networks
+Vehicular Communication and Mobility Sustainability: the Mutual Impacts in Large
+Collectively Simplifying Trajectories in a Database: A Query Accuracy Driven App
+New structures to solve aggregated queries for trips over public transportation 
+Tightest Admissible Shortest Path
+Virtual-MIMO-Boosted Information Propagation on Highways
+Resilience of Traffic Networks with Partially Controlled Routing
+On Network Embedding for Machine Learning on Road Networks: A Case Study on the 
+Modelling Mobility: A Discrete Revolution
+On Spatial-Provenance Recovery in Wireless Networks with Relaxed-Privacy Constra
+Stadium norm and Douglas-Rachford splitting: a new approach to road design optim
+Fully Distributed Model Predictive Control of Connected Automated Vehicles in In
+Comparison of home detection algorithms using smartphone GPS data
+Customizable Hub Labeling: Properties and Algorithms
+Taxi Dispatch with Real-Time Sensing Data in Metropolitan Areas: A Receding Hori
+Connectivity statistics of store-and-forward inter-vehicle communication
+On the Approximability of Time Disjoint Walks
+Learning to Segment for Vehicle Routing Problems
+ELMOPP: An Application of Graph Theory and Machine Learning to Traffic Light Coo
+Autonomous Vehicles Driving Traffic: The Cauchy Problem
+Push-and-Track: Saving Infrastructure Bandwidth Through Opportunistic Forwarding
+The Role of Machine Learning for Trajectory Prediction in Cooperative Driving
+Linear-Programming based Approximation Algorithms for Multi-Vehicle Minimum Late
+ReeFRAME: Reeb Graph based Trajectory Analysis Framework to Capture Top-Down and
+Putting the SC in SCORE: Solar Car Optimized Route Estimation and Smart Cities
+A Measurement Based Shadow Fading Model for Vehicle-to-Vehicle Network Simulatio
+Dynamic programming systems for modeling and control of the traffic in transport
+PILOT-C: Physics-Informed Low-Distortion Optimal Trajectory Compression
+Shortest paths with a cost constraint: a probabilistic analysis
+Adaptive Event-triggered Formation Control of Autonomous Vehicles
+Enhanced Position Verification for VANETs using Subjective Logic
+Optimal Path Planning for Connected and Automated Vehicles in Lane-free Traffic 
+Network Cartography: Seeing the Forest and the Trees
+Discrete adjoint gradient computation for multiclass traffic flow models on road
+Markovian Traffic Equilibrium Assignment based on Network Generalized Extreme Va
+Modeling and Analyzing Urban Networks and Amenities with OSMnx
+Privacy Preserving Moving KNN Queries
+AMBIT: Augmenting Mobility Baselines with Interpretable Trees
+Realistic and Efficient Channel Modeling for Vehicular Networks
+Information Propagation Speed in Mobile and Delay Tolerant Networks
+Continuity of the Effective Path Delay Operator for Networks Based on the Link D
+Multi-Constraint Shortest Path using Forest Hop Labeling
+Traveing Salesperson Problems for a double integrator
+Anomalous Behavior Detection in Trajectory Data of Older Drivers
+A Link-Based Flow Model with Turn-Level Queue Transmission and Time-Varying Free
+Network models for nonlocal traffic flow
+Automated Lane Merging via Game Theory and Branch Model Predictive Control
+Linearly-Solvable Mean-Field Approximation for Multi-Team Road Traffic Games
+Efficient Parking Search using Shared Fleet Data
+Gross polluters and vehicles' emissions reduction
+Maximum Likelihood Estimation and Graph Matching in Errorfully Observed Networks
+Dynamic Routing for Traffic Flow through Multi-agent Systems
+A Continuous-Time Optimal Control Approach to Congestion Control
+Optimal Multi-Agent Path Finding in Continuous Time
+Data-driven Variable Speed Limit Design for Highways via Distributionally Robust
+Randomized Shortest Paths with Net Flows and Capacity Constraints
+Network Tomography Based on Additive Metrics
+Evolution of Vehicle Network on a Highway
+Solving N-player dynamic routing games with congestion: a mean field approach
+A novel model-based heuristic for energy optimal motion planning for automated d
+Branch-and-cut and iterated local search for the weighted $k$-traveling repairma
+Stability of a Nonlocal Traffic Flow Model for Connected Vehicles
+Efficient routing of multiple vehicles with no communications
+Rapport de recherche sur le probl\`eme du plus court chemin contraint
+Fisher Identifiability Analysis of Longitudinal Vehicle Dynamics
+One-Pass Error Bounded Trajectory Simplification
+Centrality-constrained graph embedding
+A $(1 + {\varepsilon})$-Embedding of Low Highway Dimension Graphs into Bounded T
+The Optimal Route and Stops for a Group of Users in a Road Network
+Approximation Algorithms for Regret-Bounded Vehicle Routing and Applications to 
+TransitLM: A Large-Scale Dataset and Benchmark for Map-Free Transit Route Genera
+Well-posedness for scalar conservation laws with moving flux constraints
+Polynomial time approximation schemes for the traveling repairman and other mini
+An Exact Convex Relaxation of the Freeway Network Control Problem with Controlle
+Between-Ride Routing for Private Transportation Services
+Cluster-Aided Mobility Predictions
+Empirical Trajectory Sparsity Biases Mobility-Informed Epidemic Modeling
+Scalable Edge-assisted Fusion and Path Prediction for Connected Autonomous Vehic
+Fast and Delay-Robust Multimodal Journey Planning
+Understanding Human Mobility Flows from Aggregated Mobile Phone Data
+Social Cost Guarantees in Smart Route Guidance
+CRAWLING: a Crowdsourcing Algorithm on Wheels for Smart Parking
+Vehicle routing by learning from historical solutions
+Input Rate Control in Stochastic Road Traffic Networks: Effective Bandwidths
+Bayesian Methods in Automated Vehicle's Car-following Uncertainties: Enabling St
+Analysis of Fixed-Time Control
+GAMA: A Neural Neighborhood Search Method with Graph-aware Multi-modal Attention
+A Natural-language-based Visual Query Approach of Uncertain Human Trajectories
+On dynamic multi-agent pathfinding methods: review, simulations and modification
+Empowering A* Search Algorithms with Neural Networks for Personalized Route Reco
+A Complete and Bounded-Suboptimal Algorithm for a Moving Target Traveling Salesm
+Optimal Routing Strategies for Autonomous Underwater Vehicles in Time-Varying En
+CrowdExpress: A Probabilistic Framework for On-Time Crowdsourced Package Deliver
+Efficient Millimeter-Wave Infrastructure Placement for City-Scale ITS
+A BCMP Network Approach to Modeling and Controlling Autonomous Mobility-on-Deman
+Ultra-fast Traffic Nowcasting and Control via Differentiable Agent-based Simulat
+Assisted Path Planning for a UGV-UAV Team Through a Stochastic Network
+Hierarchical Time-Dependent Oracles
+Radio-Coverage-Aware Path Planning for Cooperative Autonomous Vehicles
+Reliable and Efficient Broadcast Routing Using Multipoint Relays Over VANET For 
+Online Trajectory Prediction for Metropolitan Scale Mobility Digital Twin
+Combining Stream Mining and Neural Networks for Short Term Delay Prediction
+ALGAMES: A Fast Augmented Lagrangian Solver for Constrained Dynamic Games
+An Efficient Combinatorial Algorithm for Optimal Compression of a Polyline with 
+Minimum Spanning Tree on Spatio-Temporal Networks
+A traffic flow model with non-smooth metric interaction: well-posedness and micr
+Graph Edit Distance Formulation for the Vehicle Routing Problem: Theory and Anal
+Complex Network Theoretical Analysis on Information Dissemination over Vehicular
+Time Sensitive Multiple POIs Route Planning on Bus Networks
+Co-movement Pattern Mining from Videos
+Estimation of Average Annual Daily Bicycle Count Using Bike-Share GPS Data and B
+A Spatiotemporal Adaptive Local Search Method for Tracking Congestion Propagatio
+Driver-Based Adaptation of Vehicular Ad Hoc Networks for Design of Active Safety
+Your Car Tells Me Where You Drove: A Novel Path Inference Attack via CAN Bus and
+Distributed Motion Coordination Using Convex Feasible Set Based Model Predictive
+Estimating Traffic and Anomaly Maps via Network Tomography
+Online Learning of Energy Consumption for Navigation of Electric Vehicles
+The global benefit of randomness in individual routing on transportation network
+Connected Autonomous Vehicle Motion Planning with Video Predictions from Smart, 
+Perturbed utility stochastic traffic assignment
+Lightweight Joint Simulation of Vehicular Mobility and Communication with LIMoSi
+Optimal Cooperative Driving at Signal-Free Intersections with Polynomial-Time Co
+Converting OpenStreetMap Data to Road Networks for Downstream Applications
+Parametric Regression on the Grassmannian
+Busca de melhor caminho entre m\'ultiplas origens e m\'ultiplos destinos em rede
+A Benchmark Problem in Transportation Networks
+Problems on One Way Road Networks
+Neighbor Discovery for VANET with Gossip Mechanism and Multi-packet Reception
+Quantifying the benefits of vehicle pooling with shareability networks
+Energy-Aware Lane Planning for Connected Electric Vehicles in Urban Traffic: Des
+Infrastructure Deployment in Vehicular Communication Networks Using a Parallel M
+Using Machine Learning Predictions to Speed-up Dijkstra's Shortest Path Algorith
+Follow-the-Leader models can be viewed as a numerical approximation to the Light
+(no filters)
+1. Methodologies for Automatic Checking of Satisfiability of CHC Systems for Proving Timing Sensitive Non-Interference of Arbitarary Programs
+2. Real Time Face Detection System for Embedded Devices
+3. formal ISA specification (Sail) lifted for binary verification of RISC-V machine code
+4. information flow policies for TEE security monitors, dynamic intransitive noninterference
+5. propagating DINI policies through program code to derive the resulting policy
+6. combining invariant inference and bug finding for hyperproperties and relational verification
+7. generating per-instruction semantics from ISA specifications, cross-checked by testing
+8. accelerating bounded model checking and symbolic execution for bug finding: loop acceleration and summarization, state merging, solver query optimization, applied to binary code and relational two-copy checks
+9. accelerating bounded model checking and symbolic execution for bug finding: loop acceleration and summarization, state merging, solver query optimization, applied to binary code and relational two-copy checks
+10. Indexing in distributed graph database
+11. Finding Images by meaning in a large scale general purpose database
+12. certifying the results of automated verifiers: proof certificates and witnesses checked by small trusted checkers, translation validation of verification condition generation, and verified checkers for model checking and SMT results
+13. when to inline and when to summarise in modular verification with Horn clause solvers: procedure summaries inferred by the solver versus fixed interfaces, stratified or lazy inlining, relational summaries for two-copy product programs, and keeping learned lemmas across solver calls
+14. aligning the two executions in relational verification of timing-sensitive noninterference and constant-time: lockstep by a shared clock or step counter, product programs that allow divergent paths of equal duration, and how the choice of alignment affects proofs in self-composition
+15. validating symbolic execution traces of instruction set architecture semantics (Sail, Isla) against the authoritative ISA specification, translation validation and certificates for ISA-level tools, configuring and versioning formal ISA models such as RISC-V
+16. derive per-instruction semantics from a formal ISA specification (Sail, L3, ASL) with machine-checked proofs of correctness, for verifying security properties of privileged machine code and isolation of unprivileged code
+17. Statistical methods for Credibility Driven Microarchitectural Simulation for Processor Hardware
+18. Declarative Functional Instruction Set Architecture Specification Language for Verification and Emulation of Computer Architecture and Microarchitecture
+19. measuring progress of a proof or model-checking engine (IC3/PDR, CHC solving, SAT/SMT search) toward a verdict before it finishes, sound partial results and estimates of remaining work
+20. scheduling a portfolio of stateful solvers or verification engines that pay off late, time slicing, algorithm selection with improving (rising) rewards, cooperative verification
+21. Microarchitectural Certificate Generation for RISC-V Hardware
+22. Machine instruction cache for hardware simulation with minimal redundancy
+23. data structures that store program fragments such as basic blocks, symbolic instruction semantics and summaries once and share them across many control-flow graphs and analysis runs: hash-consing, content-addressed caches, incremental and demand-driven computation, memoized symbolic execution, with concurrent compute-once access
+24. verifying that a security monitor or separation kernel running on several CPU cores is secure by checking each core alone: conditions under which single-core noninterference proofs compose to multicore, including shared state, locks, cross-core interference and timing channels
+25. when a block of code in a concurrent program can be treated as atomic and sequential reasoning stays valid: reduction and mover theorems (Lipton), atomicity checking, and when sequential information-flow or noninterference proofs remain sound under interference from concurrent threads, including timing-sensitive security of multithreaded programs
+26. cross-core microarchitectural timing channels between CPU cores through shared last-level cache, memory bus, interconnect, coherence and DRAM controller, and defenses for enclaves, security monitors and separation kernels: cache partitioning, page colouring, co-scheduling, time protection, and hardware-software leakage contracts for multicore
+27. information flow security of a verified security monitor, hypervisor or separation kernel on a multiprocessor, where domains observe each other only through the monitor's calls: concurrent calls, locks and try-locks, reduction and atomicity, and whether refinement or abstraction preserves noninterference
+28. inferring the command interface of a closed binary handler (firmware, hypervisor, kernel driver, trusted OS) from its code by symbolic or dynamic analysis: identifying which input field selects the command at the dispatcher, recovering the set of commands and their handlers without source or symbols, and deriving per-command preconditions or an interface automaton over call sequences
+29. fast instruction set simulation from a formal ISA specification at near-native speed (dynamic binary translation, JIT, partial evaluation), combined with tracking which state is undetermined or tainted and switching to symbolic execution when needed
+30. define what one call into a privileged security monitor or kernel is, as the unit of a noninterference or information-flow proof, at the machine level without source functions: actions, trap handling transitions, big-step actions, system call identification, interface state machines
+31. balancing a learned evaluation network against search depth, as in Stockfish NNUE and AlphaZero, for perfect play in single-player grid puzzles with random spawns such as Snake
+32. map matching of noisy GPS trajectories onto a given road network graph, recovering the exact sequence of road segments driven
+33. tracking a vehicle on a road network with a motion model of its position and speed along the roads, constrained to the road graph, from noisy GPS positions

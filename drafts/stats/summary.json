@@ -1,0 +1,29 @@
+{
+  "folders": 90,
+  "train": 80,
+  "student_test": 10,
+  "unseen_ids": [
+    15,
+    17,
+    23,
+    30,
+    49,
+    59,
+    67,
+    73,
+    87,
+    94
+  ],
+  "fixes": 227577,
+  "hours": 131.85621083333334,
+  "route_km": 2473.781319388501,
+  "arcs_total": 4061945,
+  "frac_dt_1": 0.9668200820266653,
+  "noise_std_e": 5.1428025963635395,
+  "noise_std_n": 5.1175538290214515,
+  "dist_orig_median": 3.700769933817819,
+  "dist_noisy_median": 5.569323730025205,
+  "dist_noisy_p99": 199.84897073406057,
+  "route_breaks_total": 14,
+  "folders_with_breaks": 11
+}

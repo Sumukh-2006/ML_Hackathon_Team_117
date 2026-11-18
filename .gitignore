@@ -1,0 +1,22 @@
+# Environment and caches
+.venv/
+__pycache__/
+.pytest_cache/
+
+# The Kubicka dataset (300 MB): fetch it separately; only the small hand
+# labels derived from its metadata are kept.
+data/*
+!data/hand_labels/
+
+# Paper PDFs and their extracted text are copyrighted; the notes stay.
+literature/pdfs/
+
+# Large generated files. results/learned keeps only its small JSON and logs;
+# the approach-5 session writes multi-GB lattice folders there.
+results/learned/*
+!results/learned/*.json
+!results/learned/*.log
+*.npz
+*.pt
+*.npy
+results/serve/

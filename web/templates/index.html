@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Map matching replay</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root { --fg: #1d2330; --muted: #5d6675; --line: #d9dde4; --bg: #f6f7f9; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.4 system-ui, sans-serif; color: var(--fg); background: var(--bg);
+         display: grid; grid-template-columns: 340px 1fr; height: 100vh; }
+  aside { padding: 16px; overflow-y: auto; border-right: 1px solid var(--line); background: #fff; }
+  h1 { font-size: 17px; margin: 0 0 12px; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 18px 0 6px; }
+  select, input[type=file], button { width: 100%; margin: 3px 0; font: inherit; }
+  button { padding: 6px; cursor: pointer; }
+  .row { display: flex; gap: 6px; } .row > * { flex: 1; }
+  label.model { display: flex; align-items: center; gap: 6px; }
+  .swatch { width: 14px; height: 4px; border-radius: 2px; display: inline-block; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  td, th { text-align: left; padding: 3px 4px; border-bottom: 1px solid var(--line); }
+  #message { color: #b42318; min-height: 1.4em; white-space: pre-wrap; }
+  #progress { color: var(--muted); }
+  #map { height: 100vh; }
+  @media (max-width: 760px) { body { grid-template-columns: 1fr; grid-template-rows: auto 60vh; height: auto; }
+                              #map { height: 60vh; } }
+</style>
+</head>
+<body>
+<aside>
+  <h1>Map matching, one fix at a time</h1>
+
+  <h2>Track</h2>
+  <select id="corpus"></select>
+  <button id="load-corpus">Load corpus folder</button>
+  <details><summary>…or upload nodes, arcs, track</summary>
+    <form id="upload">
+      <input type="file" name="nodes" required> <input type="file" name="arcs" required>
+      <input type="file" name="track" required> <button>Upload</button>
+    </form>
+  </details>
+
+  <h2>Models</h2>
+  <div id="models"></div>
+
+  <h2>Replay</h2>
+  <select id="speed">
+    <option value="1">1× (real time)</option><option value="10">10×</option>
+    <option value="50" selected>50×</option><option value="500">500×</option>
+  </select>
+  <div class="row"><button id="play" disabled>Play</button><button id="pause" disabled>Pause</button>
+    <button id="stop" disabled>Stop &amp; finish</button></div>
+  <div id="progress"></div>
+  <div id="message"></div>
+
+  <h2>Routes</h2>
+  <table><thead><tr><th>model</th><th>arcs</th><th>pending</th><th>CF</th><th></th></tr></thead>
+    <tbody id="status"></tbody></table>
+  <p id="progress-note" style="color:var(--muted);font-size:12px">
+    Solid: committed, never changes. Dashed: tentative, the best guess now.
+    At-finish models appear after Stop.</p>
+</aside>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

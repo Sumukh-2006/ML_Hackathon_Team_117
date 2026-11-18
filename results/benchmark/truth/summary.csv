@@ -1,0 +1,14 @@
+split,group,tracks,missing,weighted_correct_fraction,mean_correct_fraction,mismatch_fraction,precision,recall,f1
+student_test,all,10,0,1.0,1.0,0.0,1.0,1.0,1.0
+student_test,clean,3,0,1.0,1.0,0.0,1.0,1.0,1.0
+student_test,gaps,6,0,1.0,1.0,0.0,1.0,1.0,1.0
+student_test,u-turns,3,0,1.0,1.0,0.0,1.0,1.0,1.0
+student_test,loops,2,0,1.0,1.0,0.0,1.0,1.0,1.0
+student_test,congruence-issues,2,0,1.0,1.0,0.0,1.0,1.0,1.0
+train,all,80,0,1.0,1.0,0.0,1.0,1.0,1.0
+train,clean,15,0,1.0,1.0,0.0,1.0,1.0,1.0
+train,gaps,59,0,1.0,1.0,0.0,1.0,1.0,1.0
+train,hives,3,0,1.0,1.0,0.0,1.0,1.0,1.0
+train,u-turns,20,0,1.0,1.0,0.0,1.0,1.0,1.0
+train,loops,18,0,1.0,1.0,0.0,1.0,1.0,1.0
+train,congruence-issues,17,0,1.0,1.0,0.0,1.0,1.0,1.0
