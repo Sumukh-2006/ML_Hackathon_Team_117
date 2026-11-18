@@ -40,5 +40,18 @@ def held_out_rows(folders: dict[str, Folder], root: Path, names: list[str],
 
 def fit(data: TrainingSet, start: np.ndarray, strength: float,
         fixed_zero: np.ndarray, log) -> np.ndarray:
+    """The structured hinge (first version; kept for comparison)."""
     s: np.ndarray = weight_scale(data, start)
     return train(data, start, strength, s, fixed_zero, log)
+
+
+def fit_direct(folders: dict[str, Folder], root: Path, names: list[str],
+               start: np.ndarray, scale: np.ndarray, frozen: np.ndarray,
+               log) -> np.ndarray:
+    """Direct search on the real error of `names`' own tracks."""
+    from learned.direct import RealError, search
+    paths: list[Path] = [root / f"{n}_own.npz" for n in names]
+    data: TrainingSet = training_set(paths, scale)
+    with Pool(WORKERS) as pool:
+        objective = RealError([folders[n] for n in names], paths, pool)
+        return search(objective, data, start, frozen, log)

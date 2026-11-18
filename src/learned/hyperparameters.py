@@ -86,3 +86,11 @@ EXCLUDED_COPIES: set[str] = {"00000033"}
 # OWN CHOICE: the regulariser strengths tried (lambda, per squared cost
 # per metre).
 STRENGTHS: list[float] = [1e-4, 1e-3, 1e-2, 1e-1]
+
+# Direct search (direct.py).
+# OWN CHOICE: the factors a non-zero weight is tried at, the shares of the
+# distance term's cost per metre a zero weight is tried at, and the most
+# sweeps over all weights.
+SEARCH_FACTORS: list[float] = [0.0, 0.25, 0.5, 2 / 3, 1.5, 2.0, 4.0]
+SEARCH_SHARES: list[float] = [0.03, 0.1, 0.3, 1.0]
+SEARCH_SWEEPS: int = 4
