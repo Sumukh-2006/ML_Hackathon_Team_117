@@ -19,8 +19,7 @@ from pathlib import Path
 import numpy as np
 
 from dataset import Corpus
-from learned.hyperparameters import (COPIES, NOISE_SEED, SCALE_SAMPLE,
-                                     STRENGTHS, WORKERS)
+from learned.hyperparameters import COPIES, NOISE_SEED, SCALE_SAMPLE, WORKERS
 
 
 def measure(corpus: Path, originals: Path, results: Path) -> None:
@@ -125,66 +124,45 @@ def prepare(corpus: Path, results: Path) -> None:
 
 
 def cross_validate(corpus: Path, results: Path) -> None:
-    """Pass 1: every strength on every fold, with copies and all features.
-    Pass 2, at the chosen strength: the ablations, each adding one change.
-    Rows: one per (setting, fold, held-out folder)."""
+    """Grouped 5-fold CV of the direct search: the starting weights, the
+    search over Woeltche's terms only, and over all weights. Every score is
+    on held-out folders' own tracks. Rows: (setting, fold, folder)."""
     import csv
-    from learned.cv import fit, folds, held_out_rows, lattice_paths
+    from learned.cv import fit_direct, folds, held_out_rows
     from learned.evaluate import weighted_correct_fraction
     from learned.features import WEIGHTS
-    from learned.train import training_set
     out: Path = results / "learned"
     parameters: dict = json.loads((out / "parameters.json").read_text())
     scale: np.ndarray = np.array(parameters["feature_scale"])
     start: np.ndarray = np.array(parameters["start_weights"])
     root: Path = out / "lattices" / "train"
     folders = {f.name(): f for f in Corpus.from_root(corpus).folders("train")}
-    split: list[list[str]] = folds(list(folders))
-    log_file = (out / "cv.log").open("a")
+    log_file = (out / "cv.log").open("w")
 
     def log(text: str) -> None:
         print(text, flush=True)
         log_file.write(text + "\n")
         log_file.flush()
 
+    new_terms: list[str] = ["cover_fix", "cover_route", "speed", "too_fast", "turn_force"]
+    settings: dict[str, np.ndarray | None] = {
+        "start": None,
+        "search_woeltche_terms": np.array([n in new_terms for n in WEIGHTS]),
+        "search_all": np.zeros(len(WEIGHTS), dtype=bool)}
     rows: list[dict] = []
-
-    def run(setting: str, copies: bool, zero: list[str], strength: float) -> None:
-        fixed: np.ndarray = np.array([name in zero for name in WEIGHTS])
-        for k, test in enumerate(split):
+    for setting, frozen in settings.items():
+        for k, test in enumerate(folds(list(folders))):
             train_names: list[str] = [n for n in sorted(folders) if n not in test]
             began: float = time.perf_counter()
-            if setting == "start":
-                weights: np.ndarray = start
-            else:
-                data = training_set(lattice_paths(root, train_names, copies), scale)
-                log(f"{setting} fold {k}: {len(data.true_length)} tracks")
-                weights = fit(data, start, strength, fixed, log)
-                del data
+            weights: np.ndarray = start
+            if frozen is not None:
+                weights = fit_direct(folders, root, train_names, start, scale, frozen, log)
             held = held_out_rows(folders, root, test, weights)
-            for row in held:
-                rows.append({"setting": setting, "strength": strength, "fold": k, **row})
+            rows.extend({"setting": setting, "fold": k, **r} for r in held)
             log(f"{setting} fold {k}: held-out CF {weighted_correct_fraction(held):.5f} "
-                f"({time.perf_counter() - began:.0f} s) w {np.round(weights, 4).tolist()}")
+                f"({time.perf_counter() - began:.0f} s)")
         mine = [r for r in rows if r["setting"] == setting]
         log(f"== {setting}: pooled held-out CF {weighted_correct_fraction(mine):.5f}")
-
-    physics: list[str] = ["speed", "too_fast", "turn_force"]
-    coverage: list[str] = ["cover_fix", "cover_route"]
-    run("start", False, [], 0.0)
-    for strength in STRENGTHS:
-        run(f"full_{strength:g}", True, [], strength)
-    pooled: dict[float, float] = {}
-    for strength in STRENGTHS:
-        mine = [r for r in rows if r["setting"] == f"full_{strength:g}"]
-        pooled[strength] = weighted_correct_fraction(mine)
-    chosen: float = max(pooled, key=lambda k: pooled[k])
-    log(f"chosen strength {chosen:g}")
-    run("learned_woeltche_features", False, coverage + physics, chosen)
-    run("plus_coverage", False, physics, chosen)
-    run("plus_physics", False, [], chosen)
-    parameters["strength"] = chosen
-    (out / "parameters.json").write_text(json.dumps(parameters, indent=2))
     with (out / "cv_rows.csv").open("w", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
         writer.writeheader()
@@ -192,18 +170,16 @@ def cross_validate(corpus: Path, results: Path) -> None:
 
 
 def final_train(corpus: Path, results: Path) -> None:
-    """All 80 train folders, copies included, at the chosen strength."""
-    from learned.cv import fit, lattice_paths
+    """The direct search over all weights on all 80 train folders."""
+    from learned.cv import fit_direct
     from learned.features import WEIGHTS
-    from learned.train import training_set
     out: Path = results / "learned"
     parameters: dict = json.loads((out / "parameters.json").read_text())
-    names: list[str] = [f.name() for f in Corpus.from_root(corpus).folders("train")]
-    data = training_set(lattice_paths(out / "lattices" / "train", names, True),
-                        np.array(parameters["feature_scale"]))
-    weights: np.ndarray = fit(data, np.array(parameters["start_weights"]),
-                              parameters["strength"], np.zeros(len(WEIGHTS), dtype=bool),
-                              print)
+    folders = {f.name(): f for f in Corpus.from_root(corpus).folders("train")}
+    weights: np.ndarray = fit_direct(
+        folders, out / "lattices" / "train", sorted(folders),
+        np.array(parameters["start_weights"]), np.array(parameters["feature_scale"]),
+        np.zeros(len(WEIGHTS), dtype=bool), print)
     (out / "weights.json").write_text(json.dumps(dict(zip(WEIGHTS, weights.tolist())), indent=2))
 
 
