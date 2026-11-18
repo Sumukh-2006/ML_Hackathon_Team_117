@@ -149,15 +149,18 @@ def solve_planes(a: np.ndarray, g: np.ndarray, centre: np.ndarray,
     alpha: np.ndarray = np.full(len(a), 1.0 / len(a))
     ahead: np.ndarray = alpha.copy()
     momentum: float = 1.0
-    for _ in range(DUAL_ITERATIONS):
+    for iteration in range(DUAL_ITERATIONS):
         gradient: np.ndarray = b - gram @ ahead
         moved: np.ndarray = onto_simplex(ahead + gradient / lipschitz)
         following: float = (1 + np.sqrt(1 + 4 * momentum * momentum)) / 2
         ahead = moved + (momentum - 1) / following * (moved - alpha)
-        if np.abs(moved - alpha).max() < 1e-13:
-            alpha = moved
-            break
         alpha, momentum = moved, following
+        # Stationary when a plain projected-gradient step from alpha itself
+        # stays put (the accelerated iterate can pause without being there).
+        if iteration % 50 == 49:
+            step: np.ndarray = onto_simplex(alpha + (b - gram @ alpha) / lipschitz)
+            if np.abs(step - alpha).max() < 1e-12:
+                break
     return centre - (g.T @ alpha) / (2 * strength * s * s)
 
 

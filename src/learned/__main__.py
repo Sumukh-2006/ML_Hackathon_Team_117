@@ -3,6 +3,7 @@
     python -m learned measure  <corpus> <originals> <results>
     python -m learned lattices <corpus> <originals> <results>
     python -m learned prepare  <corpus> <results>
+    python -m learned freeze   <results>      (weights.json = the starting weights)
     python -m learned cv       <corpus> <results>
     python -m learned train    <corpus> <results>
     python -m learned match    <corpus> <results>
@@ -206,6 +207,15 @@ def final_train(corpus: Path, results: Path) -> None:
     (out / "weights.json").write_text(json.dumps(dict(zip(WEIGHTS, weights.tolist())), indent=2))
 
 
+def freeze(results: Path) -> None:
+    """weights.json = the starting weights, untrained (the prototype)."""
+    from learned.features import WEIGHTS
+    out: Path = results / "learned"
+    parameters: dict = json.loads((out / "parameters.json").read_text())
+    (out / "weights.json").write_text(json.dumps(
+        dict(zip(WEIGHTS, parameters["start_weights"])), indent=2))
+
+
 def match_job(job: tuple) -> str:
     from learned.evaluate import match
     folder, path, weights, out = job
@@ -239,6 +249,8 @@ def main(arguments: list[str]) -> None:
         lattices(Path(arguments[1]), Path(arguments[2]), Path(arguments[3]))
     elif stage == "prepare":
         prepare(Path(arguments[1]), Path(arguments[2]))
+    elif stage == "freeze":
+        freeze(Path(arguments[1]))
     elif stage == "cv":
         cross_validate(Path(arguments[1]), Path(arguments[2]))
     elif stage == "train":

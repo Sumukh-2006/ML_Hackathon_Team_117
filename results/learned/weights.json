@@ -1,0 +1,16 @@
+{
+  "distance": 0.8,
+  "last_distance": 0.8,
+  "length": 0.3,
+  "heading": 0.5,
+  "turn": 0.5,
+  "turning": 0.6,
+  "cover_fix": 0.0,
+  "cover_route": 0.0,
+  "speed": 0.0,
+  "too_fast": 0.0,
+  "turn_force": 0.0,
+  "skip": 235713.36561831823,
+  "first_distance": 2.4000000000000004,
+  "restart_distance": 0.08000000000000002
+}

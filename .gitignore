@@ -16,6 +16,8 @@ literature/pdfs/
 results/learned/*
 !results/learned/*.json
 !results/learned/*.log
+!results/learned/record.md
+!results/learned/routes/
 *.npz
 *.pt
 *.npy
