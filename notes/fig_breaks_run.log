@@ -1,0 +1,13 @@
+11 trips, 14 breakpoints: 0 reversed encoding, 14 real gaps (14 reconnectable, 0 disconnected)
+  test  00000076: 15m/gap->15m via 1 roads
+  train 00000002: 325m/gap->1056m via 41 roads
+  train 00000019: 241m/gap->341m via 8 roads, 255m/gap->504m via 13 roads, 596m/gap->598m via 6 roads
+  train 00000033: 92m/gap->92m via 1 roads
+  train 00000041: 57m/gap->403m via 6 roads
+  train 00000042: 31m/gap->31m via 1 roads
+  train 00000069: 41m/gap->62m via 6 roads
+  train 00000075: 11m/gap->923m via 18 roads, 73m/gap->1209m via 27 roads
+  train 00000080: 108m/gap->108m via 1 roads
+  train 00000086: 98m/gap->98m via 3 roads
+  train 00000089: 29m/gap->162m via 6 roads
+wrote notes/figs/10_route_breaks.png

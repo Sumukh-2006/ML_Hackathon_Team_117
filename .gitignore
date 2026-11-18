@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Provided by the course, not redistributed in this repository.
+# Put them back to rebuild payloads or run POST /api/match.
+/train/
+/student_test/
+/data/
+/*.zip
+/*.pdf

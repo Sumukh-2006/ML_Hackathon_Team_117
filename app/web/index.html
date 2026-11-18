@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PathSnap — snapping audit</title>
+<meta name="description" content="Independent nearest-road snapping, measured against the reference route on every shipped drive.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23efede3'/%3E%3Cpath d='M4 26L14 14L28 8' stroke='%2320336e' stroke-width='8' fill='none' opacity='.28'/%3E%3Cpath d='M4 26L14 14L28 8' stroke='%23a6124b' stroke-width='2' fill='none'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="sheet">
+
+  <header class="title-block">
+    <div class="ident">
+      <h1 class="wordmark">PathSnap</h1>
+      <p class="strap">Every GPS fix snapped to its nearest road, on its own, then scored against the route the car actually drove.</p>
+    </div>
+
+    <div class="sheet-no">
+      <p class="kicker">Sheet</p>
+      <p class="sheet-id" id="trip-id">—</p>
+      <p class="sheet-meta"><span id="trip-partition" class="partition">—</span> <span id="trip-place" class="place"></span></p>
+    </div>
+
+    <div class="picker">
+      <label for="trip-select">Drive</label>
+      <select id="trip-select" aria-label="Choose a drive"></select>
+    </div>
+
+    <section class="scores" aria-label="Scores for the whole drive">
+      <div class="score score-hero">
+        <p class="score-label">Route recovered
+          <button class="hint" data-hint="strict" aria-label="What this counts">?</button>
+        </p>
+        <p class="score-value"><span id="m-recall">—</span><span class="unit">%</span></p>
+        <p class="score-note" id="m-recall-note">of the route's segments are touched, direction included</p>
+      </div>
+
+      <dl class="score-pairs">
+        <div><dt>Precision</dt><dd id="m-precision">—</dd></div>
+        <div><dt>F1</dt><dd id="m-f1">—</dd></div>
+        <div><dt>Fixes on route</dt><dd id="m-top1">—</dd></div>
+        <div><dt>Roads found</dt><dd id="m-dir">—</dd></div>
+        <div><dt>Breaks</dt><dd id="m-breaks">—</dd></div>
+        <div><dt>Roads missed</dt><dd id="m-missed">—</dd></div>
+      </dl>
+
+      <div class="bar" aria-hidden="true">
+        <span class="bar-fill" id="bar-fill"></span>
+      </div>
+
+      <p class="score-foot" id="m-foot">—</p>
+
+      <button class="cta" id="first-miss">Inspect a missed segment</button>
+    </section>
+
+    <section class="layers" aria-label="Map layers">
+      <p class="kicker">Layers</p>
+      <button class="layer" data-layer="road" aria-pressed="true"><span class="swatch swatch-road"></span>Road network</button>
+      <button class="layer" data-layer="route" aria-pressed="true"><span class="swatch swatch-route"></span>Reference route</button>
+      <button class="layer" data-layer="pred" aria-pressed="true"><span class="swatch swatch-pred"></span>Snapped path</button>
+      <button class="layer" data-layer="fix" aria-pressed="true"><span class="swatch swatch-fix"></span>GPS fixes</button>
+    </section>
+
+    <div class="block-foot">
+      <span class="foot-note">Baseline matcher: nearest arc, no history</span>
+    </div>
+  </header>
+
+  <main class="chart-wrap">
+    <canvas id="chart" tabindex="0" aria-label="Map of the drive, the road network, the reference route and the snapped path"></canvas>
+    <div class="chart-readout" id="chart-readout"></div>
+    <div class="chart-tools">
+      <button class="tool" id="zoom-in" aria-label="Zoom in">+</button>
+      <button class="tool" id="zoom-out" aria-label="Zoom out">−</button>
+      <button class="tool tool-text" id="fit">Fit</button>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </main>
+
+  <footer class="tape">
+    <div class="tape-head">
+      <p class="kicker">Along the drive</p>
+      <p class="tape-status" id="tape-status">—</p>
+      <p class="tape-key">
+        <i class="k k-off"></i>off route
+        <i class="k k-dir"></i>wrong way
+        <i class="k k-break"></i>break
+      </p>
+    </div>
+    <div class="tape-track" id="tape">
+      <canvas id="tape-canvas" aria-hidden="true"></canvas>
+      <div class="tape-cursor" id="tape-cursor"></div>
+      <input type="range" id="scrub" min="0" max="0" value="0" step="1" aria-label="Position along the drive">
+    </div>
+    <div class="tape-foot">
+      <button class="ghost" id="prev-miss">‹ Previous miss</button>
+      <button class="ghost" id="next-miss">Next miss ›</button>
+      <span class="tape-actions">
+        <button class="ghost" id="api-open" aria-haspopup="dialog">API response</button>
+        <button class="ghost" id="about-open" aria-haspopup="dialog">Method</button>
+      </span>
+      <p class="tape-fix" id="tape-fix">—</p>
+    </div>
+  </footer>
+</div>
+
+<dialog id="api-dialog" class="panel">
+  <div class="panel-head">
+    <h2>API response</h2>
+    <button class="ghost" data-close>Close</button>
+  </div>
+  <p class="panel-note" id="api-note">—</p>
+  <pre id="api-body" tabindex="0"></pre>
+</dialog>
+
+<dialog id="about-dialog" class="panel">
+  <div class="panel-head">
+    <h2>What you are looking at</h2>
+    <button class="ghost" data-close>Close</button>
+  </div>
+  <div class="panel-body" id="about-body"></div>
+</dialog>
+
+<script src="/app.js" type="module"></script>
+</body>
+</html>

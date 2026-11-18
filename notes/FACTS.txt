@@ -1,0 +1,58 @@
+==============================================================================
+PATHSNAP DATASET - MEASURED FACTS
+==============================================================================
+trips shipped            : 80 train + 10 student-test = 90
+files                    : 4 per trip (nodes, arcs, route, track) = 360
+total size on disk       : 94.1 MB
+evaluator-testing trips  : 10, not shipped (stated in the brief)
+
+GPS fixes                : 227,577 total, per trip min/med/max = (np.int64(262), np.float64(1496.5), np.int64(19313))
+road nodes               : 2,024,174 total, per trip min/med/max = (np.int64(299), np.float64(9305.0), np.int64(155003))
+road segments (arcs)     : 4,061,945 total, per trip min/med/max = (np.int64(649), np.float64(18761.5), np.int64(307392))
+answer route segments    : 34,813 total, per trip min/med/max = (np.int64(59), np.float64(272.5), np.int64(2266))
+answer route as share of network : median 1.39% (min 0.20%, max 18.3%)
+
+drive length             : median 24.1 km (min 5.5, max 169.3)
+drive duration           : median 29 min (min 4 min, max 42.8 h)
+drive average speed      : median 43.8 km/h (min 0.2, max 133.0)
+samples at exactly 1 s   : median 99.1% of steps per trip (worst trip 53.1%)
+trips with a gap >30 s   : 30/90; largest single gap 42.5 h
+non-increasing timestamps: 0 rows across all trips
+NaN/inf values           : 0 rows
+repeated (t, position)   : 0 rows
+trips whose route repeats a segment : 10 (max 255 repeats)
+
+--- geometry / noise ---
+fix-to-its-own-road error: median per trip min/med/max = 3.3/4.7/138.3 m
+                           p95  per trip min/med/max = 10.1/14.5/1434.4 m
+gap between two fixes    : median per trip = 13.2 m (p10 8.4, p90 24.3)
+road segment length      : median per trip = 25.1 m (p10 16.0, p90 49.4)
+roads within 25 m of a fix: median = 4
+one-way roads (no reverse twin): median 95% of segments are paired, so 5% are one-way
+
+--- candidate sets (K nearest roads within r) ---
+  r=25 m, K= 1: true road missing from candidates for 43.56% of fixes
+  r=25 m, K= 5: true road missing from candidates for  6.32% of fixes
+  r=25 m, K=10: true road missing from candidates for  5.15% of fixes
+  r=25 m, K=20: true road missing from candidates for  4.82% of fixes
+  r=50 m, K= 1: true road missing from candidates for 43.08% of fixes
+  r=50 m, K= 5: true road missing from candidates for  5.20% of fixes
+  r=50 m, K=10: true road missing from candidates for  3.81% of fixes
+  r=50 m, K=20: true road missing from candidates for  3.29% of fixes
+  r=75 m, K= 1: true road missing from candidates for 42.98% of fixes
+  r=75 m, K= 5: true road missing from candidates for  5.03% of fixes
+  r=75 m, K=10: true road missing from candidates for  3.59% of fixes
+  r=75 m, K=20: true road missing from candidates for  2.92% of fixes
+  fixes already >50 m from their own road: 2.99%
+  misses at r=50/K=10 among fixes that ARE within 50 m: 1.12%
+  fixes per true road segment: median 1.2
+
+--- where the data is ---
+countries: 27 -> Russian Federation (27), Germany (9), France (8), United States of America (6), Poland (4), United Kingdom of Great Britain and Northern Ireland (4), Portugal (3), Italy (3), ...
+cities (reverse-geocoded): Agueda; Athens; Bad Lauterberg im Harz; Bloomington; Bourges; Buenos Aires; Catoosa; Danao; Denstone; District B-01; Dragey-Ronthon; Dunkirk; East Cowes; Ellesmere Rural; Erbil; Frankfurt am Main; Frederiksvaerk; Gatchinskiy Rayon; Gemeente Amsterdam; Gemeente Utrecht ...
+longitude span -100.3 .. 137.2, latitude span -34.6 .. 61.7
+trip pairs whose network centres are <5 km apart: 4
+   00000010 / 00000016  0.1 km apart
+   00000010 / 00000029  3.0 km apart
+   00000016 / 00000029  3.1 km apart
+   00000053 / 00000093  2.6 km apart
