@@ -4,9 +4,6 @@ Map matching on the Kubicka et al. GPS dataset. Given a noisy GPS trajectory and
 road network it was driven on, recover the sequence of road segments the vehicle
 actually took.
 
-Team 117, UE24CS352A Machine Learning, PES University. Hackathon submission,
-18 November 2026.
-
 Five matchers are implemented and scored on the same splits with the same metric, then
 served through one streaming HTTP API. A demo page drives that API one GPS fix at a time
 and draws the route as it is decoded.
@@ -119,6 +116,7 @@ metadata ship in `data/hand_labels/`.
 | `src/mdp/` | Port of Woeltche's Markov decision process matcher |
 | `src/learned/` | Approach 5: measured operating point, lattices, structured hinge, decoder, serving |
 | `src/benchmark/` | Scores predicted routes against reference routes |
+| `src/plots/` | Folium maps of a trip: road network, reference route and GPS fixes |
 | `src/serve/` | Streaming HTTP API, worker processes, the executor test |
 | `web/` | Demo pages: `minimal.py` (streaming) and `app.py` (proxy and upload) |
 | `tests/` | Test suite |
@@ -224,40 +222,16 @@ concatenated. Only the HMM streams; the other four answer at finish.
 
 ## Models
 
-| Model | Family | Mode |
-| --- | --- | --- |
-| `hmm` | Newson and Krumm hidden Markov model, Viterbi | online |
-| `mcm` | Multiple candidate matching, score matrix | at finish |
-| `segment` | Yin et al. feature based matcher | at finish |
-| `mdp` | Woeltche's Markov decision process | at finish |
-| `learned` | Approach 5, structured hinge over a lattice | at finish |
+| Model | Family |
+| --- | --- |
+| `hmm` | Newson and Krumm hidden Markov model, Viterbi |
+| `mcm` | Multiple candidate matching, score matrix |
+| `segment` | Yin et al. feature based matcher |
+| `mdp` | Woeltche's Markov decision process |
+| `learned` | Approach 5, structured hinge over a lattice |
 
 `learned` is served through `src/learned/serving.py`, which builds the lattice in memory
 and uses the frozen prototype in `results/learned/`.
-
----
-
-## Results
-
-Weighted correct fraction on the corpus, from `results/benchmark/`:
-
-| Split | MDP | Yin | HMM | MCM | Approach 5 |
-| --- | --- | --- | --- | --- | --- |
-| train, all 80 | 97.04 | 94.35 | 91.98 | 79.18 | **98.45** |
-| student_test, all 10 | **99.34** | 97.10 | 97.06 | 76.90 | 99.26 |
-
-On the 10 held out folders (clean Kubicka originals, `results/executor_test/`):
-
-| Model | Weighted correct fraction |
-| --- | --- |
-| HMM | **99.82** |
-| Segment | 99.69 |
-| MDP | 99.69 |
-| Approach 5 | 99.60 |
-| MCM | 89.46 |
-
-These held out folders are the clean published tracks. The organiser's noised copies are
-a different corpus and are not scored here.
 
 ---
 
@@ -289,35 +263,6 @@ stage would overwrite that file with trained weights.
 
 ---
 
-## Development workflow
-
-* `main` is the integration branch.
-* Work happens on branches, and the streaming work landed on `server` before being merged
-  into `main`.
-* The early canvas interface is preserved on `archive/old-ui`; `main` carries the
-  streaming interface only.
-* Commit messages state what changed and why, and record measured numbers where they
-  decide a design.
-
----
-
-## Coding standards
-
-* **Every non obvious decision carries its reason.** Comments explain why a choice was
-  made, not what the line does.
-* **`OWN CHOICE` marks a value that neither the literature nor a measurement gives.**
-  There are 46 such markers in `src/`, each with the reason beside it. A reviewer can
-  find every invented number with `grep -rn "OWN CHOICE" src/`.
-* **Module docstrings state the contract**, including what the module guarantees against
-  the alternative implementation, for example that the online HMM returns exactly the
-  batch route.
-* **Names are spelled out** (`fixes`, `lattice`, `candidates`), and units appear in the
-  name or the docstring.
-* **No silent fallbacks.** A missing input raises with the file and line, rather than
-  degrading to a default.
-
----
-
 ## Testing
 
 `tests/` holds the suite, run with `uv run pytest`.
@@ -337,39 +282,3 @@ The required check for any new streaming model: on every corpus folder, pushing 
 one at a time and calling finish must give exactly the route the batch matcher produces.
 
 ---
-
-## Contributing
-
-This is a course submission, so the workflow is short:
-
-1. Branch from `main`.
-2. Keep the module docstring and the `OWN CHOICE` discipline described above.
-3. Add or extend a test that would fail without the change.
-4. Run `uv run pytest` before opening a pull request.
-5. Do not commit the corpus, credentials or generated lattices. `.gitignore` already
-   covers all three.
-
----
-
-## License
-
-No license file is present. The code is coursework and is not licensed for reuse.
-
-The upstream dataset is published under CC BY-SA 4.0, and its share alike term applies to
-derived data.
-
----
-
-## Notes and limitations
-
-* **Reference routes are reference, not verified truth.** The dataset's own routes have
-  known errors, and trip ends cannot be matched exactly. Both cap any method below 100.
-* **Approach 5 carries starting weights.** `results/learned/weights.json` holds
-  Woeltche's weights and the five new features are weighted zero. Training converges but
-  currently scores slightly below the starting weights in sample; the measured cause is
-  in `results/learned/record.md`.
-* **Direction ambiguity.** 92 percent of the arcs in these graphs have a reverse twin with
-  identical geometry, so a distance only score cannot separate them. Every matcher here
-  uses heading as well.
-* **Sample rate.** Sampling is nominally 1 Hz, but 15 of the 90 trips carry most of the
-  irregular steps, so time is handled per step rather than per trip.
